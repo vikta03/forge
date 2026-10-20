@@ -1,0 +1,407 @@
+{
+  "description": "Original source hashes before publication edits; origin paths are relative to the historical project root.",
+  "files": [
+    {
+      "file": "src/bench.cpp",
+      "origin": "engine/experiments/wide_trace/src/bench.cpp",
+      "sha256": "08d81932c92a8242ded967994b0e05d3ce2c82731a6e65a6f08384a03560974c",
+      "bytes": 9660
+    },
+    {
+      "file": "src/bench.h",
+      "origin": "engine/experiments/wide_trace/src/bench.h",
+      "sha256": "dc2716ebca826724069d7a57061e25f00c6c9ee2bd5c86cd91f808de89ffae3f",
+      "bytes": 1238
+    },
+    {
+      "file": "src/bitboard.cpp",
+      "origin": "engine/experiments/wide_trace/src/bitboard.cpp",
+      "sha256": "53851d5664d234baeace7fcbe5df5a5c6ab62cf551da2fa3b61a05ed88f56480",
+      "bytes": 7281
+    },
+    {
+      "file": "src/bitboard.h",
+      "origin": "engine/experiments/wide_trace/src/bitboard.h",
+      "sha256": "5d273f636ebadb125b90e6b83e6d44c925e58c57e482a2e2243fa708e22ff98d",
+      "bytes": 9177
+    },
+    {
+      "file": "src/endgame.cpp",
+      "origin": "engine/experiments/wide_trace/src/endgame.cpp",
+      "sha256": "34ba487d91ae214e959bfe124b70d30a22c45fe2a41de43e07c73a230b7f6327",
+      "bytes": 15371
+    },
+    {
+      "file": "src/endgame.h",
+      "origin": "engine/experiments/wide_trace/src/endgame.h",
+      "sha256": "f659267b493a876f5799c58154595f79f42da5baa079423b7181871644219965",
+      "bytes": 1959
+    },
+    {
+      "file": "src/eval.cpp",
+      "origin": "engine/experiments/wide_trace/src/eval.cpp",
+      "sha256": "bb30ee34e250202a520b4a956c76c290f83c56115a510b9fd7e26ca36fd70bcc",
+      "bytes": 33386
+    },
+    {
+      "file": "src/eval.h",
+      "origin": "engine/experiments/wide_trace/src/eval.h",
+      "sha256": "22c0361fc8f10db8f1ef5ca987ed367b15911c67ce2176825ff4615503ab72d7",
+      "bytes": 2785
+    },
+    {
+      "file": "src/eval_terms.h",
+      "origin": "engine/experiments/wide_trace/src/eval_terms.h",
+      "sha256": "15ca3ea7eb2060511e40a541ae47b8c151e4621cf0df23a152fab205e79d0f5e",
+      "bytes": 20997
+    },
+    {
+      "file": "src/forge_factor_net.cpp",
+      "origin": "engine/experiments/wide_trace/src/forge_factor_net.cpp",
+      "sha256": "8f1de96cfcab86c3c8df051d9aeb5405d0cc2ceae64a66ed59193403010f0951",
+      "bytes": 65283
+    },
+    {
+      "file": "src/forge_factor_net.h",
+      "origin": "engine/experiments/wide_trace/src/forge_factor_net.h",
+      "sha256": "e6b9f2025a7f7df18e07dce0601646c1b4b86ef45aa22867a24619f3109aa315",
+      "bytes": 3734
+    },
+    {
+      "file": "src/history.h",
+      "origin": "engine/experiments/wide_trace/src/history.h",
+      "sha256": "c7eb12d84528c1e7380ca7aa0d46aec95558176649c7bd6a4dd7b14fecc480b9",
+      "bytes": 4167
+    },
+    {
+      "file": "src/main.cpp",
+      "origin": "engine/experiments/wide_trace/src/main.cpp",
+      "sha256": "758878c02079c68b6b54e31762341452b7cd9fe8a3d057f82df60af14c6076dc",
+      "bytes": 1897
+    },
+    {
+      "file": "src/movegen.cpp",
+      "origin": "engine/experiments/wide_trace/src/movegen.cpp",
+      "sha256": "c28441f2f0af015f32175c27e6ac8749fb9627713bebf087298a598175247711",
+      "bytes": 9234
+    },
+    {
+      "file": "src/movegen.h",
+      "origin": "engine/experiments/wide_trace/src/movegen.h",
+      "sha256": "04b4df2b09ec91aa64d9c0fa647ade551be61b9189ce6ce713a43d15a97fe0b4",
+      "bytes": 2003
+    },
+    {
+      "file": "src/movepick.cpp",
+      "origin": "engine/experiments/wide_trace/src/movepick.cpp",
+      "sha256": "8dde63640a3055e5922fd5d2e1a4a9d6c348935b5be271fa8f84d65b67a5712b",
+      "bytes": 9685
+    },
+    {
+      "file": "src/movepick.h",
+      "origin": "engine/experiments/wide_trace/src/movepick.h",
+      "sha256": "1835cc1c03d98d867724c4669ca8a58d9680a2973663257526fd3761b2edcd6c",
+      "bytes": 2467
+    },
+    {
+      "file": "src/pawns.cpp",
+      "origin": "engine/experiments/wide_trace/src/pawns.cpp",
+      "sha256": "88c33760372e0da93410fc0a5f4ec88e32af451ab7b542b4fe3d750411a4b47d",
+      "bytes": 9242
+    },
+    {
+      "file": "src/pawns.h",
+      "origin": "engine/experiments/wide_trace/src/pawns.h",
+      "sha256": "1b83218d1ac8a716243946a34139f4a46c7484c312f323fce54f9b9d1d6cc291",
+      "bytes": 2747
+    },
+    {
+      "file": "src/position.cpp",
+      "origin": "engine/experiments/wide_trace/src/position.cpp",
+      "sha256": "bbbfc22ed20b9c24edeb31c32da0164fda1d7969223e4ed1e225eb69b90bcb7e",
+      "bytes": 37662
+    },
+    {
+      "file": "src/position.h",
+      "origin": "engine/experiments/wide_trace/src/position.h",
+      "sha256": "10682de1cd7e8284d602ee61fd3db5f88374d0c1cd25c54929db0747819b356c",
+      "bytes": 9968
+    },
+    {
+      "file": "src/search.cpp",
+      "origin": "engine/experiments/wide_trace/src/search.cpp",
+      "sha256": "bd3a3c784890a6a50a2f736bb6253d3158258bdf3a3ebbd1df7d664b24a85158",
+      "bytes": 59172
+    },
+    {
+      "file": "src/search.h",
+      "origin": "engine/experiments/wide_trace/src/search.h",
+      "sha256": "76a1155dc7e1ea39a5f7d36cc7ece6b78f721b6e8ba8c028e762b49d49fca326",
+      "bytes": 3949
+    },
+    {
+      "file": "src/tests.cpp",
+      "origin": "engine/experiments/wide_trace/src/tests.cpp",
+      "sha256": "d6b944df747341850b53bc3de2a4e695d7bbdae8aae30ed83057882e28374ffc",
+      "bytes": 14740
+    },
+    {
+      "file": "src/timeman.cpp",
+      "origin": "engine/experiments/wide_trace/src/timeman.cpp",
+      "sha256": "f3a5fd17f706b9c522d2e20f2336277fca35bd78bcdb245244de46fe8a80b857",
+      "bytes": 2696
+    },
+    {
+      "file": "src/timeman.h",
+      "origin": "engine/experiments/wide_trace/src/timeman.h",
+      "sha256": "7e9b7ab8308da8b353dd9193396f260a0659cf8a6c4efda11c9c188f4f9de349",
+      "bytes": 1956
+    },
+    {
+      "file": "src/tt.cpp",
+      "origin": "engine/experiments/wide_trace/src/tt.cpp",
+      "sha256": "775603145e11440199149b82539ed54371ea380a3b3e0d7321e8e3393af67c02",
+      "bytes": 4627
+    },
+    {
+      "file": "src/tt.h",
+      "origin": "engine/experiments/wide_trace/src/tt.h",
+      "sha256": "01951619bce7a5218abc1a56ab669945bee468796a73a02f05069b8d41c1cd35",
+      "bytes": 3852
+    },
+    {
+      "file": "src/types.h",
+      "origin": "engine/experiments/wide_trace/src/types.h",
+      "sha256": "ff43d9120ace64e134cb4244e48ea22ddbca72a024cd88e78d66d237c957256b",
+      "bytes": 10033
+    },
+    {
+      "file": "src/uci.cpp",
+      "origin": "engine/experiments/wide_trace/src/uci.cpp",
+      "sha256": "a44289f52dea4e583b0a2cd2bfb726e59c761e44187d1f58630921df80617b77",
+      "bytes": 15746
+    },
+    {
+      "file": "src/uci.h",
+      "origin": "engine/experiments/wide_trace/src/uci.h",
+      "sha256": "d153ec69b0306ff37428666c0fcab9042a388ebe4d3a8b147df166fc5158c7e3",
+      "bytes": 1180
+    },
+    {
+      "file": "src/syzygy/LICENSE",
+      "origin": "engine/experiments/wide_trace/src/syzygy/LICENSE",
+      "sha256": "e65f2f605763ecbec6463606e7493f914e016e4423a5d53634b21eabf973a88e",
+      "bytes": 1149
+    },
+    {
+      "file": "src/syzygy/stdendian.h",
+      "origin": "engine/experiments/wide_trace/src/syzygy/stdendian.h",
+      "sha256": "81e2e90681109eb6bc289915bb93926555c6a94791065bcdf1e0460ef644f4c4",
+      "bytes": 8943
+    },
+    {
+      "file": "src/syzygy/tbchess.cpp",
+      "origin": "engine/experiments/wide_trace/src/syzygy/tbchess.cpp",
+      "sha256": "119f19fa8714686798ca7be011e5b234f99c93aec751e9492f2664757d6c029d",
+      "bytes": 31292
+    },
+    {
+      "file": "src/syzygy/tbconfig.h",
+      "origin": "engine/experiments/wide_trace/src/syzygy/tbconfig.h",
+      "sha256": "e14fcd7274fd82598e380f05be05e20d54c54854eeafbc077cb89c98ea7a12ee",
+      "bytes": 5639
+    },
+    {
+      "file": "src/syzygy/tbprobe.cpp",
+      "origin": "engine/experiments/wide_trace/src/syzygy/tbprobe.cpp",
+      "sha256": "02ab54d85694d1c6e2b0015041a1ff2aa6c3fa9af39d848b9e13e1b85a7e122a",
+      "bytes": 71334
+    },
+    {
+      "file": "src/syzygy/tbprobe.h",
+      "origin": "engine/experiments/wide_trace/src/syzygy/tbprobe.h",
+      "sha256": "2ae7d1cc4378ae5236961ba9e22d23871bf886e3a9d5077462b8dacb21c8503c",
+      "bytes": 12814
+    },
+    {
+      "file": "experiments/forge/__init__.py",
+      "origin": "engine/experiments/forge/__init__.py",
+      "sha256": "6b58dd3e609fe38ad0554fe0942966a550a4575c732878f9f8b17eaf07157025",
+      "bytes": 64
+    },
+    {
+      "file": "experiments/forge/build_bin_cache.py",
+      "origin": "engine/experiments/forge/build_bin_cache.py",
+      "sha256": "e1fe68cadc84656c4e47f1811c5d78787aae53f87af5972338ef43e2457dc8fa",
+      "bytes": 8194
+    },
+    {
+      "file": "experiments/forge/build_cell_sidecar.py",
+      "origin": "engine/experiments/forge/build_cell_sidecar.py",
+      "sha256": "3ec1cd9707bfcb97c765fcd497ecf01e0ec2ac7a8e3c765b239e9764472c2388",
+      "bytes": 4581
+    },
+    {
+      "file": "experiments/forge/build_lean_agg.py",
+      "origin": "engine/experiments/forge/build_lean_agg.py",
+      "sha256": "3b05d0362d11d05a87e59a288ed60e581af1cb64b02f246887d716e3fcb10453",
+      "bytes": 11368
+    },
+    {
+      "file": "experiments/forge/calibration_model.py",
+      "origin": "engine/experiments/forge/calibration_model.py",
+      "sha256": "7176c1417822ff84ea868d1de995a6c89b9ebf42b71857d17d87e49e8d1c1aad",
+      "bytes": 6553
+    },
+    {
+      "file": "experiments/forge/eval_distill_metrics.py",
+      "origin": "engine/experiments/forge/eval_distill_metrics.py",
+      "sha256": "156f5506e819ec27aa3099d2df05c97fcb6aca82b3d0f0aff7e6a14b93146187",
+      "bytes": 13932
+    },
+    {
+      "file": "experiments/forge/export_factor_runtime.py",
+      "origin": "engine/experiments/forge/export_factor_runtime.py",
+      "sha256": "ae8f54f29237192396b076eab9ddf91eb9463261d5407e2bfd9356a1bb119bb9",
+      "bytes": 16124
+    },
+    {
+      "file": "experiments/forge/router_em.py",
+      "origin": "engine/experiments/forge/router_em.py",
+      "sha256": "d0f16324b6dc73efcc8d88f1797dfbd09520b19ea34945c9716ceb5720ad30d9",
+      "bytes": 6712
+    },
+    {
+      "file": "experiments/forge/section_lattice_model.py",
+      "origin": "engine/experiments/forge/section_lattice_model.py",
+      "sha256": "230b981510be890be8c04681bfac559d8c11a31970c0d9493f056c1f3e0e721a",
+      "bytes": 34587
+    },
+    {
+      "file": "experiments/forge/section_model.py",
+      "origin": "engine/experiments/forge/section_model.py",
+      "sha256": "d305d25c22e4b50b0d8fdec5741b69b9fabe8e7d4f71ab8c62860505301a64d6",
+      "bytes": 5238
+    },
+    {
+      "file": "experiments/forge/train_section_lattice.py",
+      "origin": "engine/experiments/forge/train_section_lattice.py",
+      "sha256": "fe1ccff3baa0db24af71400d0fc91f9af44bf59f15910c0f4b7a0c697adb5f32",
+      "bytes": 54703
+    },
+    {
+      "file": "experiments/forge/verify_factor_runtime.py",
+      "origin": "engine/experiments/forge/verify_factor_runtime.py",
+      "sha256": "f0cca11e4641696429b17258af749ce74efac5268e582151784354963e4fc0b0",
+      "bytes": 9037
+    },
+    {
+      "file": "experiments/wide_trace/export_wide_runtime.py",
+      "origin": "engine/experiments/wide_trace/export_wide_runtime.py",
+      "sha256": "cabe2d57f5e7d18d8da8eebced07a177e7d4f5d328611b77542ff68790d8dcf0",
+      "bytes": 3576
+    },
+    {
+      "file": "experiments/wide_trace/verify_wide_runtime.py",
+      "origin": "engine/experiments/wide_trace/verify_wide_runtime.py",
+      "sha256": "812eb50ddb64dad29453315ca9261cef3e977e135e12f900a5ec9361a1993245",
+      "bytes": 1176
+    },
+    {
+      "file": "experiments/wide_trace/prep_bins.py",
+      "origin": "engine/experiments/wide_trace/prep_bins.py",
+      "sha256": "a331b1a54aa7126ad88dd0ffd42749cc809d572ed3a5170c8a3becd09172d25f",
+      "bytes": 3340
+    },
+    {
+      "file": "experiments/wide_trace/wide_ratios.json",
+      "origin": "engine/experiments/wide_trace/wide_ratios.json",
+      "sha256": "15a49e32b92d87f399cb75a7af0ca7cdca900b3b0451d1944ed1e7a202f6ea83",
+      "bytes": 2040
+    },
+    {
+      "file": "experiments/wide_trace/wide_scales.json",
+      "origin": "engine/experiments/wide_trace/wide_scales.json",
+      "sha256": "c8f3f4285409310bccadb9653db59b79a18718600b48577953b4e2c72b0c2cdd",
+      "bytes": 1379
+    },
+    {
+      "file": "experiments/wide_trace/extract_wide.cpp",
+      "origin": "engine/experiments/wide_trace/extract_wide.cpp",
+      "sha256": "37ca88cf0024d9ad3b3be82703b5ecac7f548340a707dffdcb305c3069cc57d7",
+      "bytes": 4826
+    },
+    {
+      "file": "rescale_shift.json",
+      "origin": "engine/rescale_shift.json",
+      "sha256": "5ccef81703f6ffc9ea78d00f00e8cb8e6648de0bf0bf2f497f1c2b65502c530d",
+      "bytes": 844
+    },
+    {
+      "file": "models/netB-best.forge",
+      "origin": "engine/bin/nets/netB_best.forge",
+      "sha256": "49cdece06bf5006835808ce4c2fde904765b2da26487f430c3f845a749323a6b",
+      "bytes": 730614
+    },
+    {
+      "file": "evidence/historical-parity.json",
+      "origin": "engine/results/parity/0e362dd6aa59619c_49cdece06bf50068.json",
+      "sha256": "ea607b4ec4a710f271bff7992b51037f6e8d625823f6d56c34a214b420378f49",
+      "bytes": 540
+    },
+    {
+      "file": "evidence/netB-best-vs-next-strength-200.pgn",
+      "origin": "engine/results_match/wide_netB_best_vs_next_strength_200_20260827T174304Z.pgn",
+      "sha256": "87c8945f4372c952cd126a05853cb2a49ce55a253f0141a2dd8a8c5f64a59e7d",
+      "bytes": 691369
+    },
+    {
+      "file": "evidence/training/net0-history.jsonl",
+      "origin": "forge_training/wide/net0/history.jsonl",
+      "sha256": "b6a430d10255f2db89daab68e8b47c83d9fca7eef4a2ec8190b9f0e0e32fa5e1",
+      "bytes": 8311
+    },
+    {
+      "file": "evidence/training/netA-history.jsonl",
+      "origin": "forge_training/wide/netA/history.jsonl",
+      "sha256": "170ce160ac86fe7df10d5d97446014b20b849519dad5efa3fe6f3ccf12968462",
+      "bytes": 8321
+    },
+    {
+      "file": "evidence/training/netB-history.jsonl",
+      "origin": "forge_training/wide/netB/history.jsonl",
+      "sha256": "3cae87140a65461b9612d310c9aa811a9ad8667816088f7a77807f2af57f296b",
+      "bytes": 8321
+    },
+    {
+      "file": "evidence/training/netC-history.jsonl",
+      "origin": "forge_training/wide/netC/history.jsonl",
+      "sha256": "4ef3953a6acf4061ce1d42215bc94918b5b3c03cd53697f68a6a8e85e296b971",
+      "bytes": 8310
+    },
+    {
+      "file": "tools/calibration_record.h",
+      "origin": "engine/experiments/forge/calibration_record.h",
+      "sha256": "f4702e647d213c15247fbeccc220911d93868ebc723d8a406f10e435cd4a5882",
+      "bytes": 1055
+    },
+    {
+      "file": "tools/record_position.h",
+      "origin": "engine/experiments/forge/record_position.h",
+      "sha256": "5b34a240b9eef4aaf7834a503d0814b7df1705f71df747bd6f0033a3aee92ff8",
+      "bytes": 2666
+    },
+    {
+      "file": "tools/section_record.h",
+      "origin": "engine/experiments/forge/section_record.h",
+      "sha256": "cc1660f26a4d44cfa9ad729f02da3f03ae283720c9db34150db8313a03e31d7e",
+      "bytes": 627
+    },
+    {
+      "file": "tools/replay.py",
+      "origin": "engine/docs/forge_eval_journey/replay.py",
+      "sha256": "ae583b60127aa2173dcb6ec463451dd00d82759e9a7fbe83d2ee2f7da89ff506",
+      "bytes": 9564
+    }
+  ]
+}

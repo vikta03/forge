@@ -1,0 +1,106 @@
+{
+ "kingDanger": {
+  "odd": 0.015625,
+  "even": 0.015625
+ },
+ "shelterMg": {
+  "odd": 0.25,
+  "even": 0.0625
+ },
+ "shelterEg": {
+  "odd": 1.0,
+  "even": 0.25
+ },
+ "safeChecks": {
+  "odd": 8.0,
+  "even": 4.0
+ },
+ "kingAttackers": {
+  "odd": 16.0,
+  "even": 8.0
+ },
+ "flankAttack": {
+  "odd": 4.0,
+  "even": 1.0
+ },
+ "flankDefense": {
+  "odd": 8.0,
+  "even": 1.0
+ },
+ "hanging": {
+  "odd": 32.0,
+  "even": 8.0
+ },
+ "restricted": {
+  "odd": 8.0,
+  "even": 1.0
+ },
+ "threatSafePawn": {
+  "odd": 64.0,
+  "even": 32.0
+ },
+ "threatPawnPush": {
+  "odd": 64.0,
+  "even": 16.0
+ },
+ "weakQueenProt": {
+  "odd": 32.0,
+  "even": 16.0
+ },
+ "passerCount": {
+  "odd": 32.0,
+  "even": 8.0
+ },
+ "passerMaxRank": {
+  "odd": 16.0,
+  "even": 4.0
+ },
+ "passerFree": {
+  "odd": 64.0,
+  "even": 16.0
+ },
+ "spaceBonus": {
+  "odd": 8.0,
+  "even": 2.0
+ },
+ "spaceWeight": {
+  "odd": 32.0,
+  "even": 1.0
+ },
+ "connectedPassers": {
+  "odd": 32.0,
+  "even": 8.0
+ },
+ "candidatePassers": {
+  "odd": 32.0,
+  "even": 8.0
+ },
+ "rookOnSeventh": {
+  "odd": 64.0,
+  "even": 16.0
+ },
+ "batteries": {
+  "odd": 32.0,
+  "even": 8.0
+ },
+ "hangingMaterial": {
+  "odd": 0.0625,
+  "even": 0.015625
+ },
+ "maxHangingVictim": {
+  "odd": 0.0625,
+  "even": 0.03125
+ },
+ "blockaderMinor": {
+  "odd": 128.0,
+  "even": 32.0
+ },
+ "bothFlanks": {
+  "odd": 128.0,
+  "even": 32.0
+ },
+ "infiltration": {
+  "odd": 32.0,
+  "even": 8.0
+ }
+}

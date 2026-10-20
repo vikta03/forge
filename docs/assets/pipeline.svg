@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="670" viewBox="0 0 1200 670" role="img" aria-label="FORGE board to features to learned evaluation pipeline">
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#171c30"/><stop offset="1" stop-color="#0a0e1a"/></linearGradient>
+ <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0 0 6 3 0 6" fill="none" stroke="#86dcca" stroke-width="1.5"/></marker>
+ <style>text{font-family:system-ui, sans-serif;fill:#f0f3fa}.muted{fill:#acb6cc;font-size:18px}.label{fill:#86dcca;font-size:14px;letter-spacing:2px}.title{font-size:24px;font-weight:650}.num{font-size:43px;font-weight:650;fill:#e7cb98}.card{fill:#1d253b;stroke:#39465e;stroke-width:1.5}.flow{fill:none;stroke:#86dcca;stroke-width:2;marker-end:url(#arrow)}</style>
+</defs>
+<rect width="1200" height="670" rx="24" fill="url(#bg)"/>
+<text x="42" y="52" class="label">FORGE / NETB</text>
+<text x="42" y="101" font-size="36" font-weight="700">Chess concepts. Learned responses. CPU speed.</text>
+<text x="42" y="137" class="muted">620,609 parameters · 731 KB deployed model · single-threaded alpha-beta search</text>
+<g>
+<rect x="42" y="182" width="340" height="181" rx="16" class="card"/>
+<text x="62" y="214" class="label">01 / POSITION</text>
+<text x="62" y="252" class="title">Board + halfmove clock</text>
+<text x="62" y="291" class="muted">Material, mobility, king safety,</text>
+<text x="62" y="318" class="muted">pawn structure and threats</text>
+<rect x="430" y="182" width="340" height="181" rx="16" class="card"/>
+<text x="450" y="214" class="label">02 / CONCEPT TABLES</text>
+<text x="450" y="266" class="num">57 + 44</text>
+<text x="450" y="302" class="muted">signed + context features</text>
+<text x="450" y="333" class="muted">129 bins · 8 learned routes</text>
+<rect x="818" y="182" width="340" height="181" rx="16" class="card"/>
+<text x="838" y="214" class="label">03 / PIECE PLACEMENT</text>
+<text x="838" y="266" class="num">16 channels</text>
+<text x="838" y="302" class="muted">32 own-king buckets</text>
+<text x="838" y="333" class="muted">Incremental dual accumulators</text>
+<rect x="42" y="421" width="340" height="181" rx="16" class="card"/>
+<text x="62" y="453" class="label">04 / LEARNED INTERACTIONS</text>
+<text x="62" y="505" class="num">40 → 16</text>
+<text x="62" y="541" class="muted">Latents + placement + products</text>
+<text x="62" y="572" class="muted">Small clipped-ReLU mixer</text>
+<rect x="430" y="421" width="340" height="181" rx="16" class="card"/>
+<text x="450" y="453" class="label">05 / POSITION VALUE</text>
+<text x="450" y="505" class="num">A, C → W/D/L</text>
+<text x="450" y="541" class="muted">Advantage and decisiveness</text>
+<text x="450" y="572" class="muted">Direct tables + mixer outputs</text>
+<rect x="818" y="421" width="340" height="181" rx="16" class="card"/>
+<text x="838" y="453" class="label">06 / SEARCH</text>
+<text x="838" y="497" class="title">Expected score → scalar</text>
+<text x="838" y="541" class="muted">Boring-derived alpha-beta</text>
+<text x="838" y="572" class="muted">Search selects the move</text>
+</g>
+<path d="M383 273H418" class="flow"/>
+<path d="M212 181V162H988V181" class="flow"/>
+<path d="M990 364V390H215V409" class="flow"/>
+<path d="M600 365V390" fill="none" stroke="#86dcca" stroke-width="2"/>
+<path d="M383 512H418" class="flow"/>
+<path d="M771 512H805" class="flow"/>
+<text x="42" y="641" class="muted">Quantized lookup tables do most of the work. No neural framework is needed to play.</text>
+</svg>

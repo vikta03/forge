@@ -1,0 +1,14 @@
+{
+ "engine": "experiments/wide_trace/src/build/forge_wide_netB_uci",
+ "engine_sha256": "0e362dd6aa59619c355e4b5d6db56b4aba616269ea22f557ba59a7e73bd9abe5",
+ "net": "../forge_training/wide/exports/netB_best.forge",
+ "net_sha256": "49cdece06bf5006835808ce4c2fde904765b2da26487f430c3f845a749323a6b",
+ "checkpoint": "../forge_training/wide/netB/best.pt",
+ "positions": 10000,
+ "score_mismatches": 0,
+ "search_score_mismatches": 0,
+ "route_mismatches": 0,
+ "advantage_max": 3.814697265625e-06,
+ "decisive_max": 3.814697265625e-06,
+ "pass": true
+}

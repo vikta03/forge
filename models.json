@@ -1,0 +1,17 @@
+{
+  "netB-best.forge": {
+    "bytes": 730614,
+    "sha256": "49cdece06bf5006835808ce4c2fde904765b2da26487f430c3f845a749323a6b",
+    "url": "https://github.com/vikta03/forge/releases/download/v1.0.0/netB-best.forge"
+  },
+  "netB-best.pt": {
+    "sha256": "626b476cbe65fe9ffc1dd664adaa953b71163b854760d3c1600c750f37b2d645",
+    "bytes": 2490269,
+    "url": "https://github.com/vikta03/forge/releases/download/v1.0.0/netB-best.pt"
+  },
+  "netB-initial.pt": {
+    "sha256": "3b386cf23e75da71e01834cce354ad13f75af8733afa7f793da0e246697bc18d",
+    "bytes": 2490341,
+    "url": "https://github.com/vikta03/forge/releases/download/v1.0.0/netB-initial.pt"
+  }
+}

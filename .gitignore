@@ -1,0 +1,12 @@
+/bin/
+/models/*.forge
+/models/*.pt
+/.venv/
+/build/
+/dist/
+__pycache__/
+*.pyc
+/data/
+/runs/
+
+/results/

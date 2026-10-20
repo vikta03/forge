@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Keep the executable and model together; the caller's working directory is irrelevant.
+set -euo pipefail
+here="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd -P)"
+model="${FORGE_NET:-$here/models/netB-best.forge}"
+if [[ ! -f "$model" ]]; then
+    printf 'FORGE startup error: model not found: %s\n' "$model" >&2
+    exit 2
+fi
+if [[ ! -x "$here/bin/forge-engine" ]]; then
+    printf 'FORGE startup error: binary missing; run ./build.sh first.\n' >&2
+    exit 2
+fi
+exec "$here/bin/forge-engine" --net "$model" "$@"

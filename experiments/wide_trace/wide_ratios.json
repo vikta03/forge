@@ -1,0 +1,262 @@
+{
+ "kingDanger": {
+  "odd": [
+   1,
+   6
+  ],
+  "even": [
+   1,
+   6
+  ]
+ },
+ "shelterMg": {
+  "odd": [
+   1,
+   2
+  ],
+  "even": [
+   1,
+   4
+  ]
+ },
+ "shelterEg": {
+  "odd": [
+   2,
+   1
+  ],
+  "even": [
+   1,
+   2
+  ]
+ },
+ "safeChecks": {
+  "odd": [
+   16,
+   1
+  ],
+  "even": [
+   8,
+   1
+  ]
+ },
+ "kingAttackers": {
+  "odd": [
+   32,
+   1
+  ],
+  "even": [
+   16,
+   1
+  ]
+ },
+ "flankAttack": {
+  "odd": [
+   8,
+   1
+  ],
+  "even": [
+   2,
+   1
+  ]
+ },
+ "flankDefense": {
+  "odd": [
+   16,
+   1
+  ],
+  "even": [
+   2,
+   1
+  ]
+ },
+ "hanging": {
+  "odd": [
+   64,
+   1
+  ],
+  "even": [
+   16,
+   1
+  ]
+ },
+ "restricted": {
+  "odd": [
+   16,
+   1
+  ],
+  "even": [
+   2,
+   1
+  ]
+ },
+ "threatSafePawn": {
+  "odd": [
+   128,
+   1
+  ],
+  "even": [
+   64,
+   1
+  ]
+ },
+ "threatPawnPush": {
+  "odd": [
+   128,
+   1
+  ],
+  "even": [
+   32,
+   1
+  ]
+ },
+ "weakQueenProt": {
+  "odd": [
+   64,
+   1
+  ],
+  "even": [
+   32,
+   1
+  ]
+ },
+ "passerCount": {
+  "odd": [
+   64,
+   1
+  ],
+  "even": [
+   16,
+   1
+  ]
+ },
+ "passerMaxRank": {
+  "odd": [
+   32,
+   1
+  ],
+  "even": [
+   8,
+   1
+  ]
+ },
+ "passerFree": {
+  "odd": [
+   128,
+   1
+  ],
+  "even": [
+   32,
+   1
+  ]
+ },
+ "spaceBonus": {
+  "odd": [
+   16,
+   1
+  ],
+  "even": [
+   4,
+   1
+  ]
+ },
+ "spaceWeight": {
+  "odd": [
+   64,
+   1
+  ],
+  "even": [
+   2,
+   1
+  ]
+ },
+ "connectedPassers": {
+  "odd": [
+   64,
+   1
+  ],
+  "even": [
+   16,
+   1
+  ]
+ },
+ "candidatePassers": {
+  "odd": [
+   64,
+   1
+  ],
+  "even": [
+   16,
+   1
+  ]
+ },
+ "rookOnSeventh": {
+  "odd": [
+   128,
+   1
+  ],
+  "even": [
+   32,
+   1
+  ]
+ },
+ "batteries": {
+  "odd": [
+   64,
+   1
+  ],
+  "even": [
+   16,
+   1
+  ]
+ },
+ "hangingMaterial": {
+  "odd": [
+   1,
+   4
+  ],
+  "even": [
+   1,
+   6
+  ]
+ },
+ "maxHangingVictim": {
+  "odd": [
+   1,
+   4
+  ],
+  "even": [
+   1,
+   5
+  ]
+ },
+ "blockaderMinor": {
+  "odd": [
+   256,
+   1
+  ],
+  "even": [
+   64,
+   1
+  ]
+ },
+ "bothFlanks": {
+  "odd": [
+   256,
+   1
+  ],
+  "even": [
+   64,
+   1
+  ]
+ },
+ "infiltration": {
+  "odd": [
+   64,
+   1
+  ],
+  "even": [
+   16,
+   1
+  ]
+ }
+}

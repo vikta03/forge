@@ -1,0 +1,223 @@
+{
+  "passed": true,
+  "scope": "J32 CPU release verification; no games, training or GPU",
+  "checks": [
+    "reexport",
+    "clean-build",
+    "rules-chess960-cache-tests",
+    "audit-build",
+    "worked-evaluation",
+    "extractor-build",
+    "extraction-fixture",
+    "extraction-runtime-parity"
+  ],
+  "checkpoints": {
+    "netB-best.pt": {
+      "sha256": "626b476cbe65fe9ffc1dd664adaa953b71163b854760d3c1600c750f37b2d645",
+      "bytes": 2490269,
+      "source_sha256": "1d072de0065475f1a8bc5ee4f2af72a81cc5150610bf7ab0a0db7c52879b1c86"
+    },
+    "netB-initial.pt": {
+      "sha256": "3b386cf23e75da71e01834cce354ad13f75af8733afa7f793da0e246697bc18d",
+      "bytes": 2490341,
+      "source_sha256": "8b16eca1e7b9a7b4f752828a0a121c3f1a0f8a11d688e558621b577f8608b1da"
+    }
+  },
+  "protocol": {
+    "model_sha256": "49cdece06bf5006835808ce4c2fde904765b2da26487f430c3f845a749323a6b",
+    "checks": [
+      "identity/readiness",
+      "four legal short searches",
+      "stop/quit",
+      "Hash resize/clear",
+      "failed model replacement and recovery",
+      "missing/truncated/incompatible/corrupt model errors",
+      "unrelated working directory",
+      "relocation with spaces",
+      "launcher model error"
+    ],
+    "passed": true
+  },
+  "static_parity": {
+    "fixtures": 64,
+    "neural_positions": 63,
+    "integer_mismatches": 0,
+    "logit_tolerance": 3e-05
+  },
+  "search_cache_paths": {
+    "main_reuse": 1243,
+    "main_recompute": 2,
+    "quiescence_reuse": 966,
+    "quiescence_recompute": 9
+  },
+  "retained_failures": [
+    {
+      "stage": "extractor-build",
+      "reason": "Missing movegen, SEE option and Fathom link dependencies; corrected extractor-only build"
+    },
+    {
+      "stage": "extraction-fixture",
+      "reason": "Preparation called the cell-sidecar CLI with positional arguments; corrected to named arguments"
+    }
+  ],
+  "timing": {
+    "node_limit": 32768,
+    "positions": 3,
+    "repetitions": 5,
+    "fresh_hash_each_search": true,
+    "rows": [
+      {
+        "fixture": 0,
+        "repetition": 0,
+        "before_seconds": 0.03696928800036403,
+        "before_bestmove": "bestmove e2e4",
+        "after_seconds": 0.038248423999903025,
+        "after_bestmove": "bestmove e2e4"
+      },
+      {
+        "fixture": 0,
+        "repetition": 1,
+        "after_seconds": 0.03495823499997641,
+        "after_bestmove": "bestmove e2e4",
+        "before_seconds": 0.03638669099973413,
+        "before_bestmove": "bestmove e2e4"
+      },
+      {
+        "fixture": 0,
+        "repetition": 2,
+        "before_seconds": 0.03607566000027873,
+        "before_bestmove": "bestmove e2e4",
+        "after_seconds": 0.03561492100016039,
+        "after_bestmove": "bestmove e2e4"
+      },
+      {
+        "fixture": 0,
+        "repetition": 3,
+        "after_seconds": 0.03627538099999583,
+        "after_bestmove": "bestmove e2e4",
+        "before_seconds": 0.03569120900010603,
+        "before_bestmove": "bestmove e2e4"
+      },
+      {
+        "fixture": 0,
+        "repetition": 4,
+        "before_seconds": 0.03538634300002741,
+        "before_bestmove": "bestmove e2e4",
+        "after_seconds": 0.035477087999879586,
+        "after_bestmove": "bestmove e2e4"
+      },
+      {
+        "fixture": 1,
+        "repetition": 0,
+        "before_seconds": 0.0297931720001543,
+        "before_bestmove": "bestmove g7g6",
+        "after_seconds": 0.02951286600000458,
+        "after_bestmove": "bestmove g7f6"
+      },
+      {
+        "fixture": 1,
+        "repetition": 1,
+        "after_seconds": 0.029674482999780594,
+        "after_bestmove": "bestmove g7f6",
+        "before_seconds": 0.029685461000099167,
+        "before_bestmove": "bestmove g7g6"
+      },
+      {
+        "fixture": 1,
+        "repetition": 2,
+        "before_seconds": 0.02955497999982981,
+        "before_bestmove": "bestmove g7g6",
+        "after_seconds": 0.03030980699986685,
+        "after_bestmove": "bestmove g7f6"
+      },
+      {
+        "fixture": 1,
+        "repetition": 3,
+        "after_seconds": 0.02859628199985309,
+        "after_bestmove": "bestmove g7f6",
+        "before_seconds": 0.029937831000097503,
+        "before_bestmove": "bestmove g7g6"
+      },
+      {
+        "fixture": 1,
+        "repetition": 4,
+        "before_seconds": 0.029724383000029775,
+        "before_bestmove": "bestmove g7g6",
+        "after_seconds": 0.03060430899995481,
+        "after_bestmove": "bestmove g7f6"
+      },
+      {
+        "fixture": 2,
+        "repetition": 0,
+        "before_seconds": 0.034712098999989394,
+        "before_bestmove": "bestmove f7f5",
+        "after_seconds": 0.03671016599992072,
+        "after_bestmove": "bestmove f8d8"
+      },
+      {
+        "fixture": 2,
+        "repetition": 1,
+        "after_seconds": 0.040028260000326554,
+        "after_bestmove": "bestmove f8d8",
+        "before_seconds": 0.03816266800004087,
+        "before_bestmove": "bestmove f7f5"
+      },
+      {
+        "fixture": 2,
+        "repetition": 2,
+        "before_seconds": 0.03589904199998273,
+        "before_bestmove": "bestmove f7f5",
+        "after_seconds": 0.03744107600005009,
+        "after_bestmove": "bestmove f8d8"
+      },
+      {
+        "fixture": 2,
+        "repetition": 3,
+        "after_seconds": 0.039191688999835606,
+        "after_bestmove": "bestmove f8d8",
+        "before_seconds": 0.03523222700005135,
+        "before_bestmove": "bestmove f7f5"
+      },
+      {
+        "fixture": 2,
+        "repetition": 4,
+        "before_seconds": 0.03745389299956514,
+        "before_bestmove": "bestmove f7f5",
+        "after_seconds": 0.03959046299996771,
+        "after_bestmove": "bestmove f8d8"
+      }
+    ],
+    "median_time_ratio": 1.0255397567530544
+  },
+  "environment": {
+    "platform": "Linux-7.2.9-200.fc44.x86_64-x86_64-with-glibc2.43",
+    "libc": [
+      "glibc",
+      "2.43"
+    ],
+    "compiler": "g++ (GCC) 16.2.1 20260819 (Red Hat 16.2.1-2)"
+  },
+  "originals_unchanged": true,
+  "binary_sha256": "8b96a10c48f5cb3363f4bd7e7fc269e79d7da8de34f140cfd8f1b2048d92ba04",
+  "model_sha256": "49cdece06bf5006835808ce4c2fde904765b2da26487f430c3f845a749323a6b",
+  "hardware": {
+    "exit_code": 0,
+    "reason": "completed",
+    "wall_seconds": 6.514662890999716,
+    "peak_rss_bytes": 606900224,
+    "cpu_affinity": [
+      2,
+      4
+    ],
+    "gpu_used": false,
+    "cumulative_wall_seconds": 50.0983076069997,
+    "peak_rss_bytes_all_attempts": 1090772992
+  },
+  "verification_date": "2026-10-21",
+  "audit_counters_note": "Counters separate static-score reuse from recomputation (missing or clock-mismatched evaluation). Direct regression cases independently check clock-tag ownership.",
+  "limitations": [
+    "No games or strength estimate.",
+    "Fixed-node timing compares native historical binary with fixed-Haswell release. It includes search-path changes and is a short screen.",
+    "63 of 64 fixtures used the neural evaluator; one in-check fixture returned the expected diagnostic."
+  ]
+}
