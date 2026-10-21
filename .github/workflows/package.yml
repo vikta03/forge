@@ -6,6 +6,10 @@ on:
         description: Verified netB-best.forge asset ID from the draft release
         required: true
         type: string
+      model_download_url:
+        description: Optional short-lived download URL for the verified draft model asset
+        required: false
+        type: string
 permissions:
   contents: read
 jobs:
@@ -18,6 +22,12 @@ jobs:
       CXX: g++-12
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - name: Record build identity
+        run: |
+          mkdir -p build/verification
+          git rev-parse HEAD > build/verification/source-commit.txt
       - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
         with:
           python-version: "3.12"
@@ -30,16 +40,33 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           MODEL_ASSET_ID: ${{ inputs.model_asset_id }}
+          MODEL_DOWNLOAD_URL: ${{ inputs.model_download_url }}
         run: |
           [[ "$MODEL_ASSET_ID" =~ ^[0-9]+$ ]]
           mkdir -p models
-          gh api -H 'Accept: application/octet-stream' \
-            "repos/$GITHUB_REPOSITORY/releases/assets/$MODEL_ASSET_ID" > models/netB-best.forge
+          if [[ -n "$MODEL_DOWNLOAD_URL" ]]; then
+            echo "::add-mask::$MODEL_DOWNLOAD_URL"
+            # This capability grants a single asset download, never repository
+            # access. It expires shortly after the release operator supplies it.
+            python - <<'PY'
+          import os, urllib.parse, urllib.request
+          url = os.environ['MODEL_DOWNLOAD_URL']
+          parsed = urllib.parse.urlsplit(url)
+          assert parsed.scheme == 'https' and parsed.hostname == 'release-assets.githubusercontent.com'
+          assert parsed.username is None and parsed.password is None and parsed.port in (None, 443)
+          with urllib.request.urlopen(url, timeout=60) as response:
+              data = response.read(730615)
+          assert len(data) == 730614
+          open('models/netB-best.forge', 'wb').write(data)
+          PY
+          else
+            gh api -H 'Accept: application/octet-stream' \
+              "repos/$GITHUB_REPOSITORY/releases/assets/$MODEL_ASSET_ID" > models/netB-best.forge
+          fi
           echo '49cdece06bf5006835808ce4c2fde904765b2da26487f430c3f845a749323a6b  models/netB-best.forge' | sha256sum -c -
       - name: Build and check
         run: |
           ./build.sh
-          mkdir -p build/verification
           ./bin/forge-engine test > build/verification/rules.log
           python tests/verify_release.py --out build/verification/protocol
           python tools/ubuntu_receipt.py build/verification
