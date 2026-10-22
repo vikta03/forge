@@ -1,0 +1,9 @@
+/bin/
+/models/*.fg2
+/models/*.pt
+/training/config.json
+/training/external-fixtures/
+/training/runs/
+__pycache__/
+*.pyc
+*.so

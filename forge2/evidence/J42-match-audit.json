@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "games": 100,
+  "legal_clock_accounted_moves": 13300,
+  "opening_pairs": 50,
+  "starting_seconds_per_side": 8,
+  "increment_seconds": 0.08,
+  "forfeits": 0,
+  "match_sha256": "b7a9175633d9f3b598e56c40b84690f31a0c86a266120900eb0f130f41063cd8",
+  "original_receipts_modified": false,
+  "terminations": {
+    "current_threefold": 44,
+    "checkmate": 45,
+    "current_fifty_moves": 3,
+    "insufficient_material": 8
+  }
+}

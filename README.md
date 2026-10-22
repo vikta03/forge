@@ -1,5 +1,10 @@
 # FORGE
 
+**New: [FORGE 2 — complete engine book and source](forge2/README.md)** ·
+[Dedicated v2.0.0 source release](https://github.com/vikta03/forge/releases/tag/v2.0.0).
+A learned placement evaluator, its training pipeline, optional quiet policy and
+recorded experiments. The earlier netB engine below and its release remain intact.
+
 **A compact CPU chess engine that learns how chess concepts and piece placement fit together.**
 
 By **Remmy Victor · [@vikta03](https://github.com/vikta03)**.
@@ -18,7 +23,7 @@ an established external rating or superiority to VEGAM.
 ## Play
 
 Download the Linux package and `SHA256SUMS` from
-[Releases](https://github.com/vikta03/forge/releases/latest).
+[netB v1.0.0 release](https://github.com/vikta03/forge/releases/tag/v1.0.0).
 The package contains the executable, launcher, exact netB-best runtime weights,
 licences and verification receipts.
 

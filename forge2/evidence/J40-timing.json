@@ -1,0 +1,285 @@
+{
+  "samples": [
+    {
+      "variant": "original",
+      "round": 0,
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "seconds": 0.3234829200009699,
+      "nodes": 603294,
+      "nodes_per_wall_second": 1864994.9122451076,
+      "gui_nps": 1867783,
+      "depth": 19
+    },
+    {
+      "variant": "off",
+      "round": 0,
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "seconds": 0.32611488200200256,
+      "nodes": 603294,
+      "nodes_per_wall_second": 1849943.1743084188,
+      "gui_nps": 1850595,
+      "depth": 19
+    },
+    {
+      "variant": "on",
+      "round": 0,
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "seconds": 0.28126152400363935,
+      "nodes": 505000,
+      "nodes_per_wall_second": 1795481.9870543885,
+      "gui_nps": 1797153,
+      "depth": 19
+    },
+    {
+      "variant": "original",
+      "round": 0,
+      "fen": "r3k2r/p1ppqpb1/bn2pnp1/3PN3/1p2P3/2N2Q1p/PPPBBPPP/R3K2R w KQkq - 0 1",
+      "seconds": 0.3150886930015986,
+      "nodes": 635283,
+      "nodes_per_wall_second": 2016203.7359962547,
+      "gui_nps": 2016771,
+      "depth": 17
+    },
+    {
+      "variant": "off",
+      "round": 0,
+      "fen": "r3k2r/p1ppqpb1/bn2pnp1/3PN3/1p2P3/2N2Q1p/PPPBBPPP/R3K2R w KQkq - 0 1",
+      "seconds": 0.3157506760035176,
+      "nodes": 635283,
+      "nodes_per_wall_second": 2011976.6900924155,
+      "gui_nps": 2010389,
+      "depth": 17
+    },
+    {
+      "variant": "on",
+      "round": 0,
+      "fen": "r3k2r/p1ppqpb1/bn2pnp1/3PN3/1p2P3/2N2Q1p/PPPBBPPP/R3K2R w KQkq - 0 1",
+      "seconds": 0.34022059699782403,
+      "nodes": 674822,
+      "nodes_per_wall_second": 1983483.6748708545,
+      "gui_nps": 2000672,
+      "depth": 17
+    },
+    {
+      "variant": "original",
+      "round": 0,
+      "fen": "4rrk1/pp1n1pp1/1q2p2p/1P1bP3/3P4/P2NBP2/2Q2P1P/R4RK1 w - - 0 21",
+      "seconds": 0.25520759600476595,
+      "nodes": 485942,
+      "nodes_per_wall_second": 1904104.7665012493,
+      "gui_nps": 1905654,
+      "depth": 16
+    },
+    {
+      "variant": "off",
+      "round": 0,
+      "fen": "4rrk1/pp1n1pp1/1q2p2p/1P1bP3/3P4/P2NBP2/2Q2P1P/R4RK1 w - - 0 21",
+      "seconds": 0.25493747599830385,
+      "nodes": 485942,
+      "nodes_per_wall_second": 1906122.268203648,
+      "gui_nps": 1905654,
+      "depth": 16
+    },
+    {
+      "variant": "on",
+      "round": 0,
+      "fen": "4rrk1/pp1n1pp1/1q2p2p/1P1bP3/3P4/P2NBP2/2Q2P1P/R4RK1 w - - 0 21",
+      "seconds": 0.3376581890042871,
+      "nodes": 625671,
+      "nodes_per_wall_second": 1852971.4971374678,
+      "gui_nps": 1851097,
+      "depth": 17
+    },
+    {
+      "variant": "off",
+      "round": 1,
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "seconds": 0.3247095869955956,
+      "nodes": 603294,
+      "nodes_per_wall_second": 1857949.454409497,
+      "gui_nps": 1856289,
+      "depth": 19
+    },
+    {
+      "variant": "on",
+      "round": 1,
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "seconds": 0.2794112720002886,
+      "nodes": 505000,
+      "nodes_per_wall_second": 1807371.6081127836,
+      "gui_nps": 1810035,
+      "depth": 19
+    },
+    {
+      "variant": "original",
+      "round": 1,
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "seconds": 0.3252535129940952,
+      "nodes": 603294,
+      "nodes_per_wall_second": 1854842.379553184,
+      "gui_nps": 1856289,
+      "depth": 19
+    },
+    {
+      "variant": "off",
+      "round": 1,
+      "fen": "r3k2r/p1ppqpb1/bn2pnp1/3PN3/1p2P3/2N2Q1p/PPPBBPPP/R3K2R w KQkq - 0 1",
+      "seconds": 0.29690250199928414,
+      "nodes": 635283,
+      "nodes_per_wall_second": 2139702.413156261,
+      "gui_nps": 2139000,
+      "depth": 17
+    },
+    {
+      "variant": "on",
+      "round": 1,
+      "fen": "r3k2r/p1ppqpb1/bn2pnp1/3PN3/1p2P3/2N2Q1p/PPPBBPPP/R3K2R w KQkq - 0 1",
+      "seconds": 0.33967627699894365,
+      "nodes": 695296,
+      "nodes_per_wall_second": 2046937.1783716362,
+      "gui_nps": 2081780,
+      "depth": 17
+    },
+    {
+      "variant": "original",
+      "round": 1,
+      "fen": "r3k2r/p1ppqpb1/bn2pnp1/3PN3/1p2P3/2N2Q1p/PPPBBPPP/R3K2R w KQkq - 0 1",
+      "seconds": 0.2981288540031528,
+      "nodes": 635283,
+      "nodes_per_wall_second": 2130900.754722928,
+      "gui_nps": 2131822,
+      "depth": 17
+    },
+    {
+      "variant": "off",
+      "round": 1,
+      "fen": "4rrk1/pp1n1pp1/1q2p2p/1P1bP3/3P4/P2NBP2/2Q2P1P/R4RK1 w - - 0 21",
+      "seconds": 0.25494872600393137,
+      "nodes": 485942,
+      "nodes_per_wall_second": 1906038.1576196095,
+      "gui_nps": 1913157,
+      "depth": 16
+    },
+    {
+      "variant": "on",
+      "round": 1,
+      "fen": "4rrk1/pp1n1pp1/1q2p2p/1P1bP3/3P4/P2NBP2/2Q2P1P/R4RK1 w - - 0 21",
+      "seconds": 0.33989034299884224,
+      "nodes": 612352,
+      "nodes_per_wall_second": 1801616.352489561,
+      "gui_nps": 1829295,
+      "depth": 16
+    },
+    {
+      "variant": "original",
+      "round": 1,
+      "fen": "4rrk1/pp1n1pp1/1q2p2p/1P1bP3/3P4/P2NBP2/2Q2P1P/R4RK1 w - - 0 21",
+      "seconds": 0.26464157000009436,
+      "nodes": 485942,
+      "nodes_per_wall_second": 1836227.0145231783,
+      "gui_nps": 1840689,
+      "depth": 16
+    },
+    {
+      "variant": "on",
+      "round": 2,
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "seconds": 0.29211128200404346,
+      "nodes": 505000,
+      "nodes_per_wall_second": 1728793.2069429953,
+      "gui_nps": 1735395,
+      "depth": 19
+    },
+    {
+      "variant": "original",
+      "round": 2,
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "seconds": 0.32401215000572847,
+      "nodes": 603294,
+      "nodes_per_wall_second": 1861948.6954095205,
+      "gui_nps": 1867783,
+      "depth": 19
+    },
+    {
+      "variant": "off",
+      "round": 2,
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "seconds": 0.32099479399767006,
+      "nodes": 603294,
+      "nodes_per_wall_second": 1879451.0418271115,
+      "gui_nps": 1879420,
+      "depth": 19
+    },
+    {
+      "variant": "on",
+      "round": 2,
+      "fen": "r3k2r/p1ppqpb1/bn2pnp1/3PN3/1p2P3/2N2Q1p/PPPBBPPP/R3K2R w KQkq - 0 1",
+      "seconds": 0.34018843100056984,
+      "nodes": 691200,
+      "nodes_per_wall_second": 2031815.126596243,
+      "gui_nps": 2067808,
+      "depth": 17
+    },
+    {
+      "variant": "original",
+      "round": 2,
+      "fen": "r3k2r/p1ppqpb1/bn2pnp1/3PN3/1p2P3/2N2Q1p/PPPBBPPP/R3K2R w KQkq - 0 1",
+      "seconds": 0.29462386499653803,
+      "nodes": 635283,
+      "nodes_per_wall_second": 2156250.988043568,
+      "gui_nps": 2160826,
+      "depth": 17
+    },
+    {
+      "variant": "off",
+      "round": 2,
+      "fen": "r3k2r/p1ppqpb1/bn2pnp1/3PN3/1p2P3/2N2Q1p/PPPBBPPP/R3K2R w KQkq - 0 1",
+      "seconds": 0.2976640050037531,
+      "nodes": 635283,
+      "nodes_per_wall_second": 2134228.490246881,
+      "gui_nps": 2131822,
+      "depth": 17
+    },
+    {
+      "variant": "on",
+      "round": 2,
+      "fen": "4rrk1/pp1n1pp1/1q2p2p/1P1bP3/3P4/P2NBP2/2Q2P1P/R4RK1 w - - 0 21",
+      "seconds": 0.3370020000002114,
+      "nodes": 625671,
+      "nodes_per_wall_second": 1856579.4861739916,
+      "gui_nps": 1856590,
+      "depth": 17
+    },
+    {
+      "variant": "original",
+      "round": 2,
+      "fen": "4rrk1/pp1n1pp1/1q2p2p/1P1bP3/3P4/P2NBP2/2Q2P1P/R4RK1 w - - 0 21",
+      "seconds": 0.2557548519980628,
+      "nodes": 485942,
+      "nodes_per_wall_second": 1900030.4244616276,
+      "gui_nps": 1898210,
+      "depth": 16
+    },
+    {
+      "variant": "off",
+      "round": 2,
+      "fen": "4rrk1/pp1n1pp1/1q2p2p/1P1bP3/3P4/P2NBP2/2Q2P1P/R4RK1 w - - 0 21",
+      "seconds": 0.2536537190026138,
+      "nodes": 485942,
+      "nodes_per_wall_second": 1915769.2696592892,
+      "gui_nps": 1913157,
+      "depth": 16
+    }
+  ],
+  "search_seconds_per_sample": 0.35,
+  "positions": 3,
+  "rounds": 3,
+  "gameplay_strength_test": false,
+  "short_sample_not_sustained_benchmark": true,
+  "median_wall_nps": {
+    "original": 1900030.4244616276,
+    "off": 1906122.268203648,
+    "on": 1852971.4971374678
+  },
+  "median_paired_on_off_ratio": 0.9691039080630914
+}

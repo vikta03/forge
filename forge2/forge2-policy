@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# Relocatable package entry point; model replacement needs no engine rebuild.
+set -euo pipefail
+here="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd -P)"
+model="${FORGE2_NET:-$here/models/placement.fg2}"
+if [[ "${1:-}" == --model || "${1:-}" == --net ]]; then
+    if [[ $# -lt 2 ]]; then
+        printf 'FORGE 2 startup error: --model needs a file path.\n' >&2
+        exit 2
+    fi
+    model="$2"
+    shift 2
+fi
+if [[ ! -f "$model" ]]; then
+    printf 'FORGE 2 startup error: model not found: %s\n' "$model" >&2
+    exit 2
+fi
+if [[ ! -x "$here/bin/forge2-engine" ]]; then
+    printf 'FORGE 2 startup error: binary missing; run ./build.sh first.\n' >&2
+    exit 2
+fi
+exec "$here/bin/forge2-engine" --model "$model" "$@"

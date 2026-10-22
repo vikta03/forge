@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "resume_from": "[local]/20261022T035110Z",
+  "replayed_games": 0,
+  "training": false,
+  "gpu": false,
+  "retained_positions": 345,
+  "positions": 400,
+  "games": 100,
+  "new_position_receipts": 55,
+  "live_engine_modified": false,
+  "source_integrity": true
+}

@@ -1,0 +1,49 @@
+{
+  "format": "FG2NET1",
+  "kind": "placement",
+  "bytes": 4238688,
+  "parameter_bytes": 4238656,
+  "sha256": "afd64230524c1ecfcd8bc87f3731e23252e4853f3199c9b312170f6994ecf9bc",
+  "shapes": {
+    "placement": [
+      24576,
+      128
+    ],
+    "contacts": [
+      32256,
+      32
+    ],
+    "local": [
+      768,
+      32
+    ],
+    "blocker": [
+      12,
+      32
+    ],
+    "hidden": [
+      328,
+      32
+    ],
+    "value": [
+      32,
+      2
+    ],
+    "query": [
+      32,
+      16
+    ],
+    "from_table": [
+      768,
+      16
+    ],
+    "to_table": [
+      768,
+      16
+    ],
+    "special": [
+      8,
+      16
+    ]
+  }
+}

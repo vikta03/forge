@@ -1,0 +1,10 @@
+{
+  "source": "VEGAM nextchess raw/fast_raw; Lc0 move vocabulary",
+  "licence": "GPL-3.0",
+  "adaptation": "raw.py reads the identical move vocabulary from adjacent JSON; decoder algebra unchanged",
+  "source_hashes": {
+    "raw.py": "9a581f1aa2e2d02756b170a6c475347065af3f459fb02926f7a009f0e4be53ff",
+    "fast_raw.py": "cef9f5159e3b8923f70be7d3b23c4a303d5f1d8aed41e4483d86d52e6c62f1e5",
+    "move_strings_source_sha256": "f8b1fc47e5f7ab85c9d38a21d1b03f09dba98a5c6760f61f8ebacacf5afbdfae"
+  }
+}

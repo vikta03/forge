@@ -1,0 +1,692 @@
+{
+  "release": "FORGE 2 v2.0.0 source edition",
+  "author": "Remmy Victor (@vikta03)",
+  "date": "2026-10-22",
+  "native_snapshot": "J40 verified policy package, 20261021T235706Z",
+  "trained_weights": {
+    "source": "J38 full-placement best checkpoint, eight passes",
+    "sha256": "afd64230524c1ecfcd8bc87f3731e23252e4853f3199c9b312170f6994ecf9bc",
+    "bytes": 4238688
+  },
+  "historical_binary_sha256": "38af73655eabad8f27d8b758e65eb0c8e6c4f529731c7ebb851aeaad295ee329",
+  "note": "Historical binary is identified, not distributed. No new build/search/training/match. Source and training path adaptations have static checks only.",
+  "files": [
+    {
+      "file": ".gitignore",
+      "bytes": 124,
+      "sha256": "1f22743b63e6cfb32df50d4134c76d87b10805b526732f44f6b80fada3a34085",
+      "origin": "Written for this source publication by Remmy Victor"
+    },
+    {
+      "file": "COPYING",
+      "bytes": 35148,
+      "sha256": "8b1ba204bb69a0ade2bfcf65ef294a920f6bb361b317dba43c7ef29d96332b9b",
+      "origin": "research/forge_policy_20261022/package/COPYING",
+      "original_sha256": "8b1ba204bb69a0ade2bfcf65ef294a920f6bb361b317dba43c7ef29d96332b9b",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "ENGINE_GUIDE.md",
+      "bytes": 106784,
+      "sha256": "d103227d1bd567132cff65f6f7b0bdfab79df2ae2da1d6ea2bfb8a6cba3e5f4c",
+      "origin": "Written for this source publication by Remmy Victor"
+    },
+    {
+      "file": "LICENSE.md",
+      "bytes": 1002,
+      "sha256": "4b3936ee2d0c000d57abd5ac693e61ba03fab7849a6230c203b2390c0eae38f7",
+      "origin": "research/forge_policy_20261022/package/LICENSE.md",
+      "original_sha256": "4b3936ee2d0c000d57abd5ac693e61ba03fab7849a6230c203b2390c0eae38f7",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "README.md",
+      "bytes": 4958,
+      "sha256": "8a3b2aeee1d9b9d48f7b1dda166aa09dd68e4833e8489973f81e1e84ec28d4dd",
+      "origin": "Written for this source publication by Remmy Victor"
+    },
+    {
+      "file": "THIRD_PARTY.md",
+      "bytes": 1220,
+      "sha256": "1dd254cb1729de496220fe583c049b343da07adad4b6dd514a8a83d37071fc08",
+      "origin": "research/forge_policy_20261022/package/THIRD_PARTY.md",
+      "original_sha256": "664eb047eacf4478712b384fd186fe5fc70e68344a7ae7d5ca57b0350d1458c3",
+      "byte_identical_to_origin": false,
+      "adaptation": "Clarify active placement path, inactive Fathom, codec provenance and source-only release."
+    },
+    {
+      "file": "build.sh",
+      "bytes": 886,
+      "sha256": "d27661a08b0ada8c525e0cb76721a19ce5b55c4565c2e734cf8209618d16926d",
+      "origin": "research/forge_policy_20261022/package/build.sh",
+      "original_sha256": "d27661a08b0ada8c525e0cb76721a19ce5b55c4565c2e734cf8209618d16926d",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "evidence/J38-delivery.json",
+      "bytes": 577,
+      "sha256": "ee1d431153bb5e36fe76e1745cfaf6fc5498b824b22640ff48b66595a8db2539",
+      "origin": "research/forge_placement_full_20261021/runs/20261021T181714Z/engine-delivery.json",
+      "original_sha256": "40fceb78e0a53cd26adeafa3981b084efff856dc329d1c5889e8737a9e6dbf84",
+      "adaptation": "JSON formatting and local-path redaction only.",
+      "byte_identical_to_origin": false
+    },
+    {
+      "file": "evidence/J38-validation-history.jsonl",
+      "bytes": 424799,
+      "sha256": "0b995b368673c43d52123366028012d95112517de8dfacaba14749e52780b987",
+      "origin": "research/forge_placement_full_20261021/runs/20261021T181714Z/models/history.jsonl",
+      "original_sha256": "0b995b368673c43d52123366028012d95112517de8dfacaba14749e52780b987",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "evidence/J40-timing.json",
+      "bytes": 8204,
+      "sha256": "9005a921dca5c8ab25269a5e036af8195196256f120f2ffc94f9ce2ae94e4e88",
+      "origin": "research/forge_policy_20261022/runs/20261021T235706Z/timing.json",
+      "original_sha256": "9005a921dca5c8ab25269a5e036af8195196256f120f2ffc94f9ce2ae94e4e88",
+      "adaptation": "JSON formatting and local-path redaction only.",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "evidence/J40-verification.json",
+      "bytes": 42895,
+      "sha256": "70418b471d79fe95618cb8365454b5f20f45d72062c4bc0ffb80281a65eabb1f",
+      "origin": "research/forge_policy_20261022/package/VERIFICATION.json",
+      "original_sha256": "53a14ae8539dfc6c76f169c38673f655fa7771634be2c8c974a570e10d4ca66d",
+      "adaptation": "JSON formatting and local-path redaction only.",
+      "byte_identical_to_origin": false
+    },
+    {
+      "file": "evidence/J42-games.pgn",
+      "bytes": 676902,
+      "sha256": "1ead182e5038a7580276b879ff9982314d1f1cff1981ee0a2d9c853e259e6e9e",
+      "origin": "research/forge_policy_validation_20261022/runs/20261022T040934Z/games.pgn",
+      "original_sha256": "1ead182e5038a7580276b879ff9982314d1f1cff1981ee0a2d9c853e259e6e9e",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "evidence/J42-match-audit.json",
+      "bytes": 445,
+      "sha256": "4af0810e10bc9f4ecfcb29e20be6d00424c7d886bf5694bd66b0828ea8f61cf2",
+      "origin": "research/forge_policy_validation_20261022/MATCH_AUDIT.json",
+      "original_sha256": "4af0810e10bc9f4ecfcb29e20be6d00424c7d886bf5694bd66b0828ea8f61cf2",
+      "adaptation": "JSON formatting and local-path redaction only.",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "evidence/J42-openings.json",
+      "bytes": 46060,
+      "sha256": "29cddea0e805a1a1dfb3f3974c85b308aa10baa138911d1a27ce97d53d4ff23f",
+      "origin": "research/forge_policy_validation_20261022/runs/20261022T040934Z/openings.json",
+      "original_sha256": "29cddea0e805a1a1dfb3f3974c85b308aa10baa138911d1a27ce97d53d4ff23f",
+      "adaptation": "JSON formatting and local-path redaction only.",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "evidence/J42-positions.json",
+      "bytes": 650057,
+      "sha256": "120c86c904a53f67febac2901ebded453c8567b48cd7906adfe2f1626244de0f",
+      "origin": "research/forge_policy_validation_20261022/runs/20261022T040934Z/positions.json",
+      "original_sha256": "120c86c904a53f67febac2901ebded453c8567b48cd7906adfe2f1626244de0f",
+      "adaptation": "JSON formatting and local-path redaction only.",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "evidence/J42-summary.json",
+      "bytes": 278290,
+      "sha256": "4a0933a035ade0b8701ef54e7a126659e25b6b7fdd52b75bd3528760022534e2",
+      "origin": "research/forge_policy_validation_20261022/runs/20261022T040934Z/summary.json",
+      "original_sha256": "57964adeac980f0febe058b51fbb0323047d80c07a4b9c012df76056772cc50a",
+      "adaptation": "JSON formatting and local-path redaction only.",
+      "byte_identical_to_origin": false
+    },
+    {
+      "file": "evidence/J42-verification.json",
+      "bytes": 287,
+      "sha256": "ba9f88d850fdd0f5ad556f45df25a6409aba95d8b06e3f9fd63e6336f817aecb",
+      "origin": "research/forge_policy_validation_20261022/runs/20261022T040934Z/verification.json",
+      "original_sha256": "5b262c57d60c8be8a32d20c956a2f12d549c3e2f16e9b911cea5abde0751e2b1",
+      "adaptation": "JSON formatting and local-path redaction only.",
+      "byte_identical_to_origin": false
+    },
+    {
+      "file": "evidence/README.md",
+      "bytes": 2227,
+      "sha256": "b2092668fc365a6f6242b591aaf0ca27d76c751b697a5fa8be819ceee57a8410",
+      "origin": "Written for this source publication by Remmy Victor"
+    },
+    {
+      "file": "forge2-policy",
+      "bytes": 744,
+      "sha256": "f0ae3dd568a5117d3024c6a3340c7ee5aeb9310ff3fb36ae5a9f1a03ad3afd97",
+      "origin": "research/forge_policy_20261022/package/forge2-policy",
+      "original_sha256": "f0ae3dd568a5117d3024c6a3340c7ee5aeb9310ff3fb36ae5a9f1a03ad3afd97",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "licenses/CC-BY-4.0.txt",
+      "bytes": 17023,
+      "sha256": "d557539df68e771cc1eedcc91d13f70fca930e508d11eedcafa4b15db49e3744",
+      "origin": "research/forge_policy_20261022/package/licenses/CC-BY-4.0.txt",
+      "original_sha256": "d557539df68e771cc1eedcc91d13f70fca930e508d11eedcafa4b15db49e3744",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "models/placement.fg2.json",
+      "bytes": 636,
+      "sha256": "a5a45715505b8a94d6b0a434d190ee6ecb16f201304a8eacd4c837ca5bbe09f3",
+      "origin": "research/forge_policy_20261022/package/models/placement.fg2.json",
+      "original_sha256": "a5a45715505b8a94d6b0a434d190ee6ecb16f201304a8eacd4c837ca5bbe09f3",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "src/bench.cpp",
+      "bytes": 9660,
+      "sha256": "08d81932c92a8242ded967994b0e05d3ce2c82731a6e65a6f08384a03560974c",
+      "origin": "research/forge_policy_20261022/package/src/bench.cpp",
+      "original_sha256": "08d81932c92a8242ded967994b0e05d3ce2c82731a6e65a6f08384a03560974c",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "src/bench.h",
+      "bytes": 1238,
+      "sha256": "dc2716ebca826724069d7a57061e25f00c6c9ee2bd5c86cd91f808de89ffae3f",
+      "origin": "research/forge_policy_20261022/package/src/bench.h",
+      "original_sha256": "dc2716ebca826724069d7a57061e25f00c6c9ee2bd5c86cd91f808de89ffae3f",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "src/bitboard.cpp",
+      "bytes": 7281,
+      "sha256": "53851d5664d234baeace7fcbe5df5a5c6ab62cf551da2fa3b61a05ed88f56480",
+      "origin": "research/forge_policy_20261022/package/src/bitboard.cpp",
+      "original_sha256": "53851d5664d234baeace7fcbe5df5a5c6ab62cf551da2fa3b61a05ed88f56480",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "src/bitboard.h",
+      "bytes": 9177,
+      "sha256": "5d273f636ebadb125b90e6b83e6d44c925e58c57e482a2e2243fa708e22ff98d",
+      "origin": "research/forge_policy_20261022/package/src/bitboard.h",
+      "original_sha256": "5d273f636ebadb125b90e6b83e6d44c925e58c57e482a2e2243fa708e22ff98d",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "src/endgame.cpp",
+      "bytes": 15371,
+      "sha256": "34ba487d91ae214e959bfe124b70d30a22c45fe2a41de43e07c73a230b7f6327",
+      "origin": "research/forge_policy_20261022/package/src/endgame.cpp",
+      "original_sha256": "34ba487d91ae214e959bfe124b70d30a22c45fe2a41de43e07c73a230b7f6327",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "src/endgame.h",
+      "bytes": 1959,
+      "sha256": "f659267b493a876f5799c58154595f79f42da5baa079423b7181871644219965",
+      "origin": "research/forge_policy_20261022/package/src/endgame.h",
+      "original_sha256": "f659267b493a876f5799c58154595f79f42da5baa079423b7181871644219965",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "src/eval.cpp",
+      "bytes": 33278,
+      "sha256": "1a19ba789b37ae90b303d4311fbaf85276fc43f9be874998953ed06a2fe9f104",
+      "origin": "research/forge_policy_20261022/package/src/eval.cpp",
+      "original_sha256": "1a19ba789b37ae90b303d4311fbaf85276fc43f9be874998953ed06a2fe9f104",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "src/eval.h",
+      "bytes": 2785,
+      "sha256": "22c0361fc8f10db8f1ef5ca987ed367b15911c67ce2176825ff4615503ab72d7",
+      "origin": "research/forge_policy_20261022/package/src/eval.h",
+      "original_sha256": "22c0361fc8f10db8f1ef5ca987ed367b15911c67ce2176825ff4615503ab72d7",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "src/eval_terms.h",
+      "bytes": 20997,
+      "sha256": "15ca3ea7eb2060511e40a541ae47b8c151e4621cf0df23a152fab205e79d0f5e",
+      "origin": "research/forge_policy_20261022/package/src/eval_terms.h",
+      "original_sha256": "15ca3ea7eb2060511e40a541ae47b8c151e4621cf0df23a152fab205e79d0f5e",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "src/forge_next_probe.cpp",
+      "bytes": 47281,
+      "sha256": "e2e403561d7ddb24e4ab9ae8a6dcb701950f0f189371595ad9fcb2c72ef0ac3e",
+      "origin": "research/forge_policy_20261022/package/src/forge_next_probe.cpp",
+      "original_sha256": "e2e403561d7ddb24e4ab9ae8a6dcb701950f0f189371595ad9fcb2c72ef0ac3e",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "src/forge_next_probe.h",
+      "bytes": 1174,
+      "sha256": "d1dd12d17856e7d2e82d1bf957e354b6ba7e797b38d7ed404a1d121c99f46fc9",
+      "origin": "research/forge_policy_20261022/package/src/forge_next_probe.h",
+      "original_sha256": "d1dd12d17856e7d2e82d1bf957e354b6ba7e797b38d7ed404a1d121c99f46fc9",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "src/history.h",
+      "bytes": 4167,
+      "sha256": "c7eb12d84528c1e7380ca7aa0d46aec95558176649c7bd6a4dd7b14fecc480b9",
+      "origin": "research/forge_policy_20261022/package/src/history.h",
+      "original_sha256": "c7eb12d84528c1e7380ca7aa0d46aec95558176649c7bd6a4dd7b14fecc480b9",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "src/main.cpp",
+      "bytes": 2694,
+      "sha256": "c34f28c3802f967050d00e44d796dbbda8e0f9fd20ae10ab979ea95b4bb353fc",
+      "origin": "research/forge_policy_20261022/package/src/main.cpp",
+      "original_sha256": "c34f28c3802f967050d00e44d796dbbda8e0f9fd20ae10ab979ea95b4bb353fc",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "src/movegen.cpp",
+      "bytes": 9234,
+      "sha256": "c28441f2f0af015f32175c27e6ac8749fb9627713bebf087298a598175247711",
+      "origin": "research/forge_policy_20261022/package/src/movegen.cpp",
+      "original_sha256": "c28441f2f0af015f32175c27e6ac8749fb9627713bebf087298a598175247711",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "src/movegen.h",
+      "bytes": 2003,
+      "sha256": "04b4df2b09ec91aa64d9c0fa647ade551be61b9189ce6ce713a43d15a97fe0b4",
+      "origin": "research/forge_policy_20261022/package/src/movegen.h",
+      "original_sha256": "04b4df2b09ec91aa64d9c0fa647ade551be61b9189ce6ce713a43d15a97fe0b4",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "src/movepick.cpp",
+      "bytes": 11333,
+      "sha256": "7216cdc0b220142be0ad611f2fbe663d9f35ddeb7bb7fdbe279ce1253b7a8754",
+      "origin": "research/forge_policy_20261022/package/src/movepick.cpp",
+      "original_sha256": "7216cdc0b220142be0ad611f2fbe663d9f35ddeb7bb7fdbe279ce1253b7a8754",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "src/movepick.h",
+      "bytes": 2531,
+      "sha256": "71ab5b25ac7e19ea652bf12881dd3ab62c1bb1e260435ba2d05290c657f3eef0",
+      "origin": "research/forge_policy_20261022/package/src/movepick.h",
+      "original_sha256": "71ab5b25ac7e19ea652bf12881dd3ab62c1bb1e260435ba2d05290c657f3eef0",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "src/pawns.cpp",
+      "bytes": 9242,
+      "sha256": "88c33760372e0da93410fc0a5f4ec88e32af451ab7b542b4fe3d750411a4b47d",
+      "origin": "research/forge_policy_20261022/package/src/pawns.cpp",
+      "original_sha256": "88c33760372e0da93410fc0a5f4ec88e32af451ab7b542b4fe3d750411a4b47d",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "src/pawns.h",
+      "bytes": 2747,
+      "sha256": "1b83218d1ac8a716243946a34139f4a46c7484c312f323fce54f9b9d1d6cc291",
+      "origin": "research/forge_policy_20261022/package/src/pawns.h",
+      "original_sha256": "1b83218d1ac8a716243946a34139f4a46c7484c312f323fce54f9b9d1d6cc291",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "src/position.cpp",
+      "bytes": 37043,
+      "sha256": "3e453281e41214a97dc166f899070cefd7ea13dd63157857c1a05bde9dbcceeb",
+      "origin": "research/forge_policy_20261022/package/src/position.cpp",
+      "original_sha256": "3e453281e41214a97dc166f899070cefd7ea13dd63157857c1a05bde9dbcceeb",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "src/position.h",
+      "bytes": 9727,
+      "sha256": "644fa3f2e7539c1c6a55caf75b674058f26830b94c669d7923e2feb34ced9ad9",
+      "origin": "research/forge_policy_20261022/package/src/position.h",
+      "original_sha256": "644fa3f2e7539c1c6a55caf75b674058f26830b94c669d7923e2feb34ced9ad9",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "src/search.cpp",
+      "bytes": 60042,
+      "sha256": "22260b35b4ef9d0986d9318a5f0d84d62780b1a3d47a04d9227aecc8330d251f",
+      "origin": "research/forge_policy_20261022/package/src/search.cpp",
+      "original_sha256": "22260b35b4ef9d0986d9318a5f0d84d62780b1a3d47a04d9227aecc8330d251f",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "src/search.h",
+      "bytes": 4020,
+      "sha256": "7275a97322e5b6f0eff5c475fb27a92435a2c94281195781fb1523d00b65d53e",
+      "origin": "research/forge_policy_20261022/package/src/search.h",
+      "original_sha256": "7275a97322e5b6f0eff5c475fb27a92435a2c94281195781fb1523d00b65d53e",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "src/syzygy/LICENSE",
+      "bytes": 1149,
+      "sha256": "e65f2f605763ecbec6463606e7493f914e016e4423a5d53634b21eabf973a88e",
+      "origin": "research/forge_policy_20261022/package/src/syzygy/LICENSE",
+      "original_sha256": "e65f2f605763ecbec6463606e7493f914e016e4423a5d53634b21eabf973a88e",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "src/syzygy/stdendian.h",
+      "bytes": 8943,
+      "sha256": "81e2e90681109eb6bc289915bb93926555c6a94791065bcdf1e0460ef644f4c4",
+      "origin": "research/forge_policy_20261022/package/src/syzygy/stdendian.h",
+      "original_sha256": "81e2e90681109eb6bc289915bb93926555c6a94791065bcdf1e0460ef644f4c4",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "src/syzygy/tbchess.cpp",
+      "bytes": 31292,
+      "sha256": "119f19fa8714686798ca7be011e5b234f99c93aec751e9492f2664757d6c029d",
+      "origin": "research/forge_policy_20261022/package/src/syzygy/tbchess.cpp",
+      "original_sha256": "119f19fa8714686798ca7be011e5b234f99c93aec751e9492f2664757d6c029d",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "src/syzygy/tbconfig.h",
+      "bytes": 5639,
+      "sha256": "e14fcd7274fd82598e380f05be05e20d54c54854eeafbc077cb89c98ea7a12ee",
+      "origin": "research/forge_policy_20261022/package/src/syzygy/tbconfig.h",
+      "original_sha256": "e14fcd7274fd82598e380f05be05e20d54c54854eeafbc077cb89c98ea7a12ee",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "src/syzygy/tbprobe.cpp",
+      "bytes": 71334,
+      "sha256": "02ab54d85694d1c6e2b0015041a1ff2aa6c3fa9af39d848b9e13e1b85a7e122a",
+      "origin": "research/forge_policy_20261022/package/src/syzygy/tbprobe.cpp",
+      "original_sha256": "02ab54d85694d1c6e2b0015041a1ff2aa6c3fa9af39d848b9e13e1b85a7e122a",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "src/syzygy/tbprobe.h",
+      "bytes": 12814,
+      "sha256": "2ae7d1cc4378ae5236961ba9e22d23871bf886e3a9d5077462b8dacb21c8503c",
+      "origin": "research/forge_policy_20261022/package/src/syzygy/tbprobe.h",
+      "original_sha256": "2ae7d1cc4378ae5236961ba9e22d23871bf886e3a9d5077462b8dacb21c8503c",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "src/tests.cpp",
+      "bytes": 18233,
+      "sha256": "9f4d1f4ae2c8640ccf5488520ca5f91ce209e3a6885e060b0434ee584a02c557",
+      "origin": "research/forge_policy_20261022/package/src/tests.cpp",
+      "original_sha256": "9f4d1f4ae2c8640ccf5488520ca5f91ce209e3a6885e060b0434ee584a02c557",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "src/timeman.cpp",
+      "bytes": 2696,
+      "sha256": "f3a5fd17f706b9c522d2e20f2336277fca35bd78bcdb245244de46fe8a80b857",
+      "origin": "research/forge_policy_20261022/package/src/timeman.cpp",
+      "original_sha256": "f3a5fd17f706b9c522d2e20f2336277fca35bd78bcdb245244de46fe8a80b857",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "src/timeman.h",
+      "bytes": 1956,
+      "sha256": "7e9b7ab8308da8b353dd9193396f260a0659cf8a6c4efda11c9c188f4f9de349",
+      "origin": "research/forge_policy_20261022/package/src/timeman.h",
+      "original_sha256": "7e9b7ab8308da8b353dd9193396f260a0659cf8a6c4efda11c9c188f4f9de349",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "src/tt.cpp",
+      "bytes": 6238,
+      "sha256": "f1f289f84398c502fc580229c56e510575fe97ec067099030ce05e8cc7d1faf0",
+      "origin": "research/forge_policy_20261022/package/src/tt.cpp",
+      "original_sha256": "f1f289f84398c502fc580229c56e510575fe97ec067099030ce05e8cc7d1faf0",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "src/tt.h",
+      "bytes": 4593,
+      "sha256": "5ef6d5c0cb3bf8fdec45e358be1fe41a29604f97e53bc244e3ec8821f47d8b4e",
+      "origin": "research/forge_policy_20261022/package/src/tt.h",
+      "original_sha256": "5ef6d5c0cb3bf8fdec45e358be1fe41a29604f97e53bc244e3ec8821f47d8b4e",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "src/types.h",
+      "bytes": 10033,
+      "sha256": "ff43d9120ace64e134cb4244e48ea22ddbca72a024cd88e78d66d237c957256b",
+      "origin": "research/forge_policy_20261022/package/src/types.h",
+      "original_sha256": "ff43d9120ace64e134cb4244e48ea22ddbca72a024cd88e78d66d237c957256b",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "src/uci.cpp",
+      "bytes": 16358,
+      "sha256": "f4e28f21d91b0a46ce21835112bbc8d06f89e290cc3148e43dcc847594346928",
+      "origin": "research/forge_policy_20261022/package/src/uci.cpp",
+      "original_sha256": "f4e28f21d91b0a46ce21835112bbc8d06f89e290cc3148e43dcc847594346928",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "src/uci.h",
+      "bytes": 1180,
+      "sha256": "d153ec69b0306ff37428666c0fcab9042a388ebe4d3a8b147df166fc5158c7e3",
+      "origin": "research/forge_policy_20261022/package/src/uci.h",
+      "original_sha256": "d153ec69b0306ff37428666c0fcab9042a388ebe4d3a8b147df166fc5158c7e3",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "tests/README.md",
+      "bytes": 1139,
+      "sha256": "219f29574e2ffe9a3aedd7cda6abb4f2206e55f5d1025a8077531133cebb2fb9",
+      "origin": "Written for this source publication by Remmy Victor"
+    },
+    {
+      "file": "tests/engine_client.py",
+      "bytes": 3561,
+      "sha256": "2c519fbc83b3f9fcb8e2c2a560806b30a3ecb65a6ae8091936151303e824893a",
+      "origin": "research/forge_policy_20261022/engine_client.py",
+      "original_sha256": "2c519fbc83b3f9fcb8e2c2a560806b30a3ecb65a6ae8091936151303e824893a",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "tests/startpos-recorded.json",
+      "bytes": 973,
+      "sha256": "8d82b95a575b8600790f5fd42ec66910aa86915a09c5b5314c88a9bfdf31551c",
+      "origin": "Written for this source publication by Remmy Victor"
+    },
+    {
+      "file": "tools/export_model.py",
+      "bytes": 1521,
+      "sha256": "f7e2255acc1650076e93e6aadb160aabe8ce8e1779e81aa58c4158b82f3725bd",
+      "origin": "research/forge_policy_20261022/package/tools/export_model.py",
+      "original_sha256": "f7e2255acc1650076e93e6aadb160aabe8ce8e1779e81aa58c4158b82f3725bd",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "tools/model.py",
+      "bytes": 3355,
+      "sha256": "fe9ce14e9a08b8946d8244537a0f48395c0f8d5db798f5822aff021b887dfa64",
+      "origin": "research/forge_policy_20261022/package/tools/model.py",
+      "original_sha256": "fe9ce14e9a08b8946d8244537a0f48395c0f8d5db798f5822aff021b887dfa64",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "training/README.md",
+      "bytes": 6297,
+      "sha256": "5f120e35ab8489a0e486f40a071b7fb53a87666ed325b8006cd033f684e50f0e",
+      "origin": "Written for this source publication by Remmy Victor"
+    },
+    {
+      "file": "training/checks.py",
+      "bytes": 14345,
+      "sha256": "ecaea968a5aa027e4aec451d37b5d80df72fad201d6d82ac2445b5c072dd3948",
+      "origin": "research/forge_placement_full_20261021/checks.py",
+      "original_sha256": "44ba604c9f9e39eb2d7567dee0f0cf5cbc138f897aa36b75a8f5570102355dd7",
+      "byte_identical_to_origin": false,
+      "adaptation": "Omit unsupported EndgameProbe option; standalone engine disables specialist endgames at startup."
+    },
+    {
+      "file": "training/common.py",
+      "bytes": 1239,
+      "sha256": "765187dfa22cc44a64ca1879af6e55af4e74bb8387e432f0e6961762c9e75214",
+      "origin": "research/forge_placement_full_20261021/common.py",
+      "original_sha256": "dc2e49c91991162db9da42e0fa070e40158240fe82b450761887c04f182200aa",
+      "byte_identical_to_origin": false,
+      "adaptation": "Local reference-module paths, explicit config/fixture/engine environment selection, portable execution guard; no numerical model/trainer change."
+    },
+    {
+      "file": "training/config.example.json",
+      "bytes": 1781,
+      "sha256": "c674378f62e18e4f682b8af7f5061c040a7b597195b5ab46b043a547ac1b6bbd",
+      "origin": "Written for this source publication by Remmy Victor"
+    },
+    {
+      "file": "training/encode.py",
+      "bytes": 6952,
+      "sha256": "6a9191a8b12443891881e20bbb5b384802a906e61bfe34b38e94666d883a2169",
+      "origin": "research/forge_placement_full_20261021/encode.py",
+      "original_sha256": "6a9191a8b12443891881e20bbb5b384802a906e61bfe34b38e94666d883a2169",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "training/full_checks.py",
+      "bytes": 5752,
+      "sha256": "2971ac1856b0141a37afb24d87c7b76befa4d7cf8e66295ba603054335762724",
+      "origin": "research/forge_placement_full_20261021/full_checks.py",
+      "original_sha256": "2971ac1856b0141a37afb24d87c7b76befa4d7cf8e66295ba603054335762724",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "training/full_train.py",
+      "bytes": 11365,
+      "sha256": "7fbd4b5866a9594f544b85223f7e63d56210adafbccbb5b0610343d90357b156",
+      "origin": "research/forge_placement_full_20261021/full_train.py",
+      "original_sha256": "7fbd4b5866a9594f544b85223f7e63d56210adafbccbb5b0610343d90357b156",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "training/network.py",
+      "bytes": 3857,
+      "sha256": "57610762363eaaaa0ec4a9f1dfc89478c6601799b7b14feb72561a818024a406",
+      "origin": "research/forge_placement_full_20261021/network.py",
+      "original_sha256": "57610762363eaaaa0ec4a9f1dfc89478c6601799b7b14feb72561a818024a406",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "training/pack.cpp",
+      "bytes": 3546,
+      "sha256": "0c63a91057dcc386aeaefa3384137f2106b67df7014df1ea3aba38657005d8a6",
+      "origin": "research/forge_placement_full_20261021/pack.cpp",
+      "original_sha256": "0c63a91057dcc386aeaefa3384137f2106b67df7014df1ea3aba38657005d8a6",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "training/reference/codec/PROVENANCE.json",
+      "bytes": 496,
+      "sha256": "9244e6a8ba75aa0543a7eedaae01502b8bef1242401f401757e65f678efff379",
+      "origin": "research/forge_learning_20261021/codec/PROVENANCE.json",
+      "original_sha256": "9244e6a8ba75aa0543a7eedaae01502b8bef1242401f401757e65f678efff379",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "training/reference/codec/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "research/forge_learning_20261021/codec/__init__.py",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "training/reference/codec/fast_raw.py",
+      "bytes": 5053,
+      "sha256": "cef9f5159e3b8923f70be7d3b23c4a303d5f1d8aed41e4483d86d52e6c62f1e5",
+      "origin": "research/forge_learning_20261021/codec/fast_raw.py",
+      "original_sha256": "cef9f5159e3b8923f70be7d3b23c4a303d5f1d8aed41e4483d86d52e6c62f1e5",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "training/reference/codec/move_strings.json",
+      "bytes": 14931,
+      "sha256": "041f17699d70c5e71fbc8fdb3016075207d795ac1b348888079e354b292fac93",
+      "origin": "research/forge_learning_20261021/codec/move_strings.json",
+      "original_sha256": "041f17699d70c5e71fbc8fdb3016075207d795ac1b348888079e354b292fac93",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "training/reference/codec/raw.py",
+      "bytes": 8522,
+      "sha256": "0c5c06d64f6b6ef13523ae16bf271f1a5f4d6f190c3a17c937a9d44bca5e42d9",
+      "origin": "research/forge_learning_20261021/codec/raw.py",
+      "original_sha256": "0c5c06d64f6b6ef13523ae16bf271f1a5f4d6f190c3a17c937a9d44bca5e42d9",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "training/reference/data.py",
+      "bytes": 7312,
+      "sha256": "84c850c2d86cf6d718abcf394833b2404c32bbdaf79823891c10e7e18030c23d",
+      "origin": "research/forge_learning_20261021/data.py",
+      "original_sha256": "84c850c2d86cf6d718abcf394833b2404c32bbdaf79823891c10e7e18030c23d",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "training/reference/engine.py",
+      "bytes": 4031,
+      "sha256": "878a309bc7d69589106817e8ec35cb5145d858f4f53fa7953fe20b544569c622",
+      "origin": "research/forge_learning_20261021/engine.py",
+      "original_sha256": "1c31730d95c4fb67e76f20ec90027a2c4feffa01b7bc96e957d32795ea0cf4c9",
+      "byte_identical_to_origin": false,
+      "adaptation": "Published model path and standalone model argument/node label; enable DebugStats for final-node telemetry."
+    },
+    {
+      "file": "training/reference/export_model.py",
+      "bytes": 1521,
+      "sha256": "f7e2255acc1650076e93e6aadb160aabe8ce8e1779e81aa58c4158b82f3725bd",
+      "origin": "research/forge_policy_20261022/package/tools/export_model.py",
+      "original_sha256": "f7e2255acc1650076e93e6aadb160aabe8ce8e1779e81aa58c4158b82f3725bd",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "training/reference/features.py",
+      "bytes": 5051,
+      "sha256": "86c27c4e37d03ff1441a94a2340c963d2caf17345bd17754f462d556c54e1708",
+      "origin": "research/forge_learning_20261021/features.py",
+      "original_sha256": "86c27c4e37d03ff1441a94a2340c963d2caf17345bd17754f462d556c54e1708",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "training/reference/model.py",
+      "bytes": 3355,
+      "sha256": "fe9ce14e9a08b8946d8244537a0f48395c0f8d5db798f5822aff021b887dfa64",
+      "origin": "research/forge_learning_20261021/model.py",
+      "original_sha256": "fe9ce14e9a08b8946d8244537a0f48395c0f8d5db798f5822aff021b887dfa64",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "training/reference/verify_worker.py",
+      "bytes": 1268,
+      "sha256": "4ed8123603f5d181bfd12452722534d0ff8362adfe82d832e40b8d84ec036080",
+      "origin": "research/forge_learning_20261021/verify_worker.py",
+      "original_sha256": "ec00135cafcce5f249d42fc985a8c40e996ccaac202f6bb5d135995d115f071b",
+      "adaptation": "Extracted fixture constants and pure scalar helpers; omitted historical job launcher.",
+      "byte_identical_to_origin": false
+    },
+    {
+      "file": "training/stream.py",
+      "bytes": 10919,
+      "sha256": "022d5e8c0c9c1068886151e4b17a1f88c770d7560ede07dd0d70b57d41d74399",
+      "origin": "research/forge_placement_full_20261021/stream.py",
+      "original_sha256": "022d5e8c0c9c1068886151e4b17a1f88c770d7560ede07dd0d70b57d41d74399",
+      "byte_identical_to_origin": true
+    },
+    {
+      "file": "training/train.py",
+      "bytes": 5581,
+      "sha256": "4fb96538447677ee0c036dc5f8c96188f064a1c48d322bf908196c4811667afb",
+      "origin": "research/forge_placement_full_20261021/train.py",
+      "original_sha256": "4fb96538447677ee0c036dc5f8c96188f064a1c48d322bf908196c4811667afb",
+      "byte_identical_to_origin": true
+    }
+  ]
+}

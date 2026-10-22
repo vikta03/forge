@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "scope": "Static publication checks only; no new hardware experiment",
+  "date": "2026-10-22",
+  "author": "Remmy Victor (@vikta03)",
+  "native_source_and_build_identity_files": 41,
+  "byte_identical_origin_files": 68,
+  "python_files_ast_checked": 20,
+  "local_markdown_links_checked": 128,
+  "shell_syntax": true,
+  "json_syntax": true,
+  "model_header_crc_sha256": true,
+  "no_native_binaries_in_source": true,
+  "no_private_home_paths_or_credential_patterns": true,
+  "no_optional_ai_author_credits": true,
+  "guide_words": 15460,
+  "source_files": 85,
+  "provenance_sha256": "5a99ba9cd461419f895f92f4d6bfa625e31d5dbcb99d19acfdad4e81a2ead4ff",
+  "runtime_verification": "Historical J38/J40 receipts only; relocated training glue not rerun",
+  "excluded_from_manifest": [
+    "SOURCE_PROVENANCE.json",
+    "PUBLICATION_CHECKS.json"
+  ]
+}

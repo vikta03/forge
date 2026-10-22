@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "binary_sha256": "b174655f1dd11e6020039cf309e39c5c5ebffdbeec68e0d0faaf70f0574f6f01",
+  "model_sha256": "afd64230524c1ecfcd8bc87f3731e23252e4853f3199c9b312170f6994ecf9bc",
+  "training_status": "budget_complete",
+  "completed_epochs": 8,
+  "presentations": 1711196816,
+  "best_at_presentations": 1711196816,
+  "best_validation_ce": 0.6469990296024009,
+  "strength_test": false,
+  "quiet_policy_ordering": false,
+  "native_positions": 13,
+  "audited_searches": 2,
+  "launcher": "[local]/forge2",
+  "archive": "[local]/forge2-full-linux-haswell.tar.gz"
+}
