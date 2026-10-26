@@ -1,0 +1,1202 @@
+[
+  {
+    "candidate": "candidate",
+    "pair": "O001",
+    "source_game": "44d0b88d98c91ff6a4052c1a",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O002",
+    "source_game": "67762f4ce3be16ccf3310f99",
+    "points": 1.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O003",
+    "source_game": "fc05498a2e70d77738b9957c",
+    "points": 1.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O004",
+    "source_game": "5d0615be9deef22d30d4782b",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O005",
+    "source_game": "c8114e0398b43f5c67aaa686",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O006",
+    "source_game": "d3148007f623075d57aa9d15",
+    "points": 0.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O007",
+    "source_game": "1a72afb682c23541394784d4",
+    "points": 2.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O008",
+    "source_game": "f1b0457dbbca84475ee528ef",
+    "points": 0.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O009",
+    "source_game": "6eb52689af025b01e2d648da",
+    "points": 1.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O010",
+    "source_game": "8150f37a417c429efcb0a5f6",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O011",
+    "source_game": "3dad2cbb5cb695e4a48b9a52",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O012",
+    "source_game": "f64854ba2a94020625e00adb",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O013",
+    "source_game": "2911a5801fb7f95f87abbb50",
+    "points": 0.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O014",
+    "source_game": "8a319999dffacb0bb82e0362",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O015",
+    "source_game": "abfcf685465f9e64f1db3627",
+    "points": 0.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O016",
+    "source_game": "334eaa676a3bbffa0ff74d5a",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O017",
+    "source_game": "bca1e50461c9d4aca36a1786",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O018",
+    "source_game": "3968217b9eae45e2c4fbd381",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O019",
+    "source_game": "0d41f43da7b957910d9893da",
+    "points": 1.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O020",
+    "source_game": "8f7b6173b864d91228adff52",
+    "points": 0.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O021",
+    "source_game": "0278eea10f636e191eef9b21",
+    "points": 0.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O022",
+    "source_game": "b48b3938c9f946ddd3721ede",
+    "points": 1.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O023",
+    "source_game": "a9288052b87e9063f1e7c1ed",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O024",
+    "source_game": "0129253d5eb2b532c3355f3a",
+    "points": 1.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O025",
+    "source_game": "7850752597554acd87cbf21d",
+    "points": 0.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O026",
+    "source_game": "320780c17bd658a954122042",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O027",
+    "source_game": "c4c7029d01b8435ea1779ef8",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O028",
+    "source_game": "fceb5e28223ec72518d0fc0f",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O029",
+    "source_game": "df0aae241f21e2141b5a6373",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O030",
+    "source_game": "306ef26fa48eb2ec1e1423f5",
+    "points": 0.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O031",
+    "source_game": "0f7916a8290eee2c472258f6",
+    "points": 1.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O032",
+    "source_game": "8076687f6659bf3a8a79d0ad",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O033",
+    "source_game": "e69130294e82f589c44e0196",
+    "points": 0.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O034",
+    "source_game": "eeb227f6c91f860cb8a1ec7b",
+    "points": 1.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O035",
+    "source_game": "b766405be979bec11860a1dc",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O036",
+    "source_game": "55d2239bba59beb5e4b60c98",
+    "points": 1.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O037",
+    "source_game": "3365e85f6eecb3a83511994b",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O038",
+    "source_game": "d96ab961b38a3a7e52628c8b",
+    "points": 1.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O039",
+    "source_game": "f089421065d314e86caef804",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O040",
+    "source_game": "e21d862f25928a80bcb0986e",
+    "points": 2.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O041",
+    "source_game": "3607413d6f21da58905be5b5",
+    "points": 1.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O042",
+    "source_game": "2f7a5bb6d486141359b4f3e4",
+    "points": 1.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O043",
+    "source_game": "24a463a01e023dc78d8671e7",
+    "points": 0.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O044",
+    "source_game": "3d6d2b6b5089e30f40f65a89",
+    "points": 0.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O045",
+    "source_game": "b1101533df914a35e5e3de66",
+    "points": 2.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O046",
+    "source_game": "6f7d4962f06086e67257f68c",
+    "points": 2.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O047",
+    "source_game": "7b3174963944c230e6355c4c",
+    "points": 0.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O048",
+    "source_game": "fb0e42d9f8dd227229c65a66",
+    "points": 0.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O049",
+    "source_game": "75b08402ec6704cb44d35f00",
+    "points": 2.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O050",
+    "source_game": "068fd2c7b166960fe77578ad",
+    "points": 0.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O051",
+    "source_game": "3a67a916cffd576154b2bf73",
+    "points": 1.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O052",
+    "source_game": "777c46cea260bd4a2e852de1",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O053",
+    "source_game": "2c98ed5f4a08857f1e5f0365",
+    "points": 1.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O054",
+    "source_game": "0d4a5eed2ad41ca43a0ba9b1",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O055",
+    "source_game": "10568bbba20bb1ef171e55ab",
+    "points": 2.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O056",
+    "source_game": "0ebc4a29bebdb91c063e5dcf",
+    "points": 0.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O057",
+    "source_game": "4f5e1e291eb2e1765dc60fff",
+    "points": 0.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O058",
+    "source_game": "f1a755a3c523bfa3215fe372",
+    "points": 2.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O059",
+    "source_game": "3fb666fa3ead95602c168ebe",
+    "points": 0.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O060",
+    "source_game": "ccf9d8afbd5ac0ad1b967763",
+    "points": 0.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O061",
+    "source_game": "84a67b9ee9c34bbaec88c916",
+    "points": 0.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O062",
+    "source_game": "ca74bfb94f0b204dfdf8edd5",
+    "points": 1.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O063",
+    "source_game": "34a040b47fa10acdd7ba14c2",
+    "points": 0.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O064",
+    "source_game": "7a300af9f3d15ceb67200977",
+    "points": 1.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O065",
+    "source_game": "a3cb09d07f5a22b116f1c706",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O066",
+    "source_game": "5c3fc3755a12743c66a0907c",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O067",
+    "source_game": "4fde321b140df23e9552e053",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O068",
+    "source_game": "3220a21f570ea082a050fe1b",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O069",
+    "source_game": "fac2d3fec1c7b7c9cd27aeae",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O070",
+    "source_game": "0fda9f84a471d2c5d07a6856",
+    "points": 0.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O071",
+    "source_game": "a226838ab935c184cda35c3e",
+    "points": 1.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O072",
+    "source_game": "f0e5baafb81e9536423fb41d",
+    "points": 0.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O073",
+    "source_game": "503ac31f6180662b5c7e5273",
+    "points": 2.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O074",
+    "source_game": "a52a0af1f99078f87e304ba1",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O075",
+    "source_game": "9698fa6a655bbef27ad800cd",
+    "points": 1.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O076",
+    "source_game": "2f1775e816c6f6a1cd280d7e",
+    "points": 1.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O077",
+    "source_game": "082d2a8c90bf3452052e7bab",
+    "points": 1.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O078",
+    "source_game": "b182e97cbc65122614a02c4a",
+    "points": 1.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O079",
+    "source_game": "f696a45705830ab993dbd515",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O080",
+    "source_game": "ceff46c81b6a4ff97cbd8814",
+    "points": 1.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O081",
+    "source_game": "2e4b65a8b4fd19c9afc21980",
+    "points": 0.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O082",
+    "source_game": "4f982c70a9f0b0fe2d8dface",
+    "points": 1.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O083",
+    "source_game": "3ee09c513b54122d54742392",
+    "points": 2.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O084",
+    "source_game": "080e5c2933fc00ed1638dd9d",
+    "points": 1.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O085",
+    "source_game": "f3ff2d51b32be467c951315f",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O086",
+    "source_game": "55b9ead3961deca5454f2cd2",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O087",
+    "source_game": "ccb22dde9ad43dfc213ce9c4",
+    "points": 1.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O088",
+    "source_game": "4191cf134bf0198fd75a8ef7",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O089",
+    "source_game": "28d18c31746e92815514cca6",
+    "points": 1.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O090",
+    "source_game": "03c1a3eccb78568188a5b6e8",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O091",
+    "source_game": "090a8c3bd1780c260d3f8a55",
+    "points": 0.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O092",
+    "source_game": "e979b944aebee50fbfa8733b",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O093",
+    "source_game": "c26ed898c9285d5a7facbc6b",
+    "points": 2.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O094",
+    "source_game": "97744bca10e172ff0834b716",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O095",
+    "source_game": "2af06a7b6733c85152728df0",
+    "points": 0.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O096",
+    "source_game": "8620ce63dd3dd36db828e2db",
+    "points": 0.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O097",
+    "source_game": "741c42e578783d6b7ef5506a",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O098",
+    "source_game": "93a7565aade54fc7c6806cee",
+    "points": 0.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O099",
+    "source_game": "de49e5fff71f0ad9bd644e56",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O100",
+    "source_game": "3b77bf420c740afa43cc16cd",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O101",
+    "source_game": "c17a8e88ab62832c1a95d5df",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O102",
+    "source_game": "86007c960b32491ba5432b65",
+    "points": 1.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O103",
+    "source_game": "b0f226adcd1891a47bc5712d",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O104",
+    "source_game": "0bcc7267b3514d4cc74f4e4c",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O105",
+    "source_game": "1779b644a40f5f0c73c4b6ef",
+    "points": 0.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O106",
+    "source_game": "da82ad9b37fe7dddd1e0f78f",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O107",
+    "source_game": "b894705232181c28b087d087",
+    "points": 1.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O108",
+    "source_game": "027ef49f485a220278a74f87",
+    "points": 1.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O109",
+    "source_game": "f514ce9ebb5f3815c1b06bdc",
+    "points": 2.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O110",
+    "source_game": "b206a0d9a24ec3f4d57a856b",
+    "points": 0.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O111",
+    "source_game": "acae36665b92948b805e5a9f",
+    "points": 0.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O112",
+    "source_game": "0ac24d69c0bc2c74186b6f68",
+    "points": 0.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O113",
+    "source_game": "b6bb49f8bb74bbe24676fd4d",
+    "points": 0.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O114",
+    "source_game": "0664af98d886fccb75e07499",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O115",
+    "source_game": "be6339fdc83faa07ccb2c872",
+    "points": 0.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O116",
+    "source_game": "897fb2709b6c8bfd4019c099",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O117",
+    "source_game": "70dce58dd1fb5ba223ead145",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O118",
+    "source_game": "838e2d56d69b327220136e0c",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O119",
+    "source_game": "49534332731e9dab854f8101",
+    "points": 0.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O120",
+    "source_game": "603bcad10ca924600b9d23aa",
+    "points": 1.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O121",
+    "source_game": "28ce129a63b8b79f79798ba4",
+    "points": 0.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O122",
+    "source_game": "a78084d7e120cf092d44806d",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O123",
+    "source_game": "f66d5e318c2a345a6a40ae0d",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O124",
+    "source_game": "2e6e00615227a81050d1c02e",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O125",
+    "source_game": "0b25f7195a2b16776e25c2d3",
+    "points": 0.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O126",
+    "source_game": "33c5412ee54ac70a1a8b5943",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O127",
+    "source_game": "9a43c849177b359f42f47990",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O128",
+    "source_game": "9e81973288717a8eeb0cfc3b",
+    "points": 1.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O129",
+    "source_game": "0669c55ef1e1164b510a8f11",
+    "points": 0.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O130",
+    "source_game": "4426d7c0f21e611b7aaa97ab",
+    "points": 1.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O131",
+    "source_game": "ec311e79c892f280e601e0b6",
+    "points": 0.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O132",
+    "source_game": "86732bbbc01d7f7592475b78",
+    "points": 0.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O133",
+    "source_game": "25f03cecfc8edab6526b1e69",
+    "points": 0.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O134",
+    "source_game": "caeda8cf0378ae36e1f5e960",
+    "points": 2.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O135",
+    "source_game": "024af55af7f4e93418eba5c0",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O136",
+    "source_game": "a76dfa6466d883c6840b6088",
+    "points": 1.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O137",
+    "source_game": "46fd8f3c4dc6b5047de5550c",
+    "points": 2.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O138",
+    "source_game": "8bfd60d0fff983b5a2c9a69a",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O139",
+    "source_game": "114f6a03de1e205fb4032dc6",
+    "points": 1.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O140",
+    "source_game": "582545f4edd7e283df66ad75",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O141",
+    "source_game": "b6d205de7b670ca137d8df82",
+    "points": 1.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O142",
+    "source_game": "b6f0a314dbc57bc81d29c58a",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O143",
+    "source_game": "d62d1fe941b7dc74b8e88058",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O144",
+    "source_game": "55144188b802f37d432c8f7c",
+    "points": 1.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O145",
+    "source_game": "4467e2f1b5ea59752aab42ff",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O146",
+    "source_game": "50845f8a40d67ef968364779",
+    "points": 1.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O147",
+    "source_game": "db129c92e4ea9eaba99055f0",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O148",
+    "source_game": "0cff1908e743237751d2692d",
+    "points": 0.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O149",
+    "source_game": "1c88ae7b836d8d2b7ca1d0f5",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O150",
+    "source_game": "e3c69559ee57af606abc6580",
+    "points": 0.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O151",
+    "source_game": "7e2895753106753319c4fce9",
+    "points": 0.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O152",
+    "source_game": "86948e9490299f4d8938629e",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O153",
+    "source_game": "d61d0570f633fa2486be2a77",
+    "points": 0.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O154",
+    "source_game": "51fbcc0e0d639263d4459fff",
+    "points": 1.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O155",
+    "source_game": "377f95f0518a011af130a7d8",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O156",
+    "source_game": "cd2af5b107841393ac6d3aea",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O157",
+    "source_game": "f471233be4194ea5b30dd6f3",
+    "points": 0.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O158",
+    "source_game": "4f2e7e9bb824d5ed601e71c9",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O159",
+    "source_game": "7cf86356a474c29c07378e9f",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O160",
+    "source_game": "93820a4746d382bfac1a6be9",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O161",
+    "source_game": "5c1a1140704c8927fc8d00ea",
+    "points": 0.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O162",
+    "source_game": "eda30e26dd8b864179cc2c32",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O163",
+    "source_game": "b63c7cb274bbf466babc4d87",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O164",
+    "source_game": "ad76e063ccd3a71a88a4425a",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O165",
+    "source_game": "65658d27c85ef8cefb614574",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O166",
+    "source_game": "6f8e2e8876e57ed90c444da9",
+    "points": 0.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O167",
+    "source_game": "41c879386bdf2e56890130c5",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O168",
+    "source_game": "c4994e37889960d04934ccf0",
+    "points": 0.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O169",
+    "source_game": "181691445ef36020e3959093",
+    "points": 2.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O170",
+    "source_game": "9cd67949f230892911ba03bb",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O171",
+    "source_game": "232d1969ed29861efbe228a7",
+    "points": 2.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O172",
+    "source_game": "bb6c48f6128ad99c9ad7a3cc",
+    "points": 0.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O173",
+    "source_game": "6ac26c1794d6a78dfe98f8a2",
+    "points": 2.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O174",
+    "source_game": "4786af2f70b161730d34df5a",
+    "points": 0.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O175",
+    "source_game": "23ea2e3c26a39d6b7bd9c1dd",
+    "points": 0.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O176",
+    "source_game": "0a9ceeb02c92aff277d5cbe0",
+    "points": 0.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O177",
+    "source_game": "b5c31e66e1964660339c0a24",
+    "points": 0.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O178",
+    "source_game": "b7811fcd8806de9d80f07fef",
+    "points": 0.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O179",
+    "source_game": "20dc4696f3611014257e1622",
+    "points": 2.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O180",
+    "source_game": "2865e503c6616e4bebfc30f0",
+    "points": 1.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O181",
+    "source_game": "e11df06441c348fdc6708156",
+    "points": 1.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O182",
+    "source_game": "215bb5382e2146618897a63b",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O183",
+    "source_game": "c0eb87182aa0060c256210b6",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O184",
+    "source_game": "3736c79d5c2c7adb58814f60",
+    "points": 0.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O185",
+    "source_game": "6082345dd5ff7fdacc767bce",
+    "points": 1.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O186",
+    "source_game": "65cd3d6d8e2bbc7a8b5c6b2c",
+    "points": 1.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O187",
+    "source_game": "ae24d1667ca37bb0f803a853",
+    "points": 0.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O188",
+    "source_game": "f8512e534e84102b92d1dd62",
+    "points": 1.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O189",
+    "source_game": "30022abe96997c933953f9ee",
+    "points": 0.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O190",
+    "source_game": "158d812b8278f7066c0dfe31",
+    "points": 1.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O191",
+    "source_game": "c55dfea3c718065920c31409",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O192",
+    "source_game": "e985a7931477b363dce9bd77",
+    "points": 1.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O193",
+    "source_game": "9f18845f3d4001365e00feff",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O194",
+    "source_game": "d9373d90178f7326d9352ba0",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O195",
+    "source_game": "bc2e7debbdf1c5388a307291",
+    "points": 1.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O196",
+    "source_game": "e6ea9196dc554a0d664b6168",
+    "points": 0.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O197",
+    "source_game": "705e62ad1c7e5950af7aca04",
+    "points": 0.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O198",
+    "source_game": "c492d20aa98301c1a5448e32",
+    "points": 0.5
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O199",
+    "source_game": "e04859f5046e31946d350187",
+    "points": 0.0
+  },
+  {
+    "candidate": "candidate",
+    "pair": "O200",
+    "source_game": "03f4f2f41aa2e4df45ff799e",
+    "points": 0.0
+  }
+]

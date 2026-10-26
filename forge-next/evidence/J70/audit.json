@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "games": 400,
+  "distinct_openings": 200,
+  "candidate_opening_pairs": 200,
+  "moves_checked": 50786,
+  "checks": [
+    "legal replay",
+    "clocks",
+    "PGN and move-log agreement",
+    "natural/claimed terminal result",
+    "names, colours, CPU and pair identity"
+  ]
+}

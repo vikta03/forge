@@ -1,0 +1,11 @@
+{
+  "job": "J76",
+  "run": "workspace/research/forge_tablebase_20261026/runs/20261025T211024Z",
+  "status": "verified research build; no strength claim",
+  "original": "workspace/engines/forge-capacity-wide192",
+  "binary_sha256": "2bae22ac0232d7b75ef2f7d22c3daa09fbb36e05b6bd7cbfe43345f2931550ee",
+  "model_sha256": "28dcdc656d2346874110e2223aff3cbf681d478bd3081f669ca8aef7736bf6d8",
+  "integration_patch": "workspace/research/forge_tablebase_20261026/INTEGRATION.patch",
+  "settings": "Original Wide192 defaults, with local Syzygy enabled by launcher",
+  "original_unchanged": true
+}

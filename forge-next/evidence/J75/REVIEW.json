@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "method": "Saved-data-only review; no new engine execution",
+  "counts": {
+    "neutral_natural_pairs": 36,
+    "legal_pv_plies": 67595,
+    "saved_searches_replayed": 369,
+    "forced_root_checks": 192,
+    "contexts": 105,
+    "original_files_hash_verified": 4
+  },
+  "truncated_traces": 0
+}

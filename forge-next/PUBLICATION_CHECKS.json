@@ -1,0 +1,70 @@
+{
+  "status": "passed",
+  "scope": "Static publication checks only; no engine build/search/match/training",
+  "exact_native_files": 298,
+  "python_syntax_files": 40,
+  "shell_syntax_files": 2,
+  "local_links_checked": 238,
+  "issues": [],
+  "broken_links": [],
+  "models": [
+    {
+      "variant": "specialists",
+      "asset": "forge-specialists.fg2",
+      "bytes": 4271904,
+      "sha256": "9430224f025568d8c20504e02775ac33c74a07fccdefd4b765c0a02ce5349512",
+      "header_and_crc": true
+    },
+    {
+      "variant": "wide160",
+      "asset": "forge-wide160.fgc",
+      "bytes": 4001184,
+      "sha256": "23e167e99d1a14cbde73d838e295cecf50e0f81d74f6639af6584de6934ae2a6",
+      "header_and_crc": true
+    },
+    {
+      "variant": "wide160-fullkey",
+      "asset": "forge-wide160.fgc",
+      "bytes": 4001184,
+      "sha256": "23e167e99d1a14cbde73d838e295cecf50e0f81d74f6639af6584de6934ae2a6",
+      "header_and_crc": true
+    },
+    {
+      "variant": "deep32",
+      "asset": "forge-deep32.fgc",
+      "bytes": 3218848,
+      "sha256": "2d931dd7673ca7f0fc6726325f7fcca9e53eabb0c08f800facf7bcfb2619c74b",
+      "header_and_crc": true
+    },
+    {
+      "variant": "wide192",
+      "asset": "forge-wide192.fgc",
+      "bytes": 4795816,
+      "sha256": "28dcdc656d2346874110e2223aff3cbf681d478bd3081f669ca8aef7736bf6d8",
+      "header_and_crc": true
+    },
+    {
+      "variant": "reader64",
+      "asset": "forge-reader64.fgc",
+      "bytes": 4795816,
+      "sha256": "07ef1112138cead6470e89773d99a7a40cc133f1800e0c1d8424016d345f1423",
+      "header_and_crc": true
+    },
+    {
+      "variant": "wide192-syzygy",
+      "asset": "forge-wide192.fgc",
+      "bytes": 4795816,
+      "sha256": "28dcdc656d2346874110e2223aff3cbf681d478bd3081f669ca8aef7736bf6d8",
+      "header_and_crc": true
+    },
+    {
+      "variant": "repetition-guard",
+      "asset": "forge-wide192.fgc",
+      "bytes": 4795816,
+      "sha256": "28dcdc656d2346874110e2223aff3cbf681d478bd3081f669ca8aef7736bf6d8",
+      "header_and_crc": true
+    }
+  ],
+  "source_files": 653,
+  "source_bytes": 117356324
+}

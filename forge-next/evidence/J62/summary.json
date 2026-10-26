@@ -1,0 +1,511 @@
+{
+  "positions": 48,
+  "usable": 48,
+  "excluded": [],
+  "arms": {
+    "control": {
+      "gui_nps": 1752022.75,
+      "wall_nps": 1738477.1403221972,
+      "depth": 20.0,
+      "seldepth": 28.5,
+      "startpos": {
+        "gui_nps": 1554180,
+        "wall_nps": 1546539.3442316207,
+        "depth": 24
+      },
+      "strata": {
+        "endgame": {
+          "gui_nps": 2034156.25,
+          "wall_nps": 2025481.5483320346,
+          "depth": 24.5
+        },
+        "forcing": {
+          "gui_nps": 1761072.75,
+          "wall_nps": 1738477.1403221972,
+          "depth": 20.25
+        },
+        "opening": {
+          "gui_nps": 1667335.0,
+          "wall_nps": 1644556.3068686773,
+          "depth": 19.0
+        },
+        "quiet": {
+          "gui_nps": 1740637.75,
+          "wall_nps": 1735114.8236723647,
+          "depth": 20.0
+        }
+      }
+    },
+    "candidate": {
+      "gui_nps": 1729453.5,
+      "wall_nps": 1711026.995024671,
+      "depth": 20.0,
+      "seldepth": 28.5,
+      "startpos": {
+        "gui_nps": 1560121,
+        "wall_nps": 1543959.5547667677,
+        "depth": 25
+      },
+      "strata": {
+        "endgame": {
+          "gui_nps": 2012531.25,
+          "wall_nps": 1996355.355840775,
+          "depth": 25.0
+        },
+        "forcing": {
+          "gui_nps": 1721099.25,
+          "wall_nps": 1702710.130763673,
+          "depth": 20.5
+        },
+        "opening": {
+          "gui_nps": 1626787.75,
+          "wall_nps": 1611709.2793838717,
+          "depth": 19.0
+        },
+        "quiet": {
+          "gui_nps": 1726521.25,
+          "wall_nps": 1719186.8190417567,
+          "depth": 20.0
+        }
+      }
+    }
+  },
+  "comparison": {
+    "median_percent": -1.6602552601533649,
+    "game_bootstrap95": [
+      -1.98588162444715,
+      -1.1635210921573658
+    ],
+    "faster": 5,
+    "slower": 43,
+    "median_depth_change": 0.0,
+    "per_position": [
+      {
+        "id": "P289",
+        "stratum": "opening",
+        "percent": -2.062633562779148
+      },
+      {
+        "id": "P297",
+        "stratum": "opening",
+        "percent": -2.077138944898327
+      },
+      {
+        "id": "P105",
+        "stratum": "opening",
+        "percent": -0.6188363848282363
+      },
+      {
+        "id": "P098",
+        "stratum": "opening",
+        "percent": -2.274468458998846
+      },
+      {
+        "id": "P041",
+        "stratum": "opening",
+        "percent": -1.6396036852243556
+      },
+      {
+        "id": "P002",
+        "stratum": "opening",
+        "percent": -1.6230535845431104
+      },
+      {
+        "id": "P306",
+        "stratum": "opening",
+        "percent": -3.0823818320104834
+      },
+      {
+        "id": "P121",
+        "stratum": "opening",
+        "percent": -0.47929121495401406
+      },
+      {
+        "id": "P226",
+        "stratum": "opening",
+        "percent": -0.49648431931530457
+      },
+      {
+        "id": "P122",
+        "stratum": "opening",
+        "percent": -0.04833944342201857
+      },
+      {
+        "id": "P201",
+        "stratum": "opening",
+        "percent": -2.227551385484261
+      },
+      {
+        "id": "P001",
+        "stratum": "opening",
+        "percent": -1.3874056785931121
+      },
+      {
+        "id": "P171",
+        "stratum": "forcing",
+        "percent": -2.338863341377939
+      },
+      {
+        "id": "P180",
+        "stratum": "forcing",
+        "percent": -3.0080458133377452
+      },
+      {
+        "id": "P299",
+        "stratum": "forcing",
+        "percent": -1.8742523082039164
+      },
+      {
+        "id": "P387",
+        "stratum": "forcing",
+        "percent": -1.3880970860594588
+      },
+      {
+        "id": "P028",
+        "stratum": "forcing",
+        "percent": -1.6923024721981927
+      },
+      {
+        "id": "P228",
+        "stratum": "forcing",
+        "percent": -0.4797249175194529
+      },
+      {
+        "id": "P107",
+        "stratum": "forcing",
+        "percent": -0.29078511232744075
+      },
+      {
+        "id": "P036",
+        "stratum": "forcing",
+        "percent": -1.98588162444715
+      },
+      {
+        "id": "P244",
+        "stratum": "forcing",
+        "percent": -2.4605994079021976
+      },
+      {
+        "id": "P243",
+        "stratum": "forcing",
+        "percent": -1.0825215434582702
+      },
+      {
+        "id": "P220",
+        "stratum": "forcing",
+        "percent": -2.055696230171933
+      },
+      {
+        "id": "P139",
+        "stratum": "forcing",
+        "percent": -1.775783934173214
+      },
+      {
+        "id": "P342",
+        "stratum": "quiet",
+        "percent": -0.6567795507155361
+      },
+      {
+        "id": "P374",
+        "stratum": "quiet",
+        "percent": 0.013831476609560411
+      },
+      {
+        "id": "P158",
+        "stratum": "quiet",
+        "percent": -1.646703620551504
+      },
+      {
+        "id": "P181",
+        "stratum": "quiet",
+        "percent": -1.0588815632125548
+      },
+      {
+        "id": "P389",
+        "stratum": "quiet",
+        "percent": 0.51949432544105
+      },
+      {
+        "id": "P246",
+        "stratum": "quiet",
+        "percent": -1.1889782216149336
+      },
+      {
+        "id": "P262",
+        "stratum": "quiet",
+        "percent": -1.2445206408564613
+      },
+      {
+        "id": "P046",
+        "stratum": "quiet",
+        "percent": -1.772672437271261
+      },
+      {
+        "id": "P053",
+        "stratum": "quiet",
+        "percent": -1.7973479122514346
+      },
+      {
+        "id": "P293",
+        "stratum": "quiet",
+        "percent": -2.793266154963947
+      },
+      {
+        "id": "P197",
+        "stratum": "quiet",
+        "percent": -2.0324047517264576
+      },
+      {
+        "id": "P165",
+        "stratum": "quiet",
+        "percent": -1.6738068997552258
+      },
+      {
+        "id": "P200",
+        "stratum": "endgame",
+        "percent": -0.6461372613737137
+      },
+      {
+        "id": "P223",
+        "stratum": "endgame",
+        "percent": -4.271324176065827
+      },
+      {
+        "id": "P175",
+        "stratum": "endgame",
+        "percent": 1.4558926210140433
+      },
+      {
+        "id": "P367",
+        "stratum": "endgame",
+        "percent": -2.2377526447507456
+      },
+      {
+        "id": "P096",
+        "stratum": "endgame",
+        "percent": 2.465950393380778
+      },
+      {
+        "id": "P199",
+        "stratum": "endgame",
+        "percent": 2.216298689991647
+      },
+      {
+        "id": "P288",
+        "stratum": "endgame",
+        "percent": -2.577335140117132
+      },
+      {
+        "id": "P039",
+        "stratum": "endgame",
+        "percent": -2.7427119301000835
+      },
+      {
+        "id": "P127",
+        "stratum": "endgame",
+        "percent": -0.03094507057610496
+      },
+      {
+        "id": "P399",
+        "stratum": "endgame",
+        "percent": -2.331759950549117
+      },
+      {
+        "id": "P311",
+        "stratum": "endgame",
+        "percent": -0.5001432594842758
+      },
+      {
+        "id": "P328",
+        "stratum": "endgame",
+        "percent": -3.025821446590038
+      }
+    ]
+  },
+  "warm": [
+    {
+      "game": "008",
+      "arms": {
+        "control": {
+          "replay_nps": 1779488.763657949,
+          "final_occupancy_permille": 939,
+          "endpoint_gui_nps": [
+            2189292,
+            2280217
+          ],
+          "endpoint_wall_nps": [
+            2191904.968692443,
+            2257479.2937195315
+          ],
+          "endpoint_depth": [
+            31,
+            29
+          ],
+          "endpoint_moves": [
+            "b7a7",
+            "e5f4"
+          ]
+        },
+        "candidate": {
+          "replay_nps": 1760173.3617092534,
+          "final_occupancy_permille": 990,
+          "endpoint_gui_nps": [
+            2112814,
+            2123399
+          ],
+          "endpoint_wall_nps": [
+            2112334.1979523962,
+            2131985.037579304
+          ],
+          "endpoint_depth": [
+            27,
+            36
+          ],
+          "endpoint_moves": [
+            "e5f5",
+            "e5f4"
+          ]
+        }
+      },
+      "replay_percent": -1.0854466936329743
+    },
+    {
+      "game": "009",
+      "arms": {
+        "control": {
+          "replay_nps": 1872978.2512773792,
+          "final_occupancy_permille": 926,
+          "endpoint_gui_nps": [
+            2360942,
+            2378567
+          ],
+          "endpoint_wall_nps": [
+            2337333.16971809,
+            2391863.030063362
+          ],
+          "endpoint_depth": [
+            37,
+            43
+          ],
+          "endpoint_moves": [
+            "e6e7",
+            "e7d6"
+          ]
+        },
+        "candidate": {
+          "replay_nps": 1833773.0961199917,
+          "final_occupancy_permille": 986,
+          "endpoint_gui_nps": [
+            2300961,
+            2311422
+          ],
+          "endpoint_wall_nps": [
+            2304122.7444455787,
+            2320610.3079114887
+          ],
+          "endpoint_depth": [
+            37,
+            43
+          ],
+          "endpoint_moves": [
+            "e6e7",
+            "e7d6"
+          ]
+        }
+      },
+      "replay_percent": -2.093198633280946
+    },
+    {
+      "game": "013",
+      "arms": {
+        "control": {
+          "replay_nps": 1786416.6287882763,
+          "final_occupancy_permille": 916,
+          "endpoint_gui_nps": [
+            1943572,
+            2134475
+          ],
+          "endpoint_wall_nps": [
+            1938257.171140031,
+            2128893.216030181
+          ],
+          "endpoint_depth": [
+            33,
+            35
+          ],
+          "endpoint_moves": [
+            "d1b1",
+            "f4e5"
+          ]
+        },
+        "candidate": {
+          "replay_nps": 1786888.7749819509,
+          "final_occupancy_permille": 979,
+          "endpoint_gui_nps": [
+            1958570,
+            2018514
+          ],
+          "endpoint_wall_nps": [
+            1957162.8171486051,
+            2017301.9562394505
+          ],
+          "endpoint_depth": [
+            34,
+            33
+          ],
+          "endpoint_moves": [
+            "d1a1",
+            "f4e5"
+          ]
+        }
+      },
+      "replay_percent": 0.026429791688342696
+    },
+    {
+      "game": "018",
+      "arms": {
+        "control": {
+          "replay_nps": 1942508.104596237,
+          "final_occupancy_permille": 905,
+          "endpoint_gui_nps": [
+            1980491,
+            3763801
+          ],
+          "endpoint_wall_nps": [
+            2036215.5071916063,
+            3766027.442891005
+          ],
+          "endpoint_depth": [
+            32,
+            35
+          ],
+          "endpoint_moves": [
+            "c8c5",
+            "c5f2"
+          ]
+        },
+        "candidate": {
+          "replay_nps": 1960670.39491598,
+          "final_occupancy_permille": 976,
+          "endpoint_gui_nps": [
+            2252844,
+            3767866
+          ],
+          "endpoint_wall_nps": [
+            2258763.5206570067,
+            3787968.0805848595
+          ],
+          "endpoint_depth": [
+            26,
+            34
+          ],
+          "endpoint_moves": [
+            "c8c5",
+            "c5f2"
+          ]
+        }
+      },
+      "replay_percent": 0.934991739636426
+    }
+  ]
+}

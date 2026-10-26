@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "reason": "Reader64 training, verified engine and 400 games versus first Wide192 complete",
+  "wall_seconds": 9941.728454145981,
+  "prior_wall_seconds": 262.7973960680247,
+  "phases": [
+    {
+      "phase": "gates",
+      "wall_seconds": 6.728124390996527,
+      "exit_code": 0
+    },
+    {
+      "phase": "candidate",
+      "wall_seconds": 8542.241366588016,
+      "exit_code": 0
+    },
+    {
+      "phase": "delivery",
+      "wall_seconds": 134.311776757997,
+      "exit_code": 0
+    },
+    {
+      "phase": "match",
+      "wall_seconds": 1257.937934962014,
+      "exit_code": 0
+    }
+  ],
+  "peak_rss_bytes": 2429956096,
+  "peak_gpu_bytes": 383778816
+}

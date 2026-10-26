@@ -1,0 +1,17 @@
+{
+  "ids": [
+    "corpus-680658-103",
+    "corpus-1494057-118",
+    "corpus-118832-86",
+    "corpus-1094218-83",
+    "corpus-717448-44",
+    "corpus-1332191-109",
+    "corpus-1708569-65",
+    "corpus-1421554-75",
+    "corpus-935521-45",
+    "corpus-327446-97",
+    "corpus-364233-225",
+    "corpus-1630699-67"
+  ],
+  "criterion": "Four largest 2s teacher disagreements without legal captures/promotions, then largest remaining disagreements; diagnostic selection, not a random error-rate sample."
+}

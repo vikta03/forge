@@ -1,0 +1,28 @@
+{
+  "model": "9430224f025568d8c20504e02775ac33c74a07fccdefd4b765c0a02ce5349512",
+  "html_sha256": "76e479afd4630bd5ae75b9129df546074e61296f0e044c2c42ee49090c8ef0b5",
+  "html_bytes": 7672078,
+  "all_binary_parameters_embedded": true,
+  "native_verification": {
+    "positions": 128,
+    "integerValues": 4480,
+    "policyLogits": 3938,
+    "errors": [],
+    "passed": true,
+    "source": "Existing J46 native-engine log; no new engine job"
+  },
+  "interaction_repair": {
+    "checks": 21,
+    "method": "Non-browser arithmetic, geometry and controller regression checks",
+    "browser_interaction": "NOT RUN: local-file browser access was denied; no alternate browser or server used",
+    "source_sha256": {
+      "interaction.js": "5cf6996c5a39a90953dc76fe837e73c204d96ea49477a9bd2c1cc549fb97bc2b",
+      "scene.js": "69df3e7a3d2d10558165356b63fdeab0a6853fc01523c719f6de65f0a91856fc",
+      "app.js": "9ea2b930d0253e08a9b44d1990c4f1675b580b5890bf76f8eae8a34891451ad1",
+      "model.js": "dd4201f9d9badca4bbbefa73ba30822db1a6169db8a8f09a5f693f9213dd6cfc",
+      "index.template.html": "21e622920a0140001e4d87804719951b10e0c989820c20f87b90987d9aa3db01",
+      "style.css": "822f041bca8208a64d8f9882e9bcc376ea297a6e586d94dd34e0e8f1800d340c",
+      "verify-interactions.cjs": "f34c5780ac5b024a9f7a9a0acd654179e4fca3f79f1c7c8b39f10cd5d3f3aa7f"
+    }
+  }
+}

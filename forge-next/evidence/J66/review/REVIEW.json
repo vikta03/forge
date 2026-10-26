@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "saved_data_only": true,
+  "new_engine_searches": 0,
+  "corpus_games": 100,
+  "historical_witnesses": 4,
+  "raw_outputs_matched": 104,
+  "q_outputs_matched": 104,
+  "forge_wire_searches": 216,
+  "probe_wire_searches": 8,
+  "new_reference_wire_searches": 84,
+  "reference_records_replayed": 116,
+  "legal_pv_plies_replayed": 156548,
+  "frozen_files_unchanged": 113,
+  "bestmove_vs_unbounded_pv_mismatches": [
+    [
+      "corpus-2097844-61",
+      "250"
+    ],
+    [
+      "corpus-1328585-62",
+      "2000"
+    ],
+    [
+      "corpus-301323-87",
+      "250"
+    ]
+  ],
+  "persistent_disagreement_ids": [
+    "corpus-1332191-109",
+    "corpus-1421554-75",
+    "corpus-1494057-118",
+    "corpus-680658-103",
+    "corpus-1094218-83",
+    "corpus-118832-86",
+    "corpus-717448-44",
+    "corpus-1708569-65",
+    "corpus-935521-45"
+  ],
+  "caveat": "Three final bestmoves differ from the latest unbounded PV start; records deliberately retain them separately. None is a >=15pp residual case or historical witness. No reference result is certified chess truth."
+}

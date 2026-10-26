@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "coverage_complete": true,
+  "native_positions": 3367,
+  "source_games": 384,
+  "reference_searches": 40,
+  "requires_case_assessment": true,
+  "training": false,
+  "engine_changes": false
+}

@@ -1,0 +1,8 @@
+{
+  "positions": 128,
+  "integerValues": 4480,
+  "policyLogits": 3938,
+  "errors": [],
+  "passed": true,
+  "source": "Existing J46 native-engine log; no new engine job"
+}

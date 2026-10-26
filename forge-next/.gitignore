@@ -1,0 +1,13 @@
+/bin/
+/models/
+/runs/
+__pycache__/
+*.pyc
+*.so
+*.o
+*.pt
+*.npz
+training/*/config.json
+visuals/explorer/atlas-data.json
+visuals/explorer/forge-anatomy.html
+visuals/vendor/three.min.js

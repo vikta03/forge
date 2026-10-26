@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "original_unchanged": true,
+  "off_identity_cases": 12,
+  "compared_roots": 20,
+  "covered_roots": 7,
+  "legal_pv_plies": 11820,
+  "independent_oracle": "python-chess Syzygy",
+  "candidate_binary_sha256": "2bae22ac0232d7b75ef2f7d22c3daa09fbb36e05b6bd7cbfe43345f2931550ee"
+}

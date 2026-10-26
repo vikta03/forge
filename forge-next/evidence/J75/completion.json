@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "exit_code": 0,
+  "reason": "policy diagnostic complete; no engine changed",
+  "wall_seconds": 58.494680181998774,
+  "prior_wall_seconds": 17.877042673000688,
+  "cumulative_wall_seconds": 76.37172381399978,
+  "peak_rss_bytes": 227368960,
+  "cpus": [
+    0,
+    2
+  ],
+  "gpu": false,
+  "training": false,
+  "games": 0,
+  "builds": 0,
+  "cumulative_builds": 1,
+  "promoted": false
+}

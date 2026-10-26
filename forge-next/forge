@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+set -euo pipefail
+root="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd -P)"
+variant="${FORGE_VARIANT:-wide192}"
+case "$variant" in
+  specialists) asset=forge-specialists.fg2 ;;
+  wide160|wide160-fullkey) asset=forge-wide160.fgc ;;
+  deep32) asset=forge-deep32.fgc ;;
+  wide192|wide192-syzygy|repetition-guard) asset=forge-wide192.fgc ;;
+  reader64) asset=forge-reader64.fgc ;;
+  *) printf 'Unknown FORGE_VARIANT: %s\n' "$variant" >&2; exit 2 ;;
+esac
+model="${FORGE_MODEL:-$root/models/$asset}"
+[[ -x "$root/bin/$variant" ]] || { printf 'Build first: %s/build.sh %s\n' "$root" "$variant" >&2; exit 1; }
+[[ -r "$model" ]] || { printf 'Missing model: %s\nRun python3 tools/fetch_model.py %s from forge-next.\n' "$model" "$variant" >&2; exit 1; }
+exec "$root/bin/$variant" --model "$model" "$@"

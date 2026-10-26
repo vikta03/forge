@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "selectedWeight": "Bucket 4 · own bishop · h4 · channel 0 → +6",
+  "boardSelection": true,
+  "laptop": {
+    "overflow": false,
+    "stage": 1027
+  },
+  "noWebglNumericalFallback": true
+}

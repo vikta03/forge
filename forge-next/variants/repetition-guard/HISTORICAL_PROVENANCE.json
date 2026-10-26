@@ -1,0 +1,18 @@
+{
+  "job": "J69/J70",
+  "architecture": "wide192",
+  "dimensions": [
+    192,
+    32,
+    4
+  ],
+  "training_run": "workspace/research/forge_capacity_training_20261025/runs/20261025T033121Z",
+  "selected_checkpoint": {
+    "epochs": 10,
+    "presentations": 2138996020
+  },
+  "binary_sha256": "21b32a7e78153044cd6dfa0fb9351ead9b79bc3c812a74ab79310f1383e53050",
+  "model_sha256": "28dcdc656d2346874110e2223aff3cbf681d478bd3081f669ca8aef7736bf6d8",
+  "search": "original Wide160 adopted J47/J48",
+  "promoted": false
+}

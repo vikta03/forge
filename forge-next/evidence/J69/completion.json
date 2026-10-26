@@ -1,0 +1,25 @@
+{
+  "status": "complete",
+  "reason": "Training, native delivery and 400 games complete",
+  "wall_seconds": 9533.534161526011,
+  "prior_wall_seconds": 110.13434578900342,
+  "phases": [
+    {
+      "phase": "candidate",
+      "wall_seconds": 8204.066775599,
+      "exit_code": 0
+    },
+    {
+      "phase": "delivery",
+      "wall_seconds": 145.20916904800106,
+      "exit_code": 0
+    },
+    {
+      "phase": "match",
+      "wall_seconds": 1183.9333925179963,
+      "exit_code": 0
+    }
+  ],
+  "peak_rss_bytes": 2541015040,
+  "peak_gpu_bytes": 383778816
+}

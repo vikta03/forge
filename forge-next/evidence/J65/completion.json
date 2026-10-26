@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "exit_code": 0,
+  "reason": "audit completed",
+  "wall_seconds": 529.3913336019905,
+  "peak_rss_bytes": 684482560,
+  "cpus": [
+    0,
+    2
+  ],
+  "gpu": false,
+  "games": 0,
+  "training": false,
+  "builds": false
+}

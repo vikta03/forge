@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "exit_code": 0,
+  "reason": "static/search comparison and PV checks passed",
+  "wall_seconds": 140.42887690000134,
+  "cumulative_wall_seconds": 140.42887915300162,
+  "peak_rss_bytes": 273154048,
+  "cpus": [
+    0,
+    2
+  ],
+  "gpu": false,
+  "games": 0,
+  "training": false
+}

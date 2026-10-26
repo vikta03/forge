@@ -1,0 +1,281 @@
+{
+  "date": "2026-10-24",
+  "reference": "FORGE Specialists J45 pass12",
+  "models": [
+    {
+      "id": "boring",
+      "name": "Boring",
+      "edition": "Local C++20 engine",
+      "kind": "handcrafted",
+      "parameters": 0,
+      "color": "#c4c1ad",
+      "short": "Chess knowledge written as evaluation terms.",
+      "labels": [
+        "Board + caches",
+        "Material / pawns / pieces",
+        "Mobility / threats / king safety",
+        "Phase blend + endgame scaling",
+        "Scalar \u2192 alpha-beta"
+      ],
+      "count_basis": "No neural network. Zero neural coefficients does not mean zero chess knowledge.",
+      "source": [
+        "external-input/engines chess/boring/src/eval.cpp",
+        "external-input/engines chess/boring/README.md"
+      ],
+      "relative_to_specialists": 0
+    },
+    {
+      "id": "mychess",
+      "name": "MyChess2",
+      "edition": "Published 106-input model",
+      "kind": "mlp",
+      "parameters": 17923,
+      "color": "#dec37a",
+      "short": "Named chess concepts feed a small, dense neural net.",
+      "labels": [
+        "106 chess features",
+        "128 ReLU units",
+        "32 ReLU units",
+        "3 W/D/L logits",
+        "Scalar \u2192 alpha-beta"
+      ],
+      "count_basis": "All weights and biases read from the frozen baseline.nnf header; FP32. Active 130-input research variants are separate.",
+      "source": [
+        "external-input/baseline.nnf",
+        "external-input/nn.cpp"
+      ],
+      "relative_to_specialists": 0.00557529116066096
+    },
+    {
+      "id": "netb",
+      "name": "FORGE netB",
+      "edition": "netB-best \u00b7 v1.0.0",
+      "kind": "netb",
+      "parameters": 620609,
+      "color": "#e9aa72",
+      "short": "Learned concept tables meet a small placement memory.",
+      "labels": [
+        "101 concepts \u00b7 129 bins",
+        "32 \u00d7 768 \u00d7 16 placement",
+        "8 + 8 latent channels",
+        "40 \u2192 16 mixer \u00b7 8 routes",
+        "Advantage + decisiveness"
+      ],
+      "count_basis": "Training-definition count from the saved netB config. Shared tables are folded at export; deployed file is 730,614 bytes.",
+      "source": [
+        "releases/forge/evidence/training/netB-config.json",
+        "releases/forge/experiments/forge/section_lattice_model.py",
+        "releases/forge/README.md"
+      ],
+      "relative_to_specialists": 0.19305227204857656
+    },
+    {
+      "id": "placement",
+      "name": "FORGE 2",
+      "edition": "8-pass placement model",
+      "kind": "placement",
+      "parameters": 3181504,
+      "color": "#73d3c4",
+      "short": "Most knowledge lives in a large shared lookup table.",
+      "labels": [
+        "32 \u00d7 768 \u00d7 128 shared table",
+        "2 \u00d7 128 accumulated channels",
+        "328 inputs \u00b7 64 are zero",
+        "One 32-unit head",
+        "2 value logits + 16 policy query"
+      ],
+      "count_basis": "Declared placement/head/policy tensors. Excludes 1,057,152 dormant relation slots; includes reserved-zero and unused piece-code slots.",
+      "source": [
+        "releases/forge/forge2/tools/model.py",
+        "releases/forge/forge2/models/placement.fg2.json"
+      ],
+      "relative_to_specialists": 0.9896675293649214
+    },
+    {
+      "id": "specialists",
+      "name": "FORGE Specialists",
+      "edition": "Your reference \u00b7 J45 pass 12",
+      "kind": "specialists",
+      "parameters": 3214720,
+      "color": "#e9aa72",
+      "short": "One shared placement memory. Four small specialists.",
+      "labels": [
+        "Same 32 \u00d7 768 \u00d7 128 table",
+        "Same 2 \u00d7 128 accumulators",
+        "Piece-count selector",
+        "Four 32-unit heads \u00b7 one used",
+        "Shared quiet-move embeddings"
+      ],
+      "count_basis": "Declared placement/head/policy tensors. Excludes 1,057,152 dormant relation slots; includes zero-input slots. Four heads are stored, one selected.",
+      "source": [
+        "research/forge_specialist_explorer_20261023/v2/ACCURACY.md",
+        "research/forge_specialist_explorer_20261023/v2/reference/forge_next_probe.cpp"
+      ],
+      "relative_to_specialists": 1.0
+    },
+    {
+      "id": "wide160",
+      "name": "FORGE Wide160",
+      "edition": "Daily driver \u00b7 J56 \u00b7 160 channels",
+      "kind": "wide160",
+      "parameters": 4001152,
+      "color": "#93d7b6",
+      "short": "More learned information enters the same small reader.",
+      "labels": [
+        "32 \u00d7 768 \u00d7 160 shared memory",
+        "2 \u00d7 160 accumulated channels",
+        "320 placement + 8 state \u00b7 no zero block",
+        "Four 328 \u2192 32 heads \u00b7 one selected",
+        "Two value logits + 16-channel quiet-policy query"
+      ],
+      "count_basis": "4,001,152 declared coefficient slots; native int8 model 4,001,184 bytes including 32-byte header. No dormant relation tensor. Includes unused piece-code slots.",
+      "relative_to_specialists": 1.2446346804698387,
+      "source": [
+        "research/forge_capacity_overnight_20261024/network.py",
+        "research/forge_capacity_overnight_20261024/runs/20261024T022230Z/RESULTS.md",
+        "research/forge_capacity_nps_20261024/runs/20261024T065717Z/export.json",
+        "engines/forge-wide160/src/forge_next_probe.cpp",
+        "engines/forge-wide160/PROVENANCE.json"
+      ]
+    },
+    {
+      "id": "deep32",
+      "name": "FORGE Deep32",
+      "edition": "J57 \u00b7 two nonlinear reader stages",
+      "kind": "deep32",
+      "parameters": 3218816,
+      "color": "#c3a1e8",
+      "short": "The same compact summary is interpreted twice.",
+      "labels": [
+        "32 \u00d7 768 \u00d7 128 shared memory",
+        "256 placement + 64 zero + 8 state",
+        "Four 328 \u2192 32 \u2192 32 heads",
+        "Second clipped nonlinear layer",
+        "Value and query read the second layer"
+      ],
+      "count_basis": "3,218,816 declared coefficient slots; native int8 model 3,218,848 bytes including 32-byte header. Includes zero-input weights and unused piece-code slots. Runtime skips known-zero inputs.",
+      "relative_to_specialists": 1.0012741389607804,
+      "source": [
+        "research/forge_capacity_overnight_20261024/network.py",
+        "research/forge_capacity_overnight_20261024/runs/20261024T022230Z/RESULTS.md",
+        "research/forge_capacity_nps_20261024/runs/20261024T065717Z/export.json",
+        "engines/forge-deep32/src/forge_next_probe.cpp",
+        "engines/forge-deep32/PROVENANCE.json"
+      ]
+    },
+    {
+      "id": "vega",
+      "name": "Vega NNUE",
+      "edition": "Local nnue_contract.nnue",
+      "kind": "vega",
+      "parameters": 6637624,
+      "color": "#7caee5",
+      "short": "A wider accumulator, eight branches and a learned PSQT bypass.",
+      "labels": [
+        "32 \u00d7 768 \u00d7 256 memory",
+        "2 \u00d7 256 + 32 globals",
+        "Eight piece-count branches",
+        "544 \u2192 32 \u2192 32 \u2192 3",
+        "Learned PSQT bypass"
+      ],
+      "count_basis": "Folded runtime weights and biases. Excludes training-only factorization and auxiliary heads; includes PSQT. Header checked directly.",
+      "source": [
+        "external-input/nnue_contract.nnue",
+        "external-input/nnue.h",
+        "external-input/nnue.cpp"
+      ],
+      "relative_to_specialists": 2.064759605813259
+    },
+    {
+      "id": "vegam",
+      "name": "VEGAM",
+      "edition": "TF3-Q \u00b7 epoch 3",
+      "kind": "transformer",
+      "parameters": 9800012,
+      "color": "#b7a0eb",
+      "short": "Every square exchanges information through eight transformer blocks.",
+      "labels": [
+        "64 squares \u00d7 120 history channels",
+        "64 \u00d7 384 token state",
+        "8 blocks \u00b7 12 attention heads",
+        "576-wide feed-forward layers",
+        "Position WDL + policy / action WDL"
+      ],
+      "count_basis": "Complete checkpoint parameter count, independently recomputed from Config and Net. Includes outcome/duration heads disabled in default search.",
+      "source": [
+        "releases/vegam/nextchess/model.py",
+        "releases/vegam/provenance/training-model.json",
+        "releases/vegam/docs/ARCHITECTURE.md"
+      ],
+      "relative_to_specialists": 3.0484807386024286
+    },
+    {
+      "id": "berserk",
+      "name": "Berserk",
+      "edition": "main source \u00b7 checked 23 Oct 2026",
+      "kind": "berserk",
+      "parameters": 12617297,
+      "color": "#a8c970",
+      "short": "Sparse king-conditioned memory feeds a narrow three-stage head.",
+      "labels": [
+        "16 \u00d7 768 feature rows",
+        "2 \u00d7 1,024 accumulators",
+        "2,048 \u2192 16",
+        "16 \u2192 32 \u2192 1",
+        "Scalar \u2192 alpha-beta"
+      ],
+      "count_basis": "Declared inference weights and biases in types.h and nn/evaluate.c, no alignment padding. Source supersedes the older 512-wide README.",
+      "source": [
+        "https://raw.githubusercontent.com/jhonnold/berserk/main/src/types.h",
+        "https://raw.githubusercontent.com/jhonnold/berserk/main/src/nn/evaluate.c"
+      ],
+      "relative_to_specialists": 3.9248509979096156
+    },
+    {
+      "id": "stockfish",
+      "name": "Stockfish 19",
+      "edition": "SFNNv16 \u00b7 release tag sf_19",
+      "kind": "stockfish",
+      "parameters": 89957768,
+      "color": "#d5b7e9",
+      "short": "Three sparse feature banks, incremental sums, eight nonlinear branches.",
+      "labels": [
+        "22,528 piece-square features",
+        "59,808 threats + 4,560 pawn pairs",
+        "2 \u00d7 1,024 \u2192 1,024 products",
+        "Eight branches \u00b7 32 / 32 units",
+        "Dual activations + skip / PSQT"
+      ],
+      "count_basis": "Logical deployed coefficient slots derived from sf_19 arrays: 86,896 \u00d7 (1,024+8) + 1,024 + 8 \u00d7 35,009. Excludes SIMD padding; not file bytes.",
+      "source": [
+        "https://raw.githubusercontent.com/official-stockfish/Stockfish/sf_19/src/nnue/nnue_architecture.h",
+        "https://raw.githubusercontent.com/official-stockfish/Stockfish/sf_19/src/nnue/nnue_feature_transformer.h",
+        "https://raw.githubusercontent.com/official-stockfish/Stockfish/sf_19/src/nnue/features/half_ka_v2_hm.h",
+        "https://raw.githubusercontent.com/official-stockfish/Stockfish/sf_19/src/nnue/features/full_threats.h",
+        "https://raw.githubusercontent.com/official-stockfish/Stockfish/sf_19/src/nnue/features/pp_3wide.h"
+      ],
+      "relative_to_specialists": 27.983080330479794
+    },
+    {
+      "id": "lc0",
+      "name": "Lc0 \u00b7 BT4",
+      "edition": "Documented transformer reference",
+      "kind": "lc0",
+      "parameters": 191300000,
+      "color": "#e5a3b2",
+      "short": "A much deeper, wider square transformer with Smolgen relations.",
+      "labels": [
+        "64 square tokens + history",
+        "1,024-wide token state",
+        "15 blocks \u00b7 32 attention heads",
+        "1,536-wide FFN + Smolgen",
+        "Policy + value + moves left"
+      ],
+      "count_basis": "Authors\u2019 rounded 191.3M full-model total. This plate is BT4, not an unidentified local Lc0 net or a claim about the latest strongest net.",
+      "source": [
+        "https://lczero.org/blog/2024/02/transformer-progress/"
+      ],
+      "relative_to_specialists": 59.507515429026476
+    }
+  ]
+}

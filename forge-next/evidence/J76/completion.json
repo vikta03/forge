@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "exit_code": 0,
+  "reason": "build and tablebase comparison passed",
+  "wall_seconds": 57.47917045499889,
+  "cumulative_wall_seconds": 185.16838865899808,
+  "peak_rss_bytes": 373227520,
+  "cpus": [
+    0,
+    2
+  ],
+  "gpu": false,
+  "games": 0,
+  "training": false
+}

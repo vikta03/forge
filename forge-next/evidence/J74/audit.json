@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "identical_initialization": true,
+  "control_objective_exact": true,
+  "control_update_tolerance": 1e-05,
+  "shared_batch_digest": "c6eac7c428bfd9b82b1026aec2177548b9c821e4245e435237de6321ff10b217",
+  "presentations_per_arm": 67108864,
+  "searches": 48,
+  "original_binary_sha256": "a9e6cc0036f0a2a82eda5b61fabb9337bafbe4b9fe351d161518c2e01de09da6",
+  "original_model_sha256": "23e167e99d1a14cbde73d838e295cecf50e0f81d74f6639af6584de6934ae2a6",
+  "promoted": false
+}

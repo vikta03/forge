@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "roots": 20,
+  "replayed_pv_plies": 37867,
+  "stockfish_output_lines_with_zero_tbhits": 2283,
+  "search_records_where_displayed_score_pv_differs_from_bestmove": 3
+}

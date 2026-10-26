@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "exit_code": 0,
+  "reason": "all comparisons, continuations and report completed",
+  "wall_seconds": 4333.831326067011,
+  "prior_wall_seconds": 2.1901254540134687,
+  "peak_rss_bytes": 996179968,
+  "cpus": [
+    0,
+    2
+  ],
+  "gpu": false,
+  "training": false,
+  "builds": false
+}

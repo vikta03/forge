@@ -1,0 +1,307 @@
+[
+  {
+    "test": "pinned_ep_third_occurrence",
+    "passed": true,
+    "detail": "draw=true"
+  },
+  {
+    "test": "pinned_ep_later_repeat",
+    "passed": true,
+    "detail": "third/fourth occurrence"
+  },
+  {
+    "test": "legal_ep_right_distinguishes_position",
+    "passed": true,
+    "detail": "draw=false"
+  },
+  {
+    "test": "legal_ep_later_repeat",
+    "passed": true,
+    "detail": "third/fourth occurrence"
+  },
+  {
+    "test": "dead_KK",
+    "passed": true,
+    "detail": "rules classification"
+  },
+  {
+    "test": "dead_KBK",
+    "passed": true,
+    "detail": "rules classification"
+  },
+  {
+    "test": "dead_KNK",
+    "passed": true,
+    "detail": "rules classification"
+  },
+  {
+    "test": "dead_same_colour_bishops",
+    "passed": true,
+    "detail": "rules classification"
+  },
+  {
+    "test": "not_dead_opposite_bishops",
+    "passed": true,
+    "detail": "rules classification"
+  },
+  {
+    "test": "not_dead_two_knights",
+    "passed": true,
+    "detail": "rules classification"
+  },
+  {
+    "test": "not_dead_bishop_knight",
+    "passed": true,
+    "detail": "rules classification"
+  },
+  {
+    "test": "not_dead_pawn",
+    "passed": true,
+    "detail": "rules classification"
+  },
+  {
+    "test": "null_make_unmake_state",
+    "passed": true,
+    "detail": "includes EP and repetition identity"
+  },
+  {
+    "test": "game_clock_remains_managed",
+    "passed": true,
+    "detail": "ordinary clock"
+  },
+  {
+    "test": "movetime_has_no_soft_stop",
+    "passed": true,
+    "detail": "optimum=0 maximum=290"
+  },
+  {
+    "test": "explicit_limit_ignores_soft_clock_0",
+    "passed": true,
+    "detail": "explicit bound with supplied clocks"
+  },
+  {
+    "test": "explicit_limit_ignores_soft_clock_1",
+    "passed": true,
+    "detail": "explicit bound with supplied clocks"
+  },
+  {
+    "test": "explicit_limit_ignores_soft_clock_2",
+    "passed": true,
+    "detail": "explicit bound with supplied clocks"
+  },
+  {
+    "test": "explicit_limit_ignores_soft_clock_3",
+    "passed": true,
+    "detail": "explicit bound with supplied clocks"
+  },
+  {
+    "test": "stopped_qsearch_leaves_cache_untouched",
+    "passed": true,
+    "detail": "value=0 depth=-6"
+  },
+  {
+    "test": "ep_delta_default_see",
+    "passed": true,
+    "detail": "value=100 nodes=1"
+  },
+  {
+    "test": "ep_delta_real_see",
+    "passed": true,
+    "detail": "value=100 nodes=1"
+  },
+  {
+    "test": "dead_position_beats_neural_stand_pat",
+    "passed": true,
+    "detail": "seeded static evaluation 123; actual result=0"
+  },
+  {
+    "test": "losing_mate_window_not_reverse_futility",
+    "passed": true,
+    "detail": "nodes=1; tests safeguard, not complete mate proof"
+  },
+  {
+    "test": "extended_depth_does_not_wrap_tt",
+    "passed": true,
+    "detail": "stored_depth=245"
+  },
+  {
+    "test": "tt_decision_survives_slot_replacement",
+    "passed": true,
+    "detail": "singular=1 doubles=1 moves=1 leaks=0"
+  },
+  {
+    "test": "extension_budget_does_not_leak_to_siblings",
+    "passed": true,
+    "detail": "singular=1 doubles=1 moves=2 leaks=0"
+  },
+  {
+    "test": "stopped_null_child_is_not_a_result",
+    "passed": true,
+    "detail": "returned=0"
+  },
+  {
+    "test": "stopped_probcut_does_not_store_bound",
+    "passed": true,
+    "detail": "returned=0 stored=32002"
+  },
+  {
+    "test": "terminal_q_0",
+    "passed": true,
+    "detail": "stalemate, seeded raw=200, result=0"
+  },
+  {
+    "test": "terminal_q_1",
+    "passed": true,
+    "detail": "stalemate, seeded raw=-200, result=0"
+  },
+  {
+    "test": "terminal_q_2",
+    "passed": true,
+    "detail": "stalemate, seeded raw=200, result=0"
+  },
+  {
+    "test": "terminal_main_0",
+    "passed": true,
+    "detail": "stalemate, seeded raw=200, result=0"
+  },
+  {
+    "test": "terminal_main_1",
+    "passed": true,
+    "detail": "stalemate, seeded raw=-200, result=0"
+  },
+  {
+    "test": "terminal_main_2",
+    "passed": true,
+    "detail": "stalemate, seeded raw=200, result=0"
+  },
+  {
+    "test": "terminal_q_stack_limit",
+    "passed": true,
+    "detail": "terminal result precedes evaluator stack fallback: 0"
+  },
+  {
+    "test": "terminal_main_stack_limit",
+    "passed": true,
+    "detail": "terminal result precedes evaluator stack fallback: 0"
+  },
+  {
+    "test": "terminal_checkmate_not_stalemate",
+    "passed": true,
+    "detail": "mate score=-31999"
+  },
+  {
+    "test": "terminal_legal_king_escape_control",
+    "passed": true,
+    "detail": "Kg8 exists, stand-pat remains valid: 200"
+  },
+  {
+    "test": "repetition_q_off",
+    "passed": true,
+    "detail": "known quiet third repetition; control=-120"
+  },
+  {
+    "test": "repetition_q_no_tt_write",
+    "passed": true,
+    "detail": "history-dependent early cutoff leaves seeded TT untouched"
+  },
+  {
+    "test": "repetition_q_on",
+    "passed": true,
+    "detail": "known quiet third repetition; control=0"
+  },
+  {
+    "test": "repetition_main_off",
+    "passed": true,
+    "detail": "known quiet third repetition; control=-120"
+  },
+  {
+    "test": "repetition_main_no_tt_write",
+    "passed": true,
+    "detail": "history-dependent early cutoff leaves seeded TT untouched"
+  },
+  {
+    "test": "repetition_main_on",
+    "passed": true,
+    "detail": "known quiet third repetition; control=0"
+  },
+  {
+    "test": "repetition_q_positive_beta",
+    "passed": true,
+    "detail": "a draw does not close a positive window"
+  },
+  {
+    "test": "repetition_main_positive_beta",
+    "passed": true,
+    "detail": "a draw does not close a positive window"
+  },
+  {
+    "test": "repetition_excluded_move_no_shortcut",
+    "passed": true,
+    "detail": "exclude the available repetition"
+  },
+  {
+    "test": "repetition_stop_precedes_guard",
+    "passed": true,
+    "detail": "stop remains first"
+  },
+  {
+    "test": "repetition_twofold_root_boundary",
+    "passed": true,
+    "detail": "twofold at root is not a claim; wholly inside search is a cycle"
+  },
+  {
+    "test": "repetition_pv_not_declared_draw",
+    "passed": true,
+    "detail": "PV search has not been replaced by a draw label"
+  },
+  {
+    "test": "terminal_q_0",
+    "passed": true,
+    "detail": "stalemate, seeded raw=200, result=0"
+  },
+  {
+    "test": "terminal_q_1",
+    "passed": true,
+    "detail": "stalemate, seeded raw=-200, result=0"
+  },
+  {
+    "test": "terminal_q_2",
+    "passed": true,
+    "detail": "stalemate, seeded raw=200, result=0"
+  },
+  {
+    "test": "terminal_main_0",
+    "passed": true,
+    "detail": "stalemate, seeded raw=200, result=0"
+  },
+  {
+    "test": "terminal_main_1",
+    "passed": true,
+    "detail": "stalemate, seeded raw=-200, result=0"
+  },
+  {
+    "test": "terminal_main_2",
+    "passed": true,
+    "detail": "stalemate, seeded raw=200, result=0"
+  },
+  {
+    "test": "terminal_q_stack_limit",
+    "passed": true,
+    "detail": "terminal result precedes evaluator stack fallback: 0"
+  },
+  {
+    "test": "terminal_main_stack_limit",
+    "passed": true,
+    "detail": "terminal result precedes evaluator stack fallback: 0"
+  },
+  {
+    "test": "terminal_checkmate_not_stalemate",
+    "passed": true,
+    "detail": "mate score=-31999"
+  },
+  {
+    "test": "terminal_legal_king_escape_control",
+    "passed": true,
+    "detail": "Kg8 exists, stand-pat remains valid: 200"
+  }
+]

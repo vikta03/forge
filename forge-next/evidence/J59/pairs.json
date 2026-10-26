@@ -1,0 +1,602 @@
+[
+  {
+    "candidate": "wide160",
+    "pair": "O007",
+    "source_game": "eeb227f6c91f860cb8a1ec7b",
+    "points": 2.0
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O007",
+    "source_game": "eeb227f6c91f860cb8a1ec7b",
+    "points": 0.5
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O004",
+    "source_game": "d2333f9f09acb6df4bd30de6",
+    "points": 0.5
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O004",
+    "source_game": "d2333f9f09acb6df4bd30de6",
+    "points": 0.5
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O097",
+    "source_game": "18936989c496e6c33fb2eb55",
+    "points": 0.5
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O097",
+    "source_game": "18936989c496e6c33fb2eb55",
+    "points": 1.0
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O029",
+    "source_game": "a76dfa6466d883c6840b6088",
+    "points": 1.5
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O029",
+    "source_game": "a76dfa6466d883c6840b6088",
+    "points": 0.5
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O090",
+    "source_game": "eaa1aa3b6898ae80647f3ef1",
+    "points": 0.0
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O090",
+    "source_game": "eaa1aa3b6898ae80647f3ef1",
+    "points": 0.5
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O059",
+    "source_game": "8150f37a417c429efcb0a5f6",
+    "points": 0.5
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O059",
+    "source_game": "8150f37a417c429efcb0a5f6",
+    "points": 1.0
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O034",
+    "source_game": "0278eea10f636e191eef9b21",
+    "points": 2.0
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O034",
+    "source_game": "0278eea10f636e191eef9b21",
+    "points": 1.0
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O009",
+    "source_game": "cd2af5b107841393ac6d3aea",
+    "points": 2.0
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O009",
+    "source_game": "cd2af5b107841393ac6d3aea",
+    "points": 1.0
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O091",
+    "source_game": "9a43c849177b359f42f47990",
+    "points": 1.5
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O091",
+    "source_game": "9a43c849177b359f42f47990",
+    "points": 1.0
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O063",
+    "source_game": "b766405be979bec11860a1dc",
+    "points": 1.0
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O063",
+    "source_game": "b766405be979bec11860a1dc",
+    "points": 1.0
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O100",
+    "source_game": "0e379144886c9c27aaf5f61f",
+    "points": 1.0
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O100",
+    "source_game": "0e379144886c9c27aaf5f61f",
+    "points": 1.0
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O093",
+    "source_game": "503ac31f6180662b5c7e5273",
+    "points": 1.0
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O093",
+    "source_game": "503ac31f6180662b5c7e5273",
+    "points": 1.5
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O058",
+    "source_game": "e11df06441c348fdc6708156",
+    "points": 1.0
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O058",
+    "source_game": "e11df06441c348fdc6708156",
+    "points": 0.0
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O049",
+    "source_game": "4426d7c0f21e611b7aaa97ab",
+    "points": 2.0
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O049",
+    "source_game": "4426d7c0f21e611b7aaa97ab",
+    "points": 1.0
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O061",
+    "source_game": "93a7565aade54fc7c6806cee",
+    "points": 1.5
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O061",
+    "source_game": "93a7565aade54fc7c6806cee",
+    "points": 1.0
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O081",
+    "source_game": "9ec998f0ce4a1629d3a08074",
+    "points": 1.0
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O081",
+    "source_game": "9ec998f0ce4a1629d3a08074",
+    "points": 1.0
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O047",
+    "source_game": "d61d0570f633fa2486be2a77",
+    "points": 0.0
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O047",
+    "source_game": "d61d0570f633fa2486be2a77",
+    "points": 0.5
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O074",
+    "source_game": "3dad2cbb5cb695e4a48b9a52",
+    "points": 1.0
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O074",
+    "source_game": "3dad2cbb5cb695e4a48b9a52",
+    "points": 1.0
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O032",
+    "source_game": "4fde321b140df23e9552e053",
+    "points": 0.5
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O032",
+    "source_game": "4fde321b140df23e9552e053",
+    "points": 1.0
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O027",
+    "source_game": "f64854ba2a94020625e00adb",
+    "points": 1.5
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O027",
+    "source_game": "f64854ba2a94020625e00adb",
+    "points": 0.5
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O008",
+    "source_game": "3968217b9eae45e2c4fbd381",
+    "points": 0.0
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O008",
+    "source_game": "3968217b9eae45e2c4fbd381",
+    "points": 1.0
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O044",
+    "source_game": "a097dba620a96c786a71106b",
+    "points": 0.5
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O044",
+    "source_game": "a097dba620a96c786a71106b",
+    "points": 1.0
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O033",
+    "source_game": "232d1969ed29861efbe228a7",
+    "points": 0.5
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O033",
+    "source_game": "232d1969ed29861efbe228a7",
+    "points": 1.5
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O060",
+    "source_game": "bb6c48f6128ad99c9ad7a3cc",
+    "points": 1.5
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O060",
+    "source_game": "bb6c48f6128ad99c9ad7a3cc",
+    "points": 1.0
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O083",
+    "source_game": "55144188b802f37d432c8f7c",
+    "points": 1.5
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O083",
+    "source_game": "55144188b802f37d432c8f7c",
+    "points": 1.0
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O045",
+    "source_game": "ac38e15f3e6f0c57be3f4145",
+    "points": 0.5
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O045",
+    "source_game": "ac38e15f3e6f0c57be3f4145",
+    "points": 0.5
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O079",
+    "source_game": "24a463a01e023dc78d8671e7",
+    "points": 1.0
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O079",
+    "source_game": "24a463a01e023dc78d8671e7",
+    "points": 1.0
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O024",
+    "source_game": "6f8e2e8876e57ed90c444da9",
+    "points": 1.0
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O024",
+    "source_game": "6f8e2e8876e57ed90c444da9",
+    "points": 0.5
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O036",
+    "source_game": "11534446d431f89bc9a3ed15",
+    "points": 0.0
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O036",
+    "source_game": "11534446d431f89bc9a3ed15",
+    "points": 0.0
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O014",
+    "source_game": "d3148007f623075d57aa9d15",
+    "points": 1.0
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O014",
+    "source_game": "d3148007f623075d57aa9d15",
+    "points": 1.5
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O035",
+    "source_game": "be6339fdc83faa07ccb2c872",
+    "points": 1.0
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O035",
+    "source_game": "be6339fdc83faa07ccb2c872",
+    "points": 1.5
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O023",
+    "source_game": "d42740a220f126f0ba8e99e1",
+    "points": 1.0
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O023",
+    "source_game": "d42740a220f126f0ba8e99e1",
+    "points": 1.0
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O012",
+    "source_game": "f1b0457dbbca84475ee528ef",
+    "points": 1.5
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O012",
+    "source_game": "f1b0457dbbca84475ee528ef",
+    "points": 1.0
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O095",
+    "source_game": "eaec974ab6cef63208a1ae94",
+    "points": 1.0
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O095",
+    "source_game": "eaec974ab6cef63208a1ae94",
+    "points": 0.0
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O025",
+    "source_game": "23ea2e3c26a39d6b7bd9c1dd",
+    "points": 0.0
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O025",
+    "source_game": "23ea2e3c26a39d6b7bd9c1dd",
+    "points": 1.0
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O072",
+    "source_game": "de16d7d43fecf2e07d7f052f",
+    "points": 2.0
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O072",
+    "source_game": "de16d7d43fecf2e07d7f052f",
+    "points": 1.5
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O066",
+    "source_game": "2c98ed5f4a08857f1e5f0365",
+    "points": 1.0
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O066",
+    "source_game": "2c98ed5f4a08857f1e5f0365",
+    "points": 1.0
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O041",
+    "source_game": "0f7916a8290eee2c472258f6",
+    "points": 1.5
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O041",
+    "source_game": "0f7916a8290eee2c472258f6",
+    "points": 0.5
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O078",
+    "source_game": "5a99f00416dfe99627baa4dc",
+    "points": 0.5
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O078",
+    "source_game": "5a99f00416dfe99627baa4dc",
+    "points": 1.0
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O075",
+    "source_game": "e3c69559ee57af606abc6580",
+    "points": 0.5
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O075",
+    "source_game": "e3c69559ee57af606abc6580",
+    "points": 1.0
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O092",
+    "source_game": "eb68f025cbcff8fb46f0f950",
+    "points": 1.0
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O092",
+    "source_game": "eb68f025cbcff8fb46f0f950",
+    "points": 1.0
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O065",
+    "source_game": "abfcf685465f9e64f1db3627",
+    "points": 1.0
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O065",
+    "source_game": "abfcf685465f9e64f1db3627",
+    "points": 1.0
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O069",
+    "source_game": "65658d27c85ef8cefb614574",
+    "points": 1.5
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O069",
+    "source_game": "65658d27c85ef8cefb614574",
+    "points": 0.0
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O037",
+    "source_game": "1779b644a40f5f0c73c4b6ef",
+    "points": 1.5
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O037",
+    "source_game": "1779b644a40f5f0c73c4b6ef",
+    "points": 0.5
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O084",
+    "source_game": "e738d652677f85d48a9b9785",
+    "points": 2.0
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O084",
+    "source_game": "e738d652677f85d48a9b9785",
+    "points": 0.0
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O002",
+    "source_game": "c043ce16f9011dd479e0e4fc",
+    "points": 1.0
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O002",
+    "source_game": "c043ce16f9011dd479e0e4fc",
+    "points": 0.5
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O056",
+    "source_game": "d32e4394b2e1310f76176e9f",
+    "points": 0.0
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O056",
+    "source_game": "d32e4394b2e1310f76176e9f",
+    "points": 1.0
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O013",
+    "source_game": "aa18dc048560f7a132dfd251",
+    "points": 1.0
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O013",
+    "source_game": "aa18dc048560f7a132dfd251",
+    "points": 1.0
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O073",
+    "source_game": "e7761c1f464d9a1ead756d77",
+    "points": 1.5
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O073",
+    "source_game": "e7761c1f464d9a1ead756d77",
+    "points": 1.5
+  },
+  {
+    "candidate": "wide160",
+    "pair": "O006",
+    "source_game": "027ef49f485a220278a74f87",
+    "points": 0.5
+  },
+  {
+    "candidate": "deep32",
+    "pair": "O006",
+    "source_game": "027ef49f485a220278a74f87",
+    "points": 0.0
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "pages": [
+    "chess-in-form.html",
+    "handcrafted.html",
+    "notes.html"
+  ],
+  "models": 12,
+  "connected_callouts": 72,
+  "svg_plates": 33,
+  "all_svg_xml_valid": true,
+  "no_scripts_or_remote_render_dependencies": true,
+  "balanced_html_and_table_structure": true,
+  "local_links_and_fragments_checked": 94,
+  "optional_original_workspace_links": 35,
+  "external_source_links": 10,
+  "unavailable_optional_workspace_links": [],
+  "arithmetic_checks": [
+    "MyChess2 family counts",
+    "Specialists extra-head entries",
+    "archived netB WDL / scalar",
+    "Wide160 and Deep32 tensor inventories and 328-input compositions"
+  ],
+  "artwork_hashes_match_build_receipt": true,
+  "scope": "Static document and image checks. No browser, engine, inference, training, benchmark or match.",
+  "visual_review_record": "VISUAL_REVIEW.md"
+}

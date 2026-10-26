@@ -1,0 +1,157 @@
+{
+  "results": {
+    "candidate": {
+      "architecture": "wide192",
+      "metrics": {
+        "value_ce": 0.6400603842969226,
+        "policy_ce": 2.9114407636620205,
+        "brier": 0.107592819265983,
+        "expected_mse": 0.018664896723007807,
+        "expected_mae": 0.08667834131421424,
+        "wdl_kl": 0.17112096286605102,
+        "rows": 2106816,
+        "policy_rows": 2106727,
+        "games": 20944,
+        "game_macro_ce": 0.7226758023355464,
+        "game_macro_standard_error": 0.0016006856987294794,
+        "slices": {
+          "head_0": {
+            "rows": 354419,
+            "value_ce": 0.16211344964333665
+          },
+          "head_1": {
+            "rows": 587203,
+            "value_ce": 0.5792386869767766
+          },
+          "head_2": {
+            "rows": 543979,
+            "value_ce": 0.7809653709801535
+          },
+          "head_3": {
+            "rows": 621215,
+            "value_ce": 0.8468467642766764
+          },
+          "pieces_2_to_7": {
+            "rows": 298778,
+            "value_ce": 0.1194487719701919
+          },
+          "pieces_8_to_16": {
+            "rows": 642844,
+            "value_ce": 0.5629641351050579
+          },
+          "pieces_17_plus": {
+            "rows": 1165194,
+            "value_ce": 0.8160895724740482
+          },
+          "clock_0_to_19": {
+            "rows": 1940186,
+            "value_ce": 0.6806674541446401
+          },
+          "clock_20_to_59": {
+            "rows": 123111,
+            "value_ce": 0.2000553433982438
+          },
+          "clock_60_to_99": {
+            "rows": 43519,
+            "value_ce": 0.07442675435933005
+          },
+          "phase_0_to_4": {
+            "rows": 430704,
+            "value_ce": 0.302801280462032
+          },
+          "phase_5_to_12": {
+            "rows": 686806,
+            "value_ce": 0.5758706920049458
+          },
+          "phase_13_plus": {
+            "rows": 989306,
+            "value_ce": 0.8314518311221941
+          }
+        }
+      },
+      "selected": {
+        "epochs": 10,
+        "presentations": 2138996020
+      },
+      "paired_vs_installed": {
+        "games": 20944,
+        "positions": 2106816,
+        "ce_difference": 0.0018339538955114163,
+        "ce_difference_95": [
+          0.0013819311272675284,
+          0.002295511745376573
+        ],
+        "mae_difference_points": -0.016023253692139795,
+        "mae_difference_points_95": [
+          -0.029832988654499733,
+          -0.002960330430302286
+        ],
+        "note": "Position-weighted paired source-game bootstrap; validation selected checkpoints, not an untouched test or Elo."
+      },
+      "boundaries": {
+        "general_positions": 4096,
+        "general_expected_mae_points": 9.345219612121582,
+        "boundaries": [
+          {
+            "pieces": 8,
+            "mean_gap_points": 4.232758522033691,
+            "p95_gap_points": 16.67855453491211,
+            "active_mae_points": 12.443830490112305
+          },
+          {
+            "pieces": 9,
+            "mean_gap_points": 4.959914207458496,
+            "p95_gap_points": 15.735652923583984,
+            "active_mae_points": 13.068869590759277
+          },
+          {
+            "pieces": 16,
+            "mean_gap_points": 4.012175559997559,
+            "p95_gap_points": 11.548794746398926,
+            "active_mae_points": 14.48194408416748
+          },
+          {
+            "pieces": 17,
+            "mean_gap_points": 4.0246148109436035,
+            "p95_gap_points": 10.757235527038574,
+            "active_mae_points": 14.574872016906738
+          },
+          {
+            "pieces": 24,
+            "mean_gap_points": 2.949693202972412,
+            "p95_gap_points": 8.474743843078613,
+            "active_mae_points": 11.008122444152832
+          },
+          {
+            "pieces": 25,
+            "mean_gap_points": 3.2141337394714355,
+            "p95_gap_points": 8.990961074829102,
+            "active_mae_points": 10.972559928894043
+          }
+        ]
+      },
+      "routing": {
+        "sample": "existing architecture diagnostic, not random population frequencies",
+        "expert_visits": [
+          796,
+          1991,
+          2129,
+          2097
+        ],
+        "gate_abs_quantiles": null
+      },
+      "integer_export": {
+        "positions": 120,
+        "all_heads_integer_exact": true,
+        "policy_exact": true,
+        "wdl_agrees": true
+      },
+      "parameters": 4795776,
+      "model_sha256": "28dcdc656d2346874110e2223aff3cbf681d478bd3081f669ca8aef7736bf6d8",
+      "training_from_scratch": true,
+      "validation_selects_checkpoint": true,
+      "strength_measured": false
+    }
+  },
+  "promoted": false
+}

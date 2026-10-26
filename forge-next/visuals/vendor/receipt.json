@@ -1,0 +1,12 @@
+{
+  "three.min.js": {
+    "url": "https://cdn.jsdelivr.net/npm/three@0.160.1/build/three.min.js",
+    "bytes": 669884,
+    "sha256": "170c6789f43217c96b3170f4b42fafe135de7f7cd48497a4218f9757ee1d49fa"
+  },
+  "THREE-LICENSE.txt": {
+    "url": "https://cdn.jsdelivr.net/npm/three@0.160.1/LICENSE",
+    "bytes": 1081,
+    "sha256": "852e0e8699169bf9f6fdc6bda3e682d078dcbc738b5d33e74df594721bff271d"
+  }
+}

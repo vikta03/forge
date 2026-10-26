@@ -1,0 +1,23 @@
+{
+  "job": "J71/J72",
+  "architecture": "reader64",
+  "dimensions": [
+    192,
+    64,
+    2
+  ],
+  "training_run": "workspace/research/forge_reader64_20261025/runs/20261025T095327Z",
+  "selected_checkpoint": {
+    "epochs": 11,
+    "presentations": 2352895622
+  },
+  "binary_sha256": "025979e49e53e654c00f5cc3afe216f94f43edafef2445edd00a34eb58f83130",
+  "model_sha256": "07ef1112138cead6470e89773d99a7a40cc133f1800e0c1d8424016d345f1423",
+  "search": "unchanged adopted Wide192 J47/J48",
+  "cost_mask4": false,
+  "baseline_engine": "workspace/engines/forge-capacity-wide192/bin/forge2-engine",
+  "baseline_model_sha256": "28dcdc656d2346874110e2223aff3cbf681d478bd3081f669ca8aef7736bf6d8",
+  "promoted": false,
+  "reviewed_nps_tradeoff": true,
+  "delivery_gate_policy": "NPS reported; existing depth gate retained after explicit cost review"
+}

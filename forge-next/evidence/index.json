@@ -1,0 +1,263 @@
+{
+  "J47": {
+    "origin": "forge_search_audit_20261023",
+    "run": "20261023T150415Z",
+    "files": [
+      "RESULTS.md",
+      "ASSESSMENT.md",
+      "completion.json",
+      "contracts.json",
+      "PROTOCOL.md"
+    ]
+  },
+  "J48": {
+    "origin": "forge_terminal_search_20261023",
+    "run": "20261023T153209Z",
+    "files": [
+      "RESULTS.md",
+      "ASSESSMENT.md",
+      "completion.json",
+      "contracts.json",
+      "PROTOCOL.md"
+    ]
+  },
+  "J49": {
+    "origin": "forge_search_match_20261023",
+    "run": "20261023T155243Z",
+    "files": [
+      "RESULTS.md",
+      "summary.json",
+      "audit.json",
+      "completion.json",
+      "games.pgn",
+      "pairs.json",
+      "PROTOCOL.md"
+    ]
+  },
+  "J54": {
+    "origin": "forge_zero_skip_20261024",
+    "run": "20261024T001257Z",
+    "files": [
+      "RESULTS.md",
+      "ASSESSMENT.md",
+      "summary.json",
+      "completion.json",
+      "PROTOCOL.md"
+    ]
+  },
+  "J59": {
+    "origin": "forge_capacity_match_20261024",
+    "run": "20261024T071726Z",
+    "files": [
+      "RESULTS.md",
+      "summary.json",
+      "audit.json",
+      "completion.json",
+      "games.pgn",
+      "pairs.json",
+      "PROTOCOL.md"
+    ]
+  },
+  "J62": {
+    "origin": "forge_wide_fullkey_20261024",
+    "run": "20261024T152654Z",
+    "files": [
+      "RESULTS.md",
+      "summary.json",
+      "completion.json",
+      "PROTOCOL.md"
+    ]
+  },
+  "J63": {
+    "origin": "forge_fullkey_match_20261024",
+    "run": "20261024T160114Z",
+    "files": [
+      "RESULTS.md",
+      "summary.json",
+      "audit.json",
+      "completion.json",
+      "games.pgn",
+      "pairs.json",
+      "PROTOCOL.md"
+    ]
+  },
+  "J65": {
+    "origin": "forge_corpus_audit_20261025",
+    "run": "20261024T220005Z",
+    "files": [
+      "RESULTS.md",
+      "ASSESSMENT.md",
+      "audit.json",
+      "completion.json",
+      "PROTOCOL.md",
+      "coverage.json",
+      "metrics.json",
+      "source-audit.json",
+      "reference-contexts.json",
+      "reference.json",
+      "review/REVIEW.json"
+    ]
+  },
+  "J66": {
+    "origin": "forge_search_labels_20261025",
+    "run": "20261024T223215Z",
+    "files": [
+      "RESULTS.md",
+      "ASSESSMENT.md",
+      "audit.json",
+      "completion.json",
+      "PROTOCOL.md",
+      "forge.json",
+      "reference.json",
+      "contexts.json",
+      "gates.json",
+      "deeper-selection.json",
+      "source-resources.json",
+      "review/REVIEW.json",
+      "job-source/PROTOCOL.md"
+    ]
+  },
+  "J69": {
+    "origin": "forge_capacity_training_20261025",
+    "run": "20261025T033121Z",
+    "files": [
+      "RESULTS.md",
+      "completion.json",
+      "training-results.json",
+      "PROTOCOL.md"
+    ]
+  },
+  "J70": {
+    "origin": "forge_capacity_training_20261025",
+    "run": "20261025T033121Z/match",
+    "files": [
+      "RESULTS.md",
+      "summary.json",
+      "audit.json",
+      "games.pgn",
+      "pairs.json"
+    ]
+  },
+  "J71": {
+    "origin": "forge_reader64_20261025",
+    "run": "20261025T095327Z",
+    "files": [
+      "RESULTS.md",
+      "completion.json",
+      "training-results.json",
+      "PROTOCOL.md"
+    ]
+  },
+  "J72": {
+    "origin": "forge_reader64_20261025",
+    "run": "20261025T095327Z/match",
+    "files": [
+      "RESULTS.md",
+      "summary.json",
+      "audit.json",
+      "games.pgn",
+      "pairs.json"
+    ]
+  },
+  "J73": {
+    "origin": "forge_draw_compare_20261025",
+    "run": "20261025T132753Z",
+    "files": [
+      "RESULTS.md",
+      "ASSESSMENT.md",
+      "summary.json",
+      "audit.json",
+      "completion.json",
+      "PROTOCOL.md",
+      "continuations/catalan-80w__reader64/game.pgn",
+      "continuations/catalan-80w__wide160/game.pgn",
+      "continuations/catalan-80w__wide192/game.pgn",
+      "continuations/corpus-1332191-109__reader64/game.pgn",
+      "continuations/corpus-1332191-109__wide160/game.pgn",
+      "continuations/corpus-1332191-109__wide192/game.pgn",
+      "continuations/current-54b__reader64/game.pgn",
+      "continuations/current-54b__wide160/game.pgn",
+      "continuations/current-54b__wide192/game.pgn",
+      "continuations/fortress-80w__reader64/game.pgn",
+      "continuations/fortress-80w__wide160/game.pgn",
+      "continuations/fortress-80w__wide192/game.pgn",
+      "continuations/fortress-81w__reader64/game.pgn",
+      "continuations/fortress-81w__wide160/game.pgn",
+      "continuations/fortress-81w__wide192/game.pgn",
+      "continuations/rook-bishop-64w__reader64/game.pgn",
+      "continuations/rook-bishop-64w__wide160/game.pgn",
+      "continuations/rook-bishop-64w__wide192/game.pgn",
+      "job-source/PROTOCOL.md",
+      "review/REVIEW.json"
+    ]
+  },
+  "J74": {
+    "origin": "forge_objectives_20261025",
+    "run": "20261025T152814Z",
+    "files": [
+      "RESULTS.md",
+      "ASSESSMENT.md",
+      "summary.json",
+      "audit.json",
+      "completion.json",
+      "PROTOCOL.md"
+    ]
+  },
+  "J75": {
+    "origin": "forge_policy_defence_20261025",
+    "run": "20261025T202728Z",
+    "files": [
+      "RESULTS.md",
+      "ASSESSMENT.md",
+      "summary.json",
+      "audit.json",
+      "completion.json",
+      "REVIEW.json",
+      "PROTOCOL.md"
+    ]
+  },
+  "J76": {
+    "origin": "forge_tablebase_20261026",
+    "run": "20261025T211024Z",
+    "files": [
+      "RESULTS.md",
+      "audit.json",
+      "completion.json",
+      "REVIEW.json",
+      "comparisons.json",
+      "positions.json",
+      "PROTOCOL.md"
+    ]
+  },
+  "J77": {
+    "origin": "forge_stockfish_gap_20261026",
+    "run": "20261025T215950Z",
+    "files": [
+      "RESULTS.md",
+      "audit.json",
+      "completion.json",
+      "REVIEW.json",
+      "comparisons.json",
+      "clock-sensitivity.json",
+      "pv-endpoints.json",
+      "positions.json",
+      "PROTOCOL.md"
+    ]
+  },
+  "J78": {
+    "origin": "forge_repetition_guard_20261026",
+    "run": "20261025T222642Z",
+    "files": [
+      "summary.json",
+      "audit.json",
+      "completion.json",
+      "contracts.json",
+      "REVIEW.json",
+      "draw-comparisons.json",
+      "repetition-audit.json",
+      "contract-observations.json",
+      "PROTOCOL.md",
+      "RESULTS.md"
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "job": "J69",
+  "seed": 20261025,
+  "snapshot": "8af5f4d59ea972cc721ac1b8343e6ab68e75034cb0f8c1ce13d584a0f29e412c",
+  "python": "external-input/python",
+  "versions": {
+    "python": "3.14.8",
+    "torch": "2.13.0",
+    "numpy": "2.5.1",
+    "chess": "1.11.2"
+  },
+  "train_records": 213899602,
+  "valid_records": 2106816,
+  "shuffle_shards": 8,
+  "max_epochs": 12,
+  "min_epochs_before_stop": 12,
+  "effective_batch": 4096,
+  "microbatch_candidates": [
+    4096
+  ],
+  "learning_rate": 0.01,
+  "minimum_learning_rate": 0.001,
+  "warmup_presentations": 2000000,
+  "weight_decay": 1e-06,
+  "gradient_clip": 1.0,
+  "quiet_policy_weight": 0.25,
+  "validate_every_presentations": 16000000,
+  "checkpoint_every_seconds": 120,
+  "plateau_min_delta": 0.0001,
+  "max_wall_seconds": 25200,
+  "graceful_stop_seconds": 24900,
+  "cpu_cores": 4,
+  "host_ram_bytes": 6442450944,
+  "gpu_process_bytes": 3221225472,
+  "gpu_allocator_bytes": 2684354560,
+  "plateau_patience_epochs": 3,
+  "validation_sample_records": 131072,
+  "minimum_free_disk_bytes": 8589934592,
+  "cache_format": "npy-zstd-1",
+  "cache": "workspace/research/forge_placement_full_20261021/runs/20261021T181714Z/cache",
+  "calibration_limit_seconds": 180,
+  "initialization": "random_from_scratch",
+  "prior_presentations": 0,
+  "enable_plateau_stop": false,
+  "output_reserve_bytes": 2147483648,
+  "cache_origin_run": "workspace/research/forge_placement_full_20261021/runs/20261021T181714Z",
+  "arm_max_wall_seconds": 12000,
+  "boundary_overlap": 0.25,
+  "microbatch": 4096,
+  "diagnostic_sample": "workspace/research/forge_architecture_audit_20261024/runs/20261024T011905Z/sample.npz",
+  "architectures": [
+    "control",
+    "candidate"
+  ],
+  "router_balance_weight": 0.01,
+  "router_temperature": 1024.0,
+  "cost_job": "workspace/research/forge_capacity_frontier_20261025",
+  "native_binary": "workspace/engines/forge-wide160/bin/forge2-engine",
+  "native_model": "workspace/engines/forge-wide160/models/capacity.fgc",
+  "parent_export": "workspace/research/forge_capacity_overnight_20261024/runs/20261024T022230Z/wide160/model-int8.npz",
+  "encoder": "workspace/research/forge_architecture_audit_20261024/model_probe.py",
+  "total_wall_seconds": 28800,
+  "gates_wall_seconds": 900,
+  "delivery_wall_seconds": 900,
+  "match_wall_seconds": 1800,
+  "dimensions": {
+    "control": [
+      160,
+      32,
+      4
+    ],
+    "wide192": [
+      192,
+      32,
+      4
+    ],
+    "hidden48": [
+      160,
+      48,
+      4
+    ],
+    "routed8": [
+      160,
+      32,
+      8
+    ],
+    "routed8_hidden48": [
+      160,
+      48,
+      8
+    ]
+  },
+  "selected_architectures": {
+    "control": "control",
+    "candidate": "wide192"
+  },
+  "cost_run": "workspace/research/forge_capacity_frontier_20261025/runs/20261025T031928Z",
+  "cost_summary_sha256": "566317ccdae10c1675a04955308dea8ed55412e0b2374bb59c69f28fa87370db",
+  "architecture": "wide192"
+}

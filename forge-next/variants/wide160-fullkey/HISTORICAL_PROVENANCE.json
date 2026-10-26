@@ -1,0 +1,24 @@
+{
+  "job": "J62",
+  "run": "workspace/research/forge_wide_fullkey_20261024/runs/20261024T152654Z",
+  "original_binary": "workspace/engines/forge-wide160/bin/forge2-engine",
+  "original_sha256": "a9e6cc0036f0a2a82eda5b61fabb9337bafbe4b9fe351d161518c2e01de09da6",
+  "binary_sha256": "e20903ff3d6d66025c5f928bcf7fd1506449a4a418a1e75e1be54f1886f97daa",
+  "model_sha256": "23e167e99d1a14cbde73d838e295cecf50e0f81d74f6639af6584de6934ae2a6",
+  "model_unchanged": true,
+  "source_changes": [
+    "tt.h",
+    "tt.cpp",
+    "main.cpp: identity label",
+    "uci.cpp: identity label and ttinfo"
+  ],
+  "inherited_search": "J47/J48 corrected Wide160",
+  "strength_test": false,
+  "storage": {
+    "hash_mb": 64,
+    "candidate_bytes": 67108812,
+    "candidate_entries": 3798612,
+    "original_bytes": 67108860,
+    "original_entries": 5752188
+  }
+}

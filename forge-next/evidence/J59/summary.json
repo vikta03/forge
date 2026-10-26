@@ -1,0 +1,81 @@
+{
+  "results": {
+    "wide160": {
+      "games": 100,
+      "opening_pairs": 50,
+      "wins": 35,
+      "draws": 31,
+      "losses": 34,
+      "points": 50.5,
+      "score": 0.505,
+      "paired_bootstrap_95": [
+        0.425,
+        0.585
+      ],
+      "bounded_score_95": [
+        0.31293544173601584,
+        0.6970645582639842
+      ],
+      "white": {
+        "wins": 21,
+        "draws": 18,
+        "losses": 11
+      },
+      "black": {
+        "wins": 14,
+        "draws": 13,
+        "losses": 23
+      },
+      "terminations": {
+        "checkmate": 69,
+        "current_threefold": 23,
+        "insufficient_material": 4,
+        "current_fifty_moves": 4
+      },
+      "clock_expiries": [],
+      "median_game_seconds": 23.509995419997722,
+      "max_played_plies": 365
+    },
+    "deep32": {
+      "games": 100,
+      "opening_pairs": 50,
+      "wins": 24,
+      "draws": 35,
+      "losses": 41,
+      "points": 41.5,
+      "score": 0.415,
+      "paired_bootstrap_95": [
+        0.355,
+        0.47
+      ],
+      "bounded_score_95": [
+        0.22293544173601582,
+        0.6070645582639842
+      ],
+      "white": {
+        "wins": 18,
+        "draws": 20,
+        "losses": 12
+      },
+      "black": {
+        "wins": 6,
+        "draws": 15,
+        "losses": 29
+      },
+      "terminations": {
+        "current_threefold": 24,
+        "checkmate": 65,
+        "insufficient_material": 5,
+        "current_fifty_moves": 6
+      },
+      "clock_expiries": [],
+      "median_game_seconds": 24.228210481502174,
+      "max_played_plies": 349
+    }
+  },
+  "promoted": false,
+  "tc": "8+0.08",
+  "concurrency": 8,
+  "bootstrap_resamples": 10000,
+  "bootstrap_seed": 590024
+}

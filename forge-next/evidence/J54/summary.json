@@ -1,0 +1,1246 @@
+{
+  "candidate_vs_control": {
+    "positions": 48,
+    "median_nps_percent": 2.6407403481807257,
+    "bootstrap95_nps_percent": [
+      2.3512341866871678,
+      2.9926134243620672
+    ],
+    "median_time_percent": -2.5727986918559043,
+    "faster_positions": 47,
+    "slower_positions": 1,
+    "strata": {
+      "endgame": 1.9803914132074718,
+      "forcing": 3.141534409200608,
+      "opening": 2.727274868559748,
+      "quiet": 2.3407361282452688
+    },
+    "worst_positions": [
+      {
+        "id": "P122",
+        "game_id": "b903713898730a9d574e0dd3",
+        "stratum": "opening",
+        "nps_percent": -0.7165813109266006,
+        "time_percent": 0.7217532598980281
+      },
+      {
+        "id": "P311",
+        "game_id": "88c1f42214739377c094ecc5",
+        "stratum": "endgame",
+        "nps_percent": 0.841954092851549,
+        "time_percent": -0.8349244125875566
+      },
+      {
+        "id": "P175",
+        "game_id": "4c580eba18c6fc4adeb4b8f5",
+        "stratum": "endgame",
+        "nps_percent": 1.0714102842831918,
+        "time_percent": -1.060052769887787
+      },
+      {
+        "id": "P199",
+        "game_id": "67c91db35d8b832da9ae31da",
+        "stratum": "endgame",
+        "nps_percent": 1.2699368050449467,
+        "time_percent": -1.2540116495675435
+      },
+      {
+        "id": "P399",
+        "game_id": "c6d0306695130d43988659f2",
+        "stratum": "endgame",
+        "nps_percent": 1.3117684786561057,
+        "time_percent": -1.2947839114391346
+      },
+      {
+        "id": "P389",
+        "game_id": "e48a3fca972e6383b87dc1c2",
+        "stratum": "quiet",
+        "nps_percent": 1.7402611674000923,
+        "time_percent": -1.710494102759108
+      },
+      {
+        "id": "P127",
+        "game_id": "b8c12f084415ec562aa7ba51",
+        "stratum": "endgame",
+        "nps_percent": 1.7808475226767317,
+        "time_percent": -1.7496882429476446
+      },
+      {
+        "id": "P201",
+        "game_id": "a4494a2e1020f9cda732f5bc",
+        "stratum": "opening",
+        "nps_percent": 1.9078599401876062,
+        "time_percent": -1.872142091206097
+      }
+    ],
+    "per_position": [
+      {
+        "id": "P289",
+        "game_id": "fc42aad743aec4786370203a",
+        "stratum": "opening",
+        "nps_percent": 5.670413533848695,
+        "time_percent": -5.366131676992381
+      },
+      {
+        "id": "P297",
+        "game_id": "e989c99ae447f4479c150404",
+        "stratum": "opening",
+        "nps_percent": 2.5525175227762986,
+        "time_percent": -2.48898572598123
+      },
+      {
+        "id": "P105",
+        "game_id": "a0d8ae0b99bb84a9d378e6cd",
+        "stratum": "opening",
+        "nps_percent": 2.594834865698359,
+        "time_percent": -2.5292061428775825
+      },
+      {
+        "id": "P098",
+        "game_id": "eda463a32475aa0da2af8262",
+        "stratum": "opening",
+        "nps_percent": 2.8225380259806254,
+        "time_percent": -2.7450577277789434
+      },
+      {
+        "id": "P041",
+        "game_id": "cdbaa8744b1be7a36b8d583f",
+        "stratum": "opening",
+        "nps_percent": 2.8847500422824357,
+        "time_percent": -2.8038655302140447
+      },
+      {
+        "id": "P002",
+        "game_id": "998597e05086d57d3066aaef",
+        "stratum": "opening",
+        "nps_percent": 3.4025539473383715,
+        "time_percent": -3.2905898524239974
+      },
+      {
+        "id": "P306",
+        "game_id": "41d8809584a84edb59079bda",
+        "stratum": "opening",
+        "nps_percent": 3.422414000077456,
+        "time_percent": -3.309160816991663
+      },
+      {
+        "id": "P121",
+        "game_id": "3345aa6a61857c7f420d8d97",
+        "stratum": "opening",
+        "nps_percent": 2.028347019041621,
+        "time_percent": -1.9880230135092436
+      },
+      {
+        "id": "P226",
+        "game_id": "b4a524a71aaec53f64abc424",
+        "stratum": "opening",
+        "nps_percent": 3.1192701179898696,
+        "time_percent": -3.02491485288906
+      },
+      {
+        "id": "P122",
+        "game_id": "b903713898730a9d574e0dd3",
+        "stratum": "opening",
+        "nps_percent": -0.7165813109266006,
+        "time_percent": 0.7217532598980281
+      },
+      {
+        "id": "P201",
+        "game_id": "a4494a2e1020f9cda732f5bc",
+        "stratum": "opening",
+        "nps_percent": 1.9078599401876062,
+        "time_percent": -1.872142091206097
+      },
+      {
+        "id": "P001",
+        "game_id": "078a64e8985ecb10402eb07a",
+        "stratum": "opening",
+        "nps_percent": 2.632011711138871,
+        "time_percent": -2.5645134176525253
+      },
+      {
+        "id": "P171",
+        "game_id": "b821b9db3f65ec0eb4437a0e",
+        "stratum": "forcing",
+        "nps_percent": 3.8112499208824646,
+        "time_percent": -3.6713264928291744
+      },
+      {
+        "id": "P180",
+        "game_id": "371816bf28c4e7e45fdca443",
+        "stratum": "forcing",
+        "nps_percent": 2.9961490996776696,
+        "time_percent": -2.908991380617598
+      },
+      {
+        "id": "P299",
+        "game_id": "d63e5adee2de445c9cf2ec8e",
+        "stratum": "forcing",
+        "nps_percent": 2.3629663815969204,
+        "time_percent": -2.308419211678625
+      },
+      {
+        "id": "P387",
+        "game_id": "9043a5902c6624554a96b281",
+        "stratum": "forcing",
+        "nps_percent": 3.7235300892886514,
+        "time_percent": -3.589860551490409
+      },
+      {
+        "id": "P028",
+        "game_id": "0e05c91994f74602726f5fb9",
+        "stratum": "forcing",
+        "nps_percent": 3.3771185328073994,
+        "time_percent": -3.266794993648081
+      },
+      {
+        "id": "P228",
+        "game_id": "de021a481b24dfbd190fefd6",
+        "stratum": "forcing",
+        "nps_percent": 2.675592693283857,
+        "time_percent": -2.605870220078965
+      },
+      {
+        "id": "P107",
+        "game_id": "fbb1318f93beb153c482a7a9",
+        "stratum": "forcing",
+        "nps_percent": 3.9680346089348006,
+        "time_percent": -3.8165909588078195
+      },
+      {
+        "id": "P036",
+        "game_id": "b3400904b4484aa09da3f5d0",
+        "stratum": "forcing",
+        "nps_percent": 2.7343511185869085,
+        "time_percent": -2.661574331092653
+      },
+      {
+        "id": "P244",
+        "game_id": "7132a59a7a2985ffd35ec257",
+        "stratum": "forcing",
+        "nps_percent": 4.062700139370601,
+        "time_percent": -3.904088721443355
+      },
+      {
+        "id": "P243",
+        "game_id": "a871d6405b0990aac233b099",
+        "stratum": "forcing",
+        "nps_percent": 3.2869197187235466,
+        "time_percent": -3.182319433743075
+      },
+      {
+        "id": "P220",
+        "game_id": "821e474a49e712e3e04531fc",
+        "stratum": "forcing",
+        "nps_percent": 2.4023127298691493,
+        "time_percent": -2.3459555412642885
+      },
+      {
+        "id": "P139",
+        "game_id": "fab7887fd03e05b69a1027b6",
+        "stratum": "forcing",
+        "nps_percent": 2.993954164335322,
+        "time_percent": -2.9069222447350884
+      },
+      {
+        "id": "P342",
+        "game_id": "a64e51c66e7036d9f872c9c0",
+        "stratum": "quiet",
+        "nps_percent": 2.2731723124209013,
+        "time_percent": -2.222647700295133
+      },
+      {
+        "id": "P374",
+        "game_id": "3305c46f89c3076d717dc8fe",
+        "stratum": "quiet",
+        "nps_percent": 2.7168826355320697,
+        "time_percent": -2.645020531992104
+      },
+      {
+        "id": "P158",
+        "game_id": "0c43b5d2b5552fc6e1830edb",
+        "stratum": "quiet",
+        "nps_percent": 2.4110346887050937,
+        "time_percent": -2.354272365310861
+      },
+      {
+        "id": "P181",
+        "game_id": "fad1dc792831c3f0d9d5f8fd",
+        "stratum": "quiet",
+        "nps_percent": 1.9144771115171766,
+        "time_percent": -1.8785134023916128
+      },
+      {
+        "id": "P389",
+        "game_id": "e48a3fca972e6383b87dc1c2",
+        "stratum": "quiet",
+        "nps_percent": 1.7402611674000923,
+        "time_percent": -1.710494102759108
+      },
+      {
+        "id": "P246",
+        "game_id": "16e4f7034a596d6d6e175208",
+        "stratum": "quiet",
+        "nps_percent": 2.33023806980337,
+        "time_percent": -2.2771744830827223
+      },
+      {
+        "id": "P262",
+        "game_id": "4cb74c1c679c0bdedf3677a6",
+        "stratum": "quiet",
+        "nps_percent": 2.3512341866871678,
+        "time_percent": -2.2972211379479357
+      },
+      {
+        "id": "P046",
+        "game_id": "2419d74834d8273635974eba",
+        "stratum": "quiet",
+        "nps_percent": 2.9912726843888127,
+        "time_percent": -2.9043943301442665
+      },
+      {
+        "id": "P053",
+        "game_id": "6df343439a917b58fdc05884",
+        "stratum": "quiet",
+        "nps_percent": 4.098318374484533,
+        "time_percent": -3.9369688564431904
+      },
+      {
+        "id": "P293",
+        "game_id": "d7d6d3395dbda630fe96f48f",
+        "stratum": "quiet",
+        "nps_percent": 3.7208661228124607,
+        "time_percent": -3.58738435370054
+      },
+      {
+        "id": "P197",
+        "game_id": "24e1a79fc231603c2df8fdaf",
+        "stratum": "quiet",
+        "nps_percent": 2.2343926639321054,
+        "time_percent": -2.185558700658652
+      },
+      {
+        "id": "P165",
+        "game_id": "1a8a62410efb8f137673c8ee",
+        "stratum": "quiet",
+        "nps_percent": 2.20240767383606,
+        "time_percent": -2.1549469566947255
+      },
+      {
+        "id": "P200",
+        "game_id": "e6ac8b2f8d602eb7e768e357",
+        "stratum": "endgame",
+        "nps_percent": 1.9628737475412716,
+        "time_percent": -1.9250867255873216
+      },
+      {
+        "id": "P223",
+        "game_id": "cfdea9ff028042b6e2044fed",
+        "stratum": "endgame",
+        "nps_percent": 2.225276723988223,
+        "time_percent": -2.176836097002244
+      },
+      {
+        "id": "P175",
+        "game_id": "4c580eba18c6fc4adeb4b8f5",
+        "stratum": "endgame",
+        "nps_percent": 1.0714102842831918,
+        "time_percent": -1.060052769887787
+      },
+      {
+        "id": "P367",
+        "game_id": "aa6f35045664b844e39cf826",
+        "stratum": "endgame",
+        "nps_percent": 2.6494689852225806,
+        "time_percent": -2.5810839660592833
+      },
+      {
+        "id": "P096",
+        "game_id": "64e74de3b0a67f56a126545a",
+        "stratum": "endgame",
+        "nps_percent": 5.803865989293477,
+        "time_percent": -5.485495199089218
+      },
+      {
+        "id": "P199",
+        "game_id": "67c91db35d8b832da9ae31da",
+        "stratum": "endgame",
+        "nps_percent": 1.2699368050449467,
+        "time_percent": -1.2540116495675435
+      },
+      {
+        "id": "P288",
+        "game_id": "d3cff7f3450c014ab72768e6",
+        "stratum": "endgame",
+        "nps_percent": 1.997909078873672,
+        "time_percent": -1.9587745444161198
+      },
+      {
+        "id": "P039",
+        "game_id": "2876ad23cbc75b831482a4ff",
+        "stratum": "endgame",
+        "nps_percent": 3.204490700934226,
+        "time_percent": -3.10499153590148
+      },
+      {
+        "id": "P127",
+        "game_id": "b8c12f084415ec562aa7ba51",
+        "stratum": "endgame",
+        "nps_percent": 1.7808475226767317,
+        "time_percent": -1.7496882429476446
+      },
+      {
+        "id": "P399",
+        "game_id": "c6d0306695130d43988659f2",
+        "stratum": "endgame",
+        "nps_percent": 1.3117684786561057,
+        "time_percent": -1.2947839114391346
+      },
+      {
+        "id": "P311",
+        "game_id": "88c1f42214739377c094ecc5",
+        "stratum": "endgame",
+        "nps_percent": 0.841954092851549,
+        "time_percent": -0.8349244125875566
+      },
+      {
+        "id": "P328",
+        "game_id": "ab757dfc923997f92e0b123d",
+        "stratum": "endgame",
+        "nps_percent": 3.6131330880062373,
+        "time_percent": -3.4871381458346007
+      }
+    ]
+  },
+  "candidate_vs_shipped": {
+    "positions": 48,
+    "median_nps_percent": 2.877361719889726,
+    "bootstrap95_nps_percent": [
+      2.1352989390207355,
+      3.3509504305770266
+    ],
+    "median_time_percent": -2.7968691027389694,
+    "faster_positions": 47,
+    "slower_positions": 1,
+    "strata": {
+      "endgame": 1.9004314473529793,
+      "forcing": 3.138652777764084,
+      "opening": 3.141398350665525,
+      "quiet": 2.8906046228580617
+    },
+    "worst_positions": [
+      {
+        "id": "P122",
+        "game_id": "b903713898730a9d574e0dd3",
+        "stratum": "opening",
+        "nps_percent": -0.9215705283802,
+        "time_percent": 0.9301424470441022
+      },
+      {
+        "id": "P311",
+        "game_id": "88c1f42214739377c094ecc5",
+        "stratum": "endgame",
+        "nps_percent": 0.04053543459614506,
+        "time_percent": -0.04051901003931935
+      },
+      {
+        "id": "P389",
+        "game_id": "e48a3fca972e6383b87dc1c2",
+        "stratum": "quiet",
+        "nps_percent": 0.8831041238363202,
+        "time_percent": -0.875373662920087
+      },
+      {
+        "id": "P223",
+        "game_id": "cfdea9ff028042b6e2044fed",
+        "stratum": "endgame",
+        "nps_percent": 1.3430077434442689,
+        "time_percent": -1.3252100695927416
+      },
+      {
+        "id": "P299",
+        "game_id": "d63e5adee2de445c9cf2ec8e",
+        "stratum": "forcing",
+        "nps_percent": 1.6698561280954038,
+        "time_percent": -1.6424299115674224
+      },
+      {
+        "id": "P039",
+        "game_id": "2876ad23cbc75b831482a4ff",
+        "stratum": "endgame",
+        "nps_percent": 1.686327340874949,
+        "time_percent": -1.6583619302347308
+      },
+      {
+        "id": "P288",
+        "game_id": "d3cff7f3450c014ab72768e6",
+        "stratum": "endgame",
+        "nps_percent": 1.7393320871032847,
+        "time_percent": -1.7095965261637258
+      },
+      {
+        "id": "P399",
+        "game_id": "c6d0306695130d43988659f2",
+        "stratum": "endgame",
+        "nps_percent": 1.7581041139047793,
+        "time_percent": -1.727728842055487
+      }
+    ],
+    "per_position": [
+      {
+        "id": "P289",
+        "game_id": "fc42aad743aec4786370203a",
+        "stratum": "opening",
+        "nps_percent": 3.618357459358079,
+        "time_percent": -3.4920042626397585
+      },
+      {
+        "id": "P297",
+        "game_id": "e989c99ae447f4479c150404",
+        "stratum": "opening",
+        "nps_percent": 1.886587133193185,
+        "time_percent": -1.8516540658358727
+      },
+      {
+        "id": "P105",
+        "game_id": "a0d8ae0b99bb84a9d378e6cd",
+        "stratum": "opening",
+        "nps_percent": 4.120430448583012,
+        "time_percent": -3.9573697792363416
+      },
+      {
+        "id": "P098",
+        "game_id": "eda463a32475aa0da2af8262",
+        "stratum": "opening",
+        "nps_percent": 3.3509504305770266,
+        "time_percent": -3.2423024816089385
+      },
+      {
+        "id": "P041",
+        "game_id": "cdbaa8744b1be7a36b8d583f",
+        "stratum": "opening",
+        "nps_percent": 3.1479868578027093,
+        "time_percent": -3.051913036502063
+      },
+      {
+        "id": "P002",
+        "game_id": "998597e05086d57d3066aaef",
+        "stratum": "opening",
+        "nps_percent": 5.4755646044088335,
+        "time_percent": -5.191311015916533
+      },
+      {
+        "id": "P306",
+        "game_id": "41d8809584a84edb59079bda",
+        "stratum": "opening",
+        "nps_percent": 4.0302916954555235,
+        "time_percent": -3.8741520664519857
+      },
+      {
+        "id": "P121",
+        "game_id": "3345aa6a61857c7f420d8d97",
+        "stratum": "opening",
+        "nps_percent": 2.1124254184497815,
+        "time_percent": -2.0687251426975806
+      },
+      {
+        "id": "P226",
+        "game_id": "b4a524a71aaec53f64abc424",
+        "stratum": "opening",
+        "nps_percent": 3.1315722896902765,
+        "time_percent": -3.0364826407318635
+      },
+      {
+        "id": "P122",
+        "game_id": "b903713898730a9d574e0dd3",
+        "stratum": "opening",
+        "nps_percent": -0.9215705283802,
+        "time_percent": 0.9301424470441022
+      },
+      {
+        "id": "P201",
+        "game_id": "a4494a2e1020f9cda732f5bc",
+        "stratum": "opening",
+        "nps_percent": 2.1352989390207355,
+        "time_percent": -2.0906571588884315
+      },
+      {
+        "id": "P001",
+        "game_id": "078a64e8985ecb10402eb07a",
+        "stratum": "opening",
+        "nps_percent": 3.134809843528341,
+        "time_percent": -3.0395264685942003
+      },
+      {
+        "id": "P171",
+        "game_id": "b821b9db3f65ec0eb4437a0e",
+        "stratum": "forcing",
+        "nps_percent": 2.9192471235520268,
+        "time_percent": -2.8364443047737664
+      },
+      {
+        "id": "P180",
+        "game_id": "371816bf28c4e7e45fdca443",
+        "stratum": "forcing",
+        "nps_percent": 3.558229965830906,
+        "time_percent": -3.4359702430264982
+      },
+      {
+        "id": "P299",
+        "game_id": "d63e5adee2de445c9cf2ec8e",
+        "stratum": "forcing",
+        "nps_percent": 1.6698561280954038,
+        "time_percent": -1.6424299115674224
+      },
+      {
+        "id": "P387",
+        "game_id": "9043a5902c6624554a96b281",
+        "stratum": "forcing",
+        "nps_percent": 3.358058431976141,
+        "time_percent": -3.2489565718634483
+      },
+      {
+        "id": "P028",
+        "game_id": "0e05c91994f74602726f5fb9",
+        "stratum": "forcing",
+        "nps_percent": 3.6096138077014173,
+        "time_percent": -3.48385991902338
+      },
+      {
+        "id": "P228",
+        "game_id": "de021a481b24dfbd190fefd6",
+        "stratum": "forcing",
+        "nps_percent": 1.8639162957636568,
+        "time_percent": -1.8298101658999144
+      },
+      {
+        "id": "P107",
+        "game_id": "fbb1318f93beb153c482a7a9",
+        "stratum": "forcing",
+        "nps_percent": 3.818237651407186,
+        "time_percent": -3.677810120633873
+      },
+      {
+        "id": "P036",
+        "game_id": "b3400904b4484aa09da3f5d0",
+        "stratum": "forcing",
+        "nps_percent": 2.0815575879622683,
+        "time_percent": -2.0391122913349102
+      },
+      {
+        "id": "P244",
+        "game_id": "7132a59a7a2985ffd35ec257",
+        "stratum": "forcing",
+        "nps_percent": 5.172398242237097,
+        "time_percent": -4.918018727997275
+      },
+      {
+        "id": "P243",
+        "game_id": "a871d6405b0990aac233b099",
+        "stratum": "forcing",
+        "nps_percent": 3.5050782111587964,
+        "time_percent": -3.3863828439491206
+      },
+      {
+        "id": "P220",
+        "game_id": "821e474a49e712e3e04531fc",
+        "stratum": "forcing",
+        "nps_percent": 2.8354763162274255,
+        "time_percent": -2.757293900704172
+      },
+      {
+        "id": "P139",
+        "game_id": "fab7887fd03e05b69a1027b6",
+        "stratum": "forcing",
+        "nps_percent": 1.9722241726887857,
+        "time_percent": -1.934079783676046
+      },
+      {
+        "id": "P342",
+        "game_id": "a64e51c66e7036d9f872c9c0",
+        "stratum": "quiet",
+        "nps_percent": 2.290457387916911,
+        "time_percent": -2.239170149792946
+      },
+      {
+        "id": "P374",
+        "game_id": "3305c46f89c3076d717dc8fe",
+        "stratum": "quiet",
+        "nps_percent": 2.0804423068490507,
+        "time_percent": -2.0380420184655246
+      },
+      {
+        "id": "P158",
+        "game_id": "0c43b5d2b5552fc6e1830edb",
+        "stratum": "quiet",
+        "nps_percent": 2.2220113328224933,
+        "time_percent": -2.173711223102326
+      },
+      {
+        "id": "P181",
+        "game_id": "fad1dc792831c3f0d9d5f8fd",
+        "stratum": "quiet",
+        "nps_percent": 2.0311297107054704,
+        "time_percent": -1.9906960909522708
+      },
+      {
+        "id": "P389",
+        "game_id": "e48a3fca972e6383b87dc1c2",
+        "stratum": "quiet",
+        "nps_percent": 0.8831041238363202,
+        "time_percent": -0.875373662920087
+      },
+      {
+        "id": "P246",
+        "game_id": "16e4f7034a596d6d6e175208",
+        "stratum": "quiet",
+        "nps_percent": 3.7790048698197243,
+        "time_percent": -3.6413963253551063
+      },
+      {
+        "id": "P262",
+        "game_id": "4cb74c1c679c0bdedf3677a6",
+        "stratum": "quiet",
+        "nps_percent": 2.825532324761748,
+        "time_percent": -2.747889809933246
+      },
+      {
+        "id": "P046",
+        "game_id": "2419d74834d8273635974eba",
+        "stratum": "quiet",
+        "nps_percent": 3.676311495358031,
+        "time_percent": -3.5459512808021176
+      },
+      {
+        "id": "P053",
+        "game_id": "6df343439a917b58fdc05884",
+        "stratum": "quiet",
+        "nps_percent": 5.846101547568616,
+        "time_percent": -5.523209132970575
+      },
+      {
+        "id": "P293",
+        "game_id": "d7d6d3395dbda630fe96f48f",
+        "stratum": "quiet",
+        "nps_percent": 3.6967679292817524,
+        "time_percent": -3.564978931457974
+      },
+      {
+        "id": "P197",
+        "game_id": "24e1a79fc231603c2df8fdaf",
+        "stratum": "quiet",
+        "nps_percent": 3.3751867663316393,
+        "time_percent": -3.2649873455231404
+      },
+      {
+        "id": "P165",
+        "game_id": "1a8a62410efb8f137673c8ee",
+        "stratum": "quiet",
+        "nps_percent": 2.9556769209543754,
+        "time_percent": -2.870824620213641
+      },
+      {
+        "id": "P200",
+        "game_id": "e6ac8b2f8d602eb7e768e357",
+        "stratum": "endgame",
+        "nps_percent": 5.317160574972624,
+        "time_percent": -5.0487124281968
+      },
+      {
+        "id": "P223",
+        "game_id": "cfdea9ff028042b6e2044fed",
+        "stratum": "endgame",
+        "nps_percent": 1.3430077434442689,
+        "time_percent": -1.3252100695927416
+      },
+      {
+        "id": "P175",
+        "game_id": "4c580eba18c6fc4adeb4b8f5",
+        "stratum": "endgame",
+        "nps_percent": 2.4767566658539186,
+        "time_percent": -2.4168960322679567
+      },
+      {
+        "id": "P367",
+        "game_id": "aa6f35045664b844e39cf826",
+        "stratum": "endgame",
+        "nps_percent": 1.7709199974023981,
+        "time_percent": -1.7401041451208354
+      },
+      {
+        "id": "P096",
+        "game_id": "64e74de3b0a67f56a126545a",
+        "stratum": "endgame",
+        "nps_percent": 2.1971808196376896,
+        "time_percent": -2.1499426911935737
+      },
+      {
+        "id": "P199",
+        "game_id": "67c91db35d8b832da9ae31da",
+        "stratum": "endgame",
+        "nps_percent": 2.0299428973035605,
+        "time_percent": -1.9895560456666739
+      },
+      {
+        "id": "P288",
+        "game_id": "d3cff7f3450c014ab72768e6",
+        "stratum": "endgame",
+        "nps_percent": 1.7393320871032847,
+        "time_percent": -1.7095965261637258
+      },
+      {
+        "id": "P039",
+        "game_id": "2876ad23cbc75b831482a4ff",
+        "stratum": "endgame",
+        "nps_percent": 1.686327340874949,
+        "time_percent": -1.6583619302347308
+      },
+      {
+        "id": "P127",
+        "game_id": "b8c12f084415ec562aa7ba51",
+        "stratum": "endgame",
+        "nps_percent": 6.128973250537539,
+        "time_percent": -5.775023598945905
+      },
+      {
+        "id": "P399",
+        "game_id": "c6d0306695130d43988659f2",
+        "stratum": "endgame",
+        "nps_percent": 1.7581041139047793,
+        "time_percent": -1.727728842055487
+      },
+      {
+        "id": "P311",
+        "game_id": "88c1f42214739377c094ecc5",
+        "stratum": "endgame",
+        "nps_percent": 0.04053543459614506,
+        "time_percent": -0.04051901003931935
+      },
+      {
+        "id": "P328",
+        "game_id": "ab757dfc923997f92e0b123d",
+        "stratum": "endgame",
+        "nps_percent": 3.3396289664177514,
+        "time_percent": -3.231702106752332
+      }
+    ]
+  },
+  "control_vs_shipped": {
+    "positions": 48,
+    "median_nps_percent": 0.09843408297841583,
+    "bootstrap95_nps_percent": [
+      -0.20646873381300335,
+      0.45197950712114743
+    ],
+    "median_time_percent": -0.09833472443813718,
+    "faster_positions": 27,
+    "slower_positions": 21,
+    "strata": {
+      "endgame": -0.25873935325599895,
+      "forcing": -0.24821577742490386,
+      "opening": 0.23951851339560903,
+      "quiet": 0.28893186273406535
+    },
+    "worst_positions": [
+      {
+        "id": "P096",
+        "game_id": "64e74de3b0a67f56a126545a",
+        "stratum": "endgame",
+        "nps_percent": -3.408840627828069,
+        "time_percent": 3.5291435054564335
+      },
+      {
+        "id": "P289",
+        "game_id": "fc42aad743aec4786370203a",
+        "stratum": "opening",
+        "nps_percent": -1.9419400434477208,
+        "time_percent": 1.9803981888976363
+      },
+      {
+        "id": "P039",
+        "game_id": "2876ad23cbc75b831482a4ff",
+        "stratum": "endgame",
+        "nps_percent": -1.471024516228292,
+        "time_percent": 1.492986716857292
+      },
+      {
+        "id": "P139",
+        "game_id": "fab7887fd03e05b69a1027b6",
+        "stratum": "forcing",
+        "nps_percent": -0.9920290952382338,
+        "time_percent": 1.0019689184343372
+      },
+      {
+        "id": "P223",
+        "game_id": "cfdea9ff028042b6e2044fed",
+        "stratum": "endgame",
+        "nps_percent": -0.8630634309027996,
+        "time_percent": 0.8705770631728615
+      },
+      {
+        "id": "P171",
+        "game_id": "b821b9db3f65ec0eb4437a0e",
+        "stratum": "forcing",
+        "nps_percent": -0.8592544623152731,
+        "time_percent": 0.8667016347871481
+      },
+      {
+        "id": "P367",
+        "game_id": "aa6f35045664b844e39cf826",
+        "stratum": "endgame",
+        "nps_percent": -0.8558729007615673,
+        "time_percent": 0.863261320466191
+      },
+      {
+        "id": "P389",
+        "game_id": "e48a3fca972e6383b87dc1c2",
+        "stratum": "quiet",
+        "nps_percent": -0.842495422882239,
+        "time_percent": 0.8496537165545659
+      }
+    ],
+    "per_position": [
+      {
+        "id": "P289",
+        "game_id": "fc42aad743aec4786370203a",
+        "stratum": "opening",
+        "nps_percent": -1.9419400434477208,
+        "time_percent": 1.9803981888976363
+      },
+      {
+        "id": "P297",
+        "game_id": "e989c99ae447f4479c150404",
+        "stratum": "opening",
+        "nps_percent": -0.6493554772414312,
+        "time_percent": 0.6535996624487783
+      },
+      {
+        "id": "P105",
+        "game_id": "a0d8ae0b99bb84a9d378e6cd",
+        "stratum": "opening",
+        "nps_percent": 1.4870101256868828,
+        "time_percent": -1.4652221243342312
+      },
+      {
+        "id": "P098",
+        "game_id": "eda463a32475aa0da2af8262",
+        "stratum": "opening",
+        "nps_percent": 0.5139071790494887,
+        "time_percent": -0.5112796760890492
+      },
+      {
+        "id": "P041",
+        "game_id": "cdbaa8744b1be7a36b8d583f",
+        "stratum": "opening",
+        "nps_percent": 0.2558560091870721,
+        "time_percent": -0.2552030568305441
+      },
+      {
+        "id": "P002",
+        "game_id": "998597e05086d57d3066aaef",
+        "stratum": "opening",
+        "nps_percent": 2.0047963787492407,
+        "time_percent": -1.9653942264688418
+      },
+      {
+        "id": "P306",
+        "game_id": "41d8809584a84edb59079bda",
+        "stratum": "opening",
+        "nps_percent": 0.5877620448673682,
+        "time_percent": -0.5843275890810573
+      },
+      {
+        "id": "P121",
+        "game_id": "3345aa6a61857c7f420d8d97",
+        "stratum": "opening",
+        "nps_percent": 0.0824069014785378,
+        "time_percent": -0.08233904842003259
+      },
+      {
+        "id": "P226",
+        "game_id": "b4a524a71aaec53f64abc424",
+        "stratum": "opening",
+        "nps_percent": 0.01193004148143384,
+        "time_percent": -0.011928618392298418
+      },
+      {
+        "id": "P122",
+        "game_id": "b903713898730a9d574e0dd3",
+        "stratum": "opening",
+        "nps_percent": -0.20646873381300335,
+        "time_percent": 0.20689590917699618
+      },
+      {
+        "id": "P201",
+        "game_id": "a4494a2e1020f9cda732f5bc",
+        "stratum": "opening",
+        "nps_percent": 0.223181017604146,
+        "time_percent": -0.2226840291219223
+      },
+      {
+        "id": "P001",
+        "game_id": "078a64e8985ecb10402eb07a",
+        "stratum": "opening",
+        "nps_percent": 0.48990380682063517,
+        "time_percent": -0.4875154500718959
+      },
+      {
+        "id": "P171",
+        "game_id": "b821b9db3f65ec0eb4437a0e",
+        "stratum": "forcing",
+        "nps_percent": -0.8592544623152731,
+        "time_percent": 0.8667016347871481
+      },
+      {
+        "id": "P180",
+        "game_id": "371816bf28c4e7e45fdca443",
+        "stratum": "forcing",
+        "nps_percent": 0.5457299822047235,
+        "time_percent": -0.5427679348504522
+      },
+      {
+        "id": "P299",
+        "game_id": "d63e5adee2de445c9cf2ec8e",
+        "stratum": "forcing",
+        "nps_percent": -0.6771103632515652,
+        "time_percent": 0.681726403377847
+      },
+      {
+        "id": "P387",
+        "game_id": "9043a5902c6624554a96b281",
+        "stratum": "forcing",
+        "nps_percent": -0.352351734459766,
+        "time_percent": 0.3535976418839626
+      },
+      {
+        "id": "P028",
+        "game_id": "0e05c91994f74602726f5fb9",
+        "stratum": "forcing",
+        "nps_percent": 0.22490013089331296,
+        "time_percent": -0.22439546519836817
+      },
+      {
+        "id": "P228",
+        "game_id": "de021a481b24dfbd190fefd6",
+        "stratum": "forcing",
+        "nps_percent": -0.790525163993816,
+        "time_percent": 0.7968242602841791
+      },
+      {
+        "id": "P107",
+        "game_id": "fbb1318f93beb153c482a7a9",
+        "stratum": "forcing",
+        "nps_percent": -0.14407982039004175,
+        "time_percent": 0.14428770986325556
+      },
+      {
+        "id": "P036",
+        "game_id": "b3400904b4484aa09da3f5d0",
+        "stratum": "forcing",
+        "nps_percent": -0.6354189455785031,
+        "time_percent": 0.6394823375046377
+      },
+      {
+        "id": "P244",
+        "game_id": "7132a59a7a2985ffd35ec257",
+        "stratum": "forcing",
+        "nps_percent": 1.0663745043904216,
+        "time_percent": -1.0551229423433006
+      },
+      {
+        "id": "P243",
+        "game_id": "a871d6405b0990aac233b099",
+        "stratum": "forcing",
+        "nps_percent": 0.21121599233413502,
+        "time_percent": -0.21077081067480963
+      },
+      {
+        "id": "P220",
+        "game_id": "821e474a49e712e3e04531fc",
+        "stratum": "forcing",
+        "nps_percent": 0.42300176120135813,
+        "time_percent": -0.42121999321153014
+      },
+      {
+        "id": "P139",
+        "game_id": "fab7887fd03e05b69a1027b6",
+        "stratum": "forcing",
+        "nps_percent": -0.9920290952382338,
+        "time_percent": 1.0019689184343372
+      },
+      {
+        "id": "P342",
+        "game_id": "a64e51c66e7036d9f872c9c0",
+        "stratum": "quiet",
+        "nps_percent": 0.016900889162996258,
+        "time_percent": -0.016898033245127397
+      },
+      {
+        "id": "P374",
+        "game_id": "3305c46f89c3076d717dc8fe",
+        "stratum": "quiet",
+        "nps_percent": -0.6196063513154715,
+        "time_percent": 0.6234694073619984
+      },
+      {
+        "id": "P158",
+        "game_id": "0c43b5d2b5552fc6e1830edb",
+        "stratum": "quiet",
+        "nps_percent": -0.18457323125108394,
+        "time_percent": 0.18491453398150615
+      },
+      {
+        "id": "P181",
+        "game_id": "fad1dc792831c3f0d9d5f8fd",
+        "stratum": "quiet",
+        "nps_percent": 0.11446126447829386,
+        "time_percent": -0.11433040045624177
+      },
+      {
+        "id": "P389",
+        "game_id": "e48a3fca972e6383b87dc1c2",
+        "stratum": "quiet",
+        "nps_percent": -0.842495422882239,
+        "time_percent": 0.8496537165545659
+      },
+      {
+        "id": "P246",
+        "game_id": "16e4f7034a596d6d6e175208",
+        "stratum": "quiet",
+        "nps_percent": 1.4157758521269992,
+        "time_percent": -1.3960114589975925
+      },
+      {
+        "id": "P262",
+        "game_id": "4cb74c1c679c0bdedf3677a6",
+        "stratum": "quiet",
+        "nps_percent": 0.46340246098983684,
+        "time_percent": -0.4612649478697217
+      },
+      {
+        "id": "P046",
+        "game_id": "2419d74834d8273635974eba",
+        "stratum": "quiet",
+        "nps_percent": 0.6651425825841439,
+        "time_percent": -0.6607476684776681
+      },
+      {
+        "id": "P053",
+        "game_id": "6df343439a917b58fdc05884",
+        "stratum": "quiet",
+        "nps_percent": 1.6789734938816192,
+        "time_percent": -1.651249453243786
+      },
+      {
+        "id": "P293",
+        "game_id": "d7d6d3395dbda630fe96f48f",
+        "stratum": "quiet",
+        "nps_percent": -0.023233698706459638,
+        "time_percent": 0.023239098008476233
+      },
+      {
+        "id": "P197",
+        "game_id": "24e1a79fc231603c2df8fdaf",
+        "stratum": "quiet",
+        "nps_percent": 1.11586137763795,
+        "time_percent": -1.1035473193177214
+      },
+      {
+        "id": "P165",
+        "game_id": "1a8a62410efb8f137673c8ee",
+        "stratum": "quiet",
+        "nps_percent": 0.7370366944018159,
+        "time_percent": -0.7316442081155339
+      },
+      {
+        "id": "P200",
+        "game_id": "e6ac8b2f8d602eb7e768e357",
+        "stratum": "endgame",
+        "nps_percent": 3.2897138969783413,
+        "time_percent": -3.18493853149745
+      },
+      {
+        "id": "P223",
+        "game_id": "cfdea9ff028042b6e2044fed",
+        "stratum": "endgame",
+        "nps_percent": -0.8630634309027996,
+        "time_percent": 0.8705770631728615
+      },
+      {
+        "id": "P175",
+        "game_id": "4c580eba18c6fc4adeb4b8f5",
+        "stratum": "endgame",
+        "nps_percent": 1.3904489683263632,
+        "time_percent": -1.37138062063491
+      },
+      {
+        "id": "P367",
+        "game_id": "aa6f35045664b844e39cf826",
+        "stratum": "endgame",
+        "nps_percent": -0.8558729007615673,
+        "time_percent": 0.863261320466191
+      },
+      {
+        "id": "P096",
+        "game_id": "64e74de3b0a67f56a126545a",
+        "stratum": "endgame",
+        "nps_percent": -3.408840627828069,
+        "time_percent": 3.5291435054564335
+      },
+      {
+        "id": "P199",
+        "game_id": "67c91db35d8b832da9ae31da",
+        "stratum": "endgame",
+        "nps_percent": 0.7504755273242569,
+        "time_percent": -0.7448853451026416
+      },
+      {
+        "id": "P288",
+        "game_id": "d3cff7f3450c014ab72768e6",
+        "stratum": "endgame",
+        "nps_percent": -0.2535120514778666,
+        "time_percent": 0.2541563685016124
+      },
+      {
+        "id": "P039",
+        "game_id": "2876ad23cbc75b831482a4ff",
+        "stratum": "endgame",
+        "nps_percent": -1.471024516228292,
+        "time_percent": 1.492986716857292
+      },
+      {
+        "id": "P127",
+        "game_id": "b8c12f084415ec562aa7ba51",
+        "stratum": "endgame",
+        "nps_percent": 4.272047083211827,
+        "time_percent": -4.097020440964982
+      },
+      {
+        "id": "P399",
+        "game_id": "c6d0306695130d43988659f2",
+        "stratum": "endgame",
+        "nps_percent": 0.440556553252458,
+        "time_percent": -0.4386241657461154
+      },
+      {
+        "id": "P311",
+        "game_id": "88c1f42214739377c094ecc5",
+        "stratum": "endgame",
+        "nps_percent": -0.7947274182306119,
+        "time_percent": 0.8010939313488175
+      },
+      {
+        "id": "P328",
+        "game_id": "ab757dfc923997f92e0b123d",
+        "stratum": "endgame",
+        "nps_percent": -0.2639666550341313,
+        "time_percent": 0.2646652831290508
+      }
+    ]
+  },
+  "median_wall_nps": {
+    "shipped": 1756941.1070710807,
+    "control": 1748597.8230149886,
+    "candidate": 1809879.4931646043
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "status": "passed",
+  "assessment_required": true,
+  "selected_corpus_games": 100,
+  "measured_corpus_games": 100,
+  "measured_historical_witnesses": 4,
+  "incomplete_quiescence": [],
+  "excluded_contexts": [],
+  "strata": {
+    "j65_category_random": {
+      "games": 24,
+      "stages": {
+        "raw": {
+          "n": 24,
+          "mean_error_pp": 10.589462232583374
+        },
+        "quiescence": {
+          "n": 24,
+          "mean_error_pp": 7.3513494322868755
+        },
+        "search_250": {
+          "n": 24,
+          "mean_error_pp": 6.24504579434822
+        },
+        "search_2000": {
+          "n": 24,
+          "mean_error_pp": 5.5578298193916105
+        }
+      }
+    },
+    "j65_large_student_teacher_error": {
+      "games": 8,
+      "stages": {
+        "raw": {
+          "n": 8,
+          "mean_error_pp": 54.223551199586296
+        },
+        "quiescence": {
+          "n": 8,
+          "mean_error_pp": 22.976539165839725
+        },
+        "search_250": {
+          "n": 8,
+          "mean_error_pp": 6.594139361996089
+        },
+        "search_2000": {
+          "n": 8,
+          "mean_error_pp": 6.579360544999517
+        }
+      }
+    },
+    "ordinary_control": {
+      "games": 24,
+      "stages": {
+        "raw": {
+          "n": 24,
+          "mean_error_pp": 10.239514155028887
+        },
+        "quiescence": {
+          "n": 24,
+          "mean_error_pp": 9.697910986384596
+        },
+        "search_250": {
+          "n": 24,
+          "mean_error_pp": 5.874258857473549
+        },
+        "search_2000": {
+          "n": 24,
+          "mean_error_pp": 5.546436568654867
+        }
+      }
+    },
+    "quiet_disagreement": {
+      "games": 24,
+      "stages": {
+        "raw": {
+          "n": 24,
+          "mean_error_pp": 18.81464322372054
+        },
+        "quiescence": {
+          "n": 24,
+          "mean_error_pp": 18.814148635039075
+        },
+        "search_250": {
+          "n": 24,
+          "mean_error_pp": 8.336277740759213
+        },
+        "search_2000": {
+          "n": 24,
+          "mean_error_pp": 6.520463158756143
+        }
+      }
+    },
+    "target_family_control": {
+      "games": 20,
+      "stages": {
+        "raw": {
+          "n": 20,
+          "mean_error_pp": 14.936595412706133
+        },
+        "quiescence": {
+          "n": 20,
+          "mean_error_pp": 3.0138419446829214
+        },
+        "search_250": {
+          "n": 20,
+          "mean_error_pp": 1.3251533638640611
+        },
+        "search_2000": {
+          "n": 20,
+          "mean_error_pp": 1.6002292774560567
+        }
+      }
+    }
+  },
+  "raw_disagreements_at_least_15pp": 44,
+  "q_within_5pp_of_teacher": [
+    "corpus-761265-138",
+    "corpus-2036369-274",
+    "corpus-568369-186",
+    "corpus-1153474-119",
+    "corpus-2078836-81",
+    "corpus-643329-101",
+    "corpus-664116-79",
+    "corpus-1289140-206",
+    "corpus-122321-128",
+    "corpus-1419637-177",
+    "corpus-905323-139",
+    "corpus-1900467-174"
+  ],
+  "search_within_5pp_of_teacher": [
+    "corpus-761265-138",
+    "corpus-2036369-274",
+    "corpus-568369-186",
+    "corpus-1153474-119",
+    "corpus-1203076-138",
+    "corpus-1279645-149",
+    "corpus-1214528-169",
+    "corpus-1542086-89",
+    "corpus-1267543-140",
+    "corpus-146174-46",
+    "corpus-1959559-178",
+    "corpus-1267173-158",
+    "corpus-1289387-98",
+    "corpus-1959108-81",
+    "corpus-643329-101",
+    "corpus-1012194-116",
+    "corpus-664116-79",
+    "corpus-1289140-206",
+    "corpus-122321-128",
+    "corpus-1419637-177",
+    "corpus-905323-139",
+    "corpus-1900467-174",
+    "corpus-1141305-169"
+  ],
+  "search_disagreements_at_least_15pp": [
+    "corpus-1332191-109",
+    "corpus-1421554-75",
+    "corpus-1494057-118",
+    "corpus-680658-103",
+    "corpus-1094218-83",
+    "corpus-118832-86",
+    "corpus-717448-44",
+    "corpus-1708569-65",
+    "corpus-935521-45"
+  ],
+  "reference_searches_by_provenance": {
+    "retained J65": 32,
+    "J66": 84
+  },
+  "no_training_labels_created": true,
+  "no_engine_promoted": true
+}

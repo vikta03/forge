@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "kind": "Non-browser arithmetic, geometry and controller regression checks",
+  "checks": [
+    "Embedded model bytes retain the original deployed SHA256",
+    "Both orbit axes follow a drag, without changing orbit radius",
+    "Cursor-anchored zoom preserves off-centre projection at near/far scales",
+    "Pan follows drag and preserves camera orientation",
+    "Resize updates projection without moving camera or pivot",
+    "Every value/query pick retains its head and exact coordinate",
+    "Unfold preserves and reconnects every head input/value/query route",
+    "Universe hides the floor; view switches restore camera and targets",
+    "Selection focus follows a piece; changing views safely clears its move arrow",
+    "Weight field low/high channel positions remain pickable above the former floor",
+    "Original 128 native fixture comparisons still match",
+    "All inspector channel, hidden, output and policy sums reconstruct model outputs",
+    "Piece identities cover both games; captured bishop is absent, never replaced",
+    "Stored weight reports only its real participating perspectives and pieces",
+    "Inactive-head inspection stays on the clicked head across positions",
+    "Channel identity and perspective survive turn changes; follow-turn is explicit",
+    "Selection Back restores exact weight address and piece identity",
+    "View switching restores selected head, unit and channel context",
+    "Manual guide follows actual arithmetic and ends on a position change",
+    "Each inspector type renders a valid explanation string across game phases",
+    "Every constant DOM ID reference has a matching template or generated element"
+  ],
+  "fixture_comparison": {
+    "positions": 128,
+    "integerValues": 4480,
+    "policyLogits": 3938,
+    "errors": [],
+    "passed": true,
+    "source": "Existing J46 native-engine log; no new engine job"
+  },
+  "browser_interaction": "NOT RUN: local-file browser access was denied; no alternate browser or server used",
+  "source_sha256": {
+    "interaction.js": "5cf6996c5a39a90953dc76fe837e73c204d96ea49477a9bd2c1cc549fb97bc2b",
+    "scene.js": "69df3e7a3d2d10558165356b63fdeab0a6853fc01523c719f6de65f0a91856fc",
+    "app.js": "9ea2b930d0253e08a9b44d1990c4f1675b580b5890bf76f8eae8a34891451ad1",
+    "model.js": "dd4201f9d9badca4bbbefa73ba30822db1a6169db8a8f09a5f693f9213dd6cfc",
+    "index.template.html": "21e622920a0140001e4d87804719951b10e0c989820c20f87b90987d9aa3db01",
+    "style.css": "822f041bca8208a64d8f9882e9bcc376ea297a6e586d94dd34e0e8f1800d340c",
+    "verify-interactions.cjs": "f34c5780ac5b024a9f7a9a0acd654179e4fca3f79f1c7c8b39f10cd5d3f3aa7f"
+  }
+}

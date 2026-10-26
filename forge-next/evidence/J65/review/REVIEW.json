@@ -1,0 +1,315 @@
+{
+  "status": "passed",
+  "mode": "saved evidence only; no engines or corpus traversal",
+  "native_records_verified": 3367,
+  "unique_native_game_frames": 3352,
+  "reference_games": 32,
+  "reference_searches": 40,
+  "reference_pv_plies_verified": 1034,
+  "reference_first_moves": {
+    "category_random/capture": 8,
+    "category_random/noncapture": 16,
+    "large_student_teacher_error/capture": 8
+  },
+  "posthoc_capture_availability": {
+    "train/all/capture_or_promotion_available": {
+      "games": 105,
+      "expected_mae": 0.09770998626899957,
+      "draw_mae": 0.14909210130840977
+    },
+    "train/all/neither_available": {
+      "games": 23,
+      "expected_mae": 0.049856801686163674,
+      "draw_mae": 0.0931783693401701
+    },
+    "train/bishop_opposite/neither_available": {
+      "games": 75,
+      "expected_mae": 0.09294040847975156,
+      "draw_mae": 0.18875319014507955
+    },
+    "train/bishop_opposite/capture_or_promotion_available": {
+      "games": 53,
+      "expected_mae": 0.1423011408240487,
+      "draw_mae": 0.27087201518801785
+    },
+    "train/bishop_same/neither_available": {
+      "games": 78,
+      "expected_mae": 0.1129727914624344,
+      "draw_mae": 0.2202612761395996
+    },
+    "train/bishop_same/capture_or_promotion_available": {
+      "games": 50,
+      "expected_mae": 0.10964713532487122,
+      "draw_mae": 0.20787187555453668
+    },
+    "train/long_quiet_queenless/neither_available": {
+      "games": 105,
+      "expected_mae": 0.013800277904461304,
+      "draw_mae": 0.027807049377256095
+    },
+    "train/long_quiet_queenless/capture_or_promotion_available": {
+      "games": 23,
+      "expected_mae": 0.08158784265798874,
+      "draw_mae": 0.16495817219755188
+    },
+    "train/pawn_only/neither_available": {
+      "games": 101,
+      "expected_mae": 0.10263901484133651,
+      "draw_mae": 0.20655454658462527
+    },
+    "train/pawn_only/capture_or_promotion_available": {
+      "games": 27,
+      "expected_mae": 0.07091531586575782,
+      "draw_mae": 0.1560904734168226
+    },
+    "train/queenless_le16/neither_available": {
+      "games": 54,
+      "expected_mae": 0.10575703205776632,
+      "draw_mae": 0.19322231919995064
+    },
+    "train/queenless_le16/capture_or_promotion_available": {
+      "games": 74,
+      "expected_mae": 0.09893268923258693,
+      "draw_mae": 0.20182032075648149
+    },
+    "train/rook_bishop_opposite/neither_available": {
+      "games": 40,
+      "expected_mae": 0.07992648511486009,
+      "draw_mae": 0.16381765019202704
+    },
+    "train/rook_bishop_opposite/capture_or_promotion_available": {
+      "games": 88,
+      "expected_mae": 0.08425938373685221,
+      "draw_mae": 0.17839750368773635
+    },
+    "train/rook_bishop_same/capture_or_promotion_available": {
+      "games": 97,
+      "expected_mae": 0.11324095936763705,
+      "draw_mae": 0.21463427913515062
+    },
+    "train/rook_bishop_same/neither_available": {
+      "games": 31,
+      "expected_mae": 0.11769294671056758,
+      "draw_mae": 0.1951045902017358
+    },
+    "train/rook_bishop_vs_rook_pawnless/neither_available": {
+      "games": 84,
+      "expected_mae": 0.04893565457379453,
+      "draw_mae": 0.0983302343473797
+    },
+    "train/rook_bishop_vs_rook_pawnless/capture_or_promotion_available": {
+      "games": 44,
+      "expected_mae": 0.05313883777256043,
+      "draw_mae": 0.10761628400102921
+    },
+    "train/rook_bishop_vs_rook_with_pawns/capture_or_promotion_available": {
+      "games": 108,
+      "expected_mae": 0.21310927589349143,
+      "draw_mae": 0.34756663179224423
+    },
+    "train/rook_bishop_vs_rook_with_pawns/neither_available": {
+      "games": 20,
+      "expected_mae": 0.19844019024369602,
+      "draw_mae": 0.3492576294440263
+    },
+    "train/rook_only/neither_available": {
+      "games": 62,
+      "expected_mae": 0.08183045103829448,
+      "draw_mae": 0.1622217015442703
+    },
+    "train/rook_only/capture_or_promotion_available": {
+      "games": 66,
+      "expected_mae": 0.08931514598729229,
+      "draw_mae": 0.18652702313097516
+    },
+    "train/rook_pawn_vs_bishop/capture_or_promotion_available": {
+      "games": 79,
+      "expected_mae": 0.16250157178817676,
+      "draw_mae": 0.33007468083705865
+    },
+    "train/rook_pawn_vs_bishop/neither_available": {
+      "games": 49,
+      "expected_mae": 0.10715044784324529,
+      "draw_mae": 0.21254291953630933
+    },
+    "train/rook_rookpawn_vs_bishop/neither_available": {
+      "games": 51,
+      "expected_mae": 0.13034262253131568,
+      "draw_mae": 0.26033774900584683
+    },
+    "train/rook_rookpawn_vs_bishop/capture_or_promotion_available": {
+      "games": 77,
+      "expected_mae": 0.16547923224190952,
+      "draw_mae": 0.341859869595044
+    },
+    "train/seven_or_fewer/neither_available": {
+      "games": 96,
+      "expected_mae": 0.07727473603965246,
+      "draw_mae": 0.15159116967444788
+    },
+    "train/seven_or_fewer/capture_or_promotion_available": {
+      "games": 32,
+      "expected_mae": 0.08378577270727214,
+      "draw_mae": 0.17363262597898121
+    },
+    "valid/all/capture_or_promotion_available": {
+      "games": 95,
+      "expected_mae": 0.1017020327026113,
+      "draw_mae": 0.15565270957055694
+    },
+    "valid/all/neither_available": {
+      "games": 33,
+      "expected_mae": 0.08850699169993936,
+      "draw_mae": 0.1733076113970105
+    },
+    "valid/bishop_opposite/capture_or_promotion_available": {
+      "games": 40,
+      "expected_mae": 0.07483340703075031,
+      "draw_mae": 0.16449072547112076
+    },
+    "valid/bishop_opposite/neither_available": {
+      "games": 88,
+      "expected_mae": 0.07441330904719193,
+      "draw_mae": 0.1553116718700267
+    },
+    "valid/bishop_same/capture_or_promotion_available": {
+      "games": 57,
+      "expected_mae": 0.13870351851047683,
+      "draw_mae": 0.25910616289730887
+    },
+    "valid/bishop_same/neither_available": {
+      "games": 71,
+      "expected_mae": 0.10344532022400066,
+      "draw_mae": 0.188124342727328
+    },
+    "valid/long_quiet_queenless/neither_available": {
+      "games": 105,
+      "expected_mae": 0.006525899033653245,
+      "draw_mae": 0.013560489967957924
+    },
+    "valid/long_quiet_queenless/capture_or_promotion_available": {
+      "games": 23,
+      "expected_mae": 0.08965151802841746,
+      "draw_mae": 0.16075551700754548
+    },
+    "valid/pawn_only/neither_available": {
+      "games": 101,
+      "expected_mae": 0.07899430068650191,
+      "draw_mae": 0.1598300802259686
+    },
+    "valid/pawn_only/capture_or_promotion_available": {
+      "games": 27,
+      "expected_mae": 0.1057884351984082,
+      "draw_mae": 0.20942415827888988
+    },
+    "valid/queenless_le16/neither_available": {
+      "games": 42,
+      "expected_mae": 0.07748825572659432,
+      "draw_mae": 0.16693275454683768
+    },
+    "valid/queenless_le16/capture_or_promotion_available": {
+      "games": 86,
+      "expected_mae": 0.12820992442448914,
+      "draw_mae": 0.23978875359619178
+    },
+    "valid/rook_bishop_opposite/capture_or_promotion_available": {
+      "games": 90,
+      "expected_mae": 0.10607747205431749,
+      "draw_mae": 0.2064743191605687
+    },
+    "valid/rook_bishop_opposite/neither_available": {
+      "games": 38,
+      "expected_mae": 0.07146482758019969,
+      "draw_mae": 0.15085196981280943
+    },
+    "valid/rook_bishop_same/capture_or_promotion_available": {
+      "games": 94,
+      "expected_mae": 0.10101503703024306,
+      "draw_mae": 0.21313154544557925
+    },
+    "valid/rook_bishop_same/neither_available": {
+      "games": 34,
+      "expected_mae": 0.08196308251950293,
+      "draw_mae": 0.17096891378586185
+    },
+    "valid/rook_bishop_vs_rook_pawnless/capture_or_promotion_available": {
+      "games": 30,
+      "expected_mae": 0.10151234055610368,
+      "draw_mae": 0.20436260309569712
+    },
+    "valid/rook_bishop_vs_rook_pawnless/neither_available": {
+      "games": 73,
+      "expected_mae": 0.040107013310913125,
+      "draw_mae": 0.08054788518515263
+    },
+    "valid/rook_bishop_vs_rook_with_pawns/neither_available": {
+      "games": 18,
+      "expected_mae": 0.13708152963307238,
+      "draw_mae": 0.26681793635056
+    },
+    "valid/rook_bishop_vs_rook_with_pawns/capture_or_promotion_available": {
+      "games": 110,
+      "expected_mae": 0.19702448272780385,
+      "draw_mae": 0.3546425420089938
+    },
+    "valid/rook_only/capture_or_promotion_available": {
+      "games": 80,
+      "expected_mae": 0.10507324695771403,
+      "draw_mae": 0.2188320697361145
+    },
+    "valid/rook_only/neither_available": {
+      "games": 48,
+      "expected_mae": 0.059787838916052265,
+      "draw_mae": 0.13403585899454284
+    },
+    "valid/rook_pawn_vs_bishop/neither_available": {
+      "games": 17,
+      "expected_mae": 0.08565317331344985,
+      "draw_mae": 0.16959188686752627
+    },
+    "valid/rook_pawn_vs_bishop/capture_or_promotion_available": {
+      "games": 29,
+      "expected_mae": 0.1852433949252594,
+      "draw_mae": 0.3755387809532625
+    },
+    "valid/rook_rookpawn_vs_bishop/capture_or_promotion_available": {
+      "games": 14,
+      "expected_mae": 0.16365884709274933,
+      "draw_mae": 0.3326386336287496
+    },
+    "valid/rook_rookpawn_vs_bishop/neither_available": {
+      "games": 4,
+      "expected_mae": 0.1678279247292319,
+      "draw_mae": 0.33546627421641284
+    },
+    "valid/seven_or_fewer/neither_available": {
+      "games": 89,
+      "expected_mae": 0.046574873806841006,
+      "draw_mae": 0.09557498636775184
+    },
+    "valid/seven_or_fewer/capture_or_promotion_available": {
+      "games": 39,
+      "expected_mae": 0.10893652558704406,
+      "draw_mae": 0.2126062515353776
+    }
+  },
+  "posthoc_caveat": "No-capture/promotion availability is a descriptive filter, not a claim of tactical stability. No new confidence intervals or causal conclusions.",
+  "source_sample_splits": {
+    "train": 256,
+    "valid": 128
+  },
+  "played_draw_low_teacher_draw_leads": [
+    {
+      "game": 1753747,
+      "frames": 53
+    }
+  ],
+  "reviewed_file_hashes": {
+    "completion.json": "befe041e5da70969b79d805e7059c09503f1c3b6f0fad2708fe3e6d622a6f3db",
+    "coverage.json": "db02696c5567e797c82d6e8e542a87e14581c565434f48c82a528f0c37734061",
+    "model-comparison.json": "2ff67708a021f14a64d9fb1f21cb9bd99010d09765bf3c1b0e7da2183d9823c8",
+    "reference.json": "aec6ceb9602816c7415b4753f2f12bbc927c6985a8a73cff15a39e9214d0708d",
+    "source-audit.json": "7bcb7f4baf583b7c7b0f77311c211520040ca18b48e90ec5201c4bf2e79ea762",
+    "RESULTS.md": "9c011174407af5933a7f2255c8117cd056af8e24a6e76d3e3092c05d3b07ca25"
+  }
+}

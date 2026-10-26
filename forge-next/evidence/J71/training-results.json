@@ -1,0 +1,125 @@
+{
+  "results": {
+    "candidate": {
+      "architecture": "reader64",
+      "metrics": {
+        "value_ce": 0.6372639346087977,
+        "policy_ce": 2.9061187452339126,
+        "brier": 0.10570185324450723,
+        "expected_mse": 0.018510587664069895,
+        "expected_mae": 0.08662330386719685,
+        "wdl_kl": 0.1683245145549222,
+        "rows": 2106816,
+        "policy_rows": 2106727,
+        "games": 20944,
+        "game_macro_ce": 0.7200832707369749,
+        "game_macro_standard_error": 0.001589294318706234,
+        "slices": {
+          "active_head_0": {
+            "rows": 941622,
+            "value_ce": 0.4190914471500567
+          },
+          "active_head_1": {
+            "rows": 1165194,
+            "value_ce": 0.8135744986124566
+          },
+          "pieces_2_to_7": {
+            "rows": 298778,
+            "value_ce": 0.11872035152892717
+          },
+          "pieces_8_to_16": {
+            "rows": 642844,
+            "value_ce": 0.5586965083482518
+          },
+          "pieces_17_plus": {
+            "rows": 1165194,
+            "value_ce": 0.8135744986124566
+          },
+          "clock_0_to_19": {
+            "rows": 1940186,
+            "value_ce": 0.6777532849380148
+          },
+          "clock_20_to_59": {
+            "rows": 123111,
+            "value_ce": 0.19817254817385058
+          },
+          "clock_60_to_99": {
+            "rows": 43519,
+            "value_ce": 0.0742939589331448
+          },
+          "phase_0_to_4": {
+            "rows": 430704,
+            "value_ce": 0.29915995478371005
+          },
+          "phase_5_to_12": {
+            "rows": 686806,
+            "value_ce": 0.5728972684955802
+          },
+          "phase_13_plus": {
+            "rows": 989306,
+            "value_ce": 0.8291460694401895
+          }
+        }
+      },
+      "selected": {
+        "epochs": 11,
+        "presentations": 2352895622
+      },
+      "paired_vs_installed": {
+        "games": 20944,
+        "positions": 2106816,
+        "ce_difference": -0.002796447835817366,
+        "ce_difference_95": [
+          -0.003365265274690123,
+          -0.0022070203910460858
+        ],
+        "mae_difference_points": -0.005503739807271031,
+        "mae_difference_points_95": [
+          -0.022500789508753262,
+          0.011388092010162233
+        ],
+        "note": "Position-weighted paired source-game bootstrap; validation selected checkpoints, not an untouched test or Elo."
+      },
+      "boundaries": {
+        "general_positions": 4096,
+        "general_expected_mae_points": 9.440157890319824,
+        "boundaries": [
+          {
+            "pieces": 16,
+            "mean_gap_points": 3.7767717838287354,
+            "p95_gap_points": 11.428887367248535,
+            "active_mae_points": 13.953107833862305
+          },
+          {
+            "pieces": 17,
+            "mean_gap_points": 4.342323303222656,
+            "p95_gap_points": 11.99160385131836,
+            "active_mae_points": 14.682138442993164
+          }
+        ]
+      },
+      "routing": {
+        "sample": "existing architecture diagnostic, not random population frequencies",
+        "expert_visits": [
+          2787,
+          4226
+        ],
+        "gate_abs_quantiles": null
+      },
+      "integer_export": {
+        "positions": 120,
+        "all_heads_integer_exact": true,
+        "policy_exact": true,
+        "wdl_agrees": true
+      },
+      "parameters": 4795776,
+      "model_sha256": "07ef1112138cead6470e89773d99a7a40cc133f1800e0c1d8424016d345f1423",
+      "training_from_scratch": true,
+      "validation_selects_checkpoint": true,
+      "strength_measured": false
+    }
+  },
+  "promoted": false,
+  "baseline": "First J69 Wide192/4x32, no retraining",
+  "comparison": "Same seed/data/12-pass schedule; reader width, head count and routing changed"
+}

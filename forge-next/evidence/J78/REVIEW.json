@@ -1,0 +1,81 @@
+{
+  "status": "passed",
+  "historical_pv_plies": 16668,
+  "score_bestmove_mismatches": [
+    {
+      "id": "current-79b",
+      "arm": "on"
+    },
+    {
+      "id": "current-79b",
+      "arm": "off"
+    }
+  ],
+  "historical_guard_hits": {
+    "main": 553590,
+    "q": 80718
+  },
+  "historical_cases_with_hits": 20,
+  "median_off_nps": 1716004.9915815047,
+  "median_on_nps": 1702615.929047625,
+  "covered_root_choices": [
+    {
+      "id": "fortress-80w",
+      "root_outcome": 1,
+      "preserved": {
+        "off": true,
+        "on": true
+      }
+    },
+    {
+      "id": "fortress-81w",
+      "root_outcome": 0,
+      "preserved": {
+        "on": true,
+        "off": true
+      }
+    },
+    {
+      "id": "rook-bishop-65w",
+      "root_outcome": 1,
+      "preserved": {
+        "off": true,
+        "on": true
+      }
+    },
+    {
+      "id": "corpus-364233-225",
+      "root_outcome": 0,
+      "preserved": {
+        "on": true,
+        "off": true
+      }
+    },
+    {
+      "id": "corpus-1176670-264",
+      "root_outcome": 0,
+      "preserved": {
+        "off": true,
+        "on": true
+      }
+    },
+    {
+      "id": "corpus-2036369-274",
+      "root_outcome": 0,
+      "preserved": {
+        "on": true,
+        "off": true
+      }
+    },
+    {
+      "id": "corpus-761265-138",
+      "root_outcome": 1,
+      "preserved": {
+        "off": true,
+        "on": true
+      }
+    }
+  ],
+  "original_unchanged": true,
+  "automatic_promotion": false
+}

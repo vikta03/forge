@@ -1,0 +1,25 @@
+{
+  "wide160": {
+    "model_sha256": "23e167e99d1a14cbde73d838e295cecf50e0f81d74f6639af6584de6934ae2a6",
+    "native_bytes": 4001184,
+    "coefficients": 4001152,
+    "header_bytes": 32
+  },
+  "deep32": {
+    "model_sha256": "2d931dd7673ca7f0fc6726325f7fcca9e53eabb0c08f800facf7bcfb2619c74b",
+    "native_bytes": 3218848,
+    "coefficients": 3218816,
+    "header_bytes": 32
+  },
+  "source_sha256": {
+    "research/forge_capacity_overnight_20261024/network.py": "5024633340795399c1d1fefb56198f974a1f834f567af3353cbda160d594523d",
+    "research/forge_capacity_overnight_20261024/PROTOCOL.md": "a9b776213c1dde75446ac7d9e62786b21afab24d54c6fcd933a7c7f194866f48",
+    "research/forge_capacity_nps_20261024/runs/20261024T065717Z/export.json": "aea9011c7280a5a4b780b7aa974a8eef65745cf84c9a323535bf6df36bf1061d",
+    "engines/forge-wide160/src/forge_next_probe.cpp": "68c7726e471192448c228ee6e0c455c1ec41fae45c8c1738b7cb9e732166955a",
+    "engines/forge-wide160-fullkey/src/tt.cpp": "d7219b2f54dd25c1558efd48777151bac5424e3a108edff8b7bd827a96ac3b84",
+    "engines/forge-wide160-fullkey/src/tt.h": "c8eefea3694fbcb795b30c26b3210bd9a6c4203f842d166dbb32850bcfd6fa47",
+    "research/forge_wide_fullkey_20261024/runs/20261024T152654Z/summary.json": "4ebd07a18013056b1d94857078f11b1dca3611c0728fb2c3875ec14edbe417a8",
+    "research/forge_capacity_match_20261024/runs/20261024T071726Z/RESULTS.md": "29757dbf38bb805dd32c36a61704be60336da9968d090dd17cde32008a5b81e2"
+  },
+  "scope": "Small file/header-size/hash audit and source reading only; no model inference or engine execution."
+}

@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "exact_natural_pairs": 36,
+  "contexts": 105,
+  "all_emitted_pvs_legal": true,
+  "forced_roots_verified": true,
+  "trace_paths_replayed": true,
+  "raw_scalar_algebra_verified": true,
+  "trace_neutrality_verified": true,
+  "new_search_algorithm": false,
+  "limitation": "Counts and raw receipts verified by the runner; substantive interpretation remains for review."
+}

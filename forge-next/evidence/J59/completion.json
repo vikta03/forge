@@ -1,0 +1,20 @@
+{
+  "exit_code": 0,
+  "reason": "worker completed",
+  "wall_seconds": 728.7145519270125,
+  "peak_rss_bytes": 2041253888,
+  "cpus": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    9,
+    10,
+    11
+  ],
+  "gpu": false,
+  "games_requested": 200,
+  "training": false,
+  "status": "complete"
+}

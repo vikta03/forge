@@ -1,0 +1,49 @@
+{
+  "games": 200,
+  "pairs": 100,
+  "fixed": {
+    "wins": 51,
+    "draws": 110,
+    "losses": 39
+  },
+  "fixed_points": 106.0,
+  "fixed_score": 0.53,
+  "paired_bootstrap_95": [
+    0.49,
+    0.57
+  ],
+  "bootstrap_resamples": 10000,
+  "bootstrap_seed": 490023,
+  "bounded_score_95": [
+    0.39418984842593807,
+    0.665810151574062
+  ],
+  "pair_points": {
+    "1.0": 52,
+    "1.5": 24,
+    "0.5": 16,
+    "0.0": 3,
+    "2.0": 5
+  },
+  "fixed_white": {
+    "wins": 35,
+    "draws": 51,
+    "losses": 14
+  },
+  "fixed_black": {
+    "wins": 16,
+    "draws": 59,
+    "losses": 25
+  },
+  "terminations": {
+    "current_threefold": 76,
+    "insufficient_material": 24,
+    "checkmate": 90,
+    "current_fifty_moves": 9,
+    "stalemate": 1
+  },
+  "clock_expiries": [],
+  "median_game_wall_seconds": 23.21607802249855,
+  "max_played_plies": 482,
+  "promoted": false
+}

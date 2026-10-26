@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "exact_lost_win": "80.h5",
+  "previous_position_win": true,
+  "following_position_draw": true,
+  "eight_piece_PV_reaches_exact_draw": {
+    "id": "corpus-1494057-118",
+    "pv_san": [
+      "Ra5+",
+      "Kb7",
+      "Bg3",
+      "Ra1",
+      "Rb5+",
+      "Kc6",
+      "Rxb4",
+      "a3",
+      "Rc4+",
+      "Kb5",
+      "bxa3",
+      "Kxc4"
+    ],
+    "fen": "8/8/8/8/2k5/P4KB1/8/r7 w - - 0 66",
+    "pieces": 5,
+    "halfmove_clock": 0,
+    "pv_matches_bestmove": true,
+    "wdl": 0,
+    "dtz": 0,
+    "covered": true
+  },
+  "six_piece_PV_reaches_exact_loss_for_opponent": {
+    "id": "rook-bishop-64w",
+    "pv_san": [
+      "Ke6",
+      "Kg8",
+      "Rh7",
+      "Kf8",
+      "Rxh5"
+    ],
+    "fen": "5k2/8/4K3/5BPR/8/8/8/8 b - - 0 66",
+    "pieces": 5,
+    "halfmove_clock": 0,
+    "pv_matches_bestmove": true,
+    "wdl": -2,
+    "dtz": -2,
+    "covered": true
+  },
+  "original_binary_unchanged": true,
+  "weights_identical": true,
+  "all_20_final_on_PVs_match_bestmove": true
+}

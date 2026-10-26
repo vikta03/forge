@@ -1,0 +1,21 @@
+{
+  "archive": "workspace/research/assets/stockfish-sf19.tar.gz",
+  "archive_sha": "4fc20699a5ecf7883b036ce180020f5e57979623ad719fd2a52839209521581b",
+  "commit_directory": "Stockfish-edb0d9db6731067ec50ce619ff372b463bc4dd5d",
+  "files": [
+    "src/search.cpp",
+    "src/history.h",
+    "src/evaluate.cpp",
+    "src/nnue/nnue_architecture.h",
+    "src/nnue/nnue_feature_transformer.h",
+    "src/nnue/features/full_threats.h",
+    "src/nnue/features/full_threats.cpp",
+    "src/nnue/features/half_ka_v2_hm.h",
+    "src/nnue/features/pp_3wide.h",
+    "src/position.cpp",
+    "src/position.h",
+    "src/uci.cpp",
+    "src/ucioption.cpp",
+    "src/nnue/network.cpp"
+  ]
+}

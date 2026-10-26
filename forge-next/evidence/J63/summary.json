@@ -1,0 +1,46 @@
+{
+  "results": {
+    "fullkey": {
+      "games": 100,
+      "opening_pairs": 50,
+      "wins": 20,
+      "draws": 61,
+      "losses": 19,
+      "points": 50.5,
+      "score": 0.505,
+      "paired_bootstrap_95": [
+        0.45,
+        0.56
+      ],
+      "bounded_score_95": [
+        0.31293544173601584,
+        0.6970645582639842
+      ],
+      "white": {
+        "wins": 11,
+        "draws": 32,
+        "losses": 7
+      },
+      "black": {
+        "wins": 9,
+        "draws": 29,
+        "losses": 12
+      },
+      "terminations": {
+        "current_threefold": 47,
+        "checkmate": 39,
+        "current_fifty_moves": 5,
+        "insufficient_material": 8,
+        "stalemate": 1
+      },
+      "clock_expiries": [],
+      "median_game_seconds": 22.915346440007852,
+      "max_played_plies": 340
+    }
+  },
+  "promoted": false,
+  "tc": "8+0.08",
+  "concurrency": 8,
+  "bootstrap_resamples": 10000,
+  "bootstrap_seed": 630024
+}

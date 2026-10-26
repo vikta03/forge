@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "exit_code": 0,
+  "reason": "specified correctness checks complete; review timing and diagnostics before promotion",
+  "wall_seconds": 89.75609591500324,
+  "cumulative_wall_seconds": 127.32908060299815,
+  "peak_rss_bytes": 171237376,
+  "cpus": [
+    0,
+    2
+  ],
+  "gpu": false,
+  "games": 0,
+  "training": false
+}

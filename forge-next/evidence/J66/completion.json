@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "exit_code": 0,
+  "reason": "diagnostic completed; assessment required",
+  "wall_seconds": 688.7002617160033,
+  "peak_rss_bytes": 432132096,
+  "cpus": [
+    0,
+    2
+  ],
+  "gpu": false,
+  "games": 0,
+  "training": false,
+  "builds": 1
+}

@@ -1,0 +1,91 @@
+{
+  "initial": {
+    "game": 0,
+    "ply": 61,
+    "chapter": 0,
+    "head": 3,
+    "neuron": 0,
+    "piece": 40,
+    "view": 1,
+    "universe": false,
+    "bucket": 0,
+    "layer": "all",
+    "unfolded": false,
+    "headIndex": 3,
+    "score": -113,
+    "pieces": 26,
+    "draws": 2,
+    "webgl": true,
+    "flight": false,
+    "trace": false,
+    "pendingFrame": false,
+    "transitioning": false,
+    "camera": [
+      19,
+      43,
+      79
+    ]
+  },
+  "numerical": {
+    "positions": 128,
+    "integerValues": 4480,
+    "policyLogits": 3938,
+    "errors": [],
+    "passed": true,
+    "source": "Existing J46 native-engine log; no new engine job"
+  },
+  "boundaries": [
+    {
+      "ply": 62,
+      "pieces": 25,
+      "head": 3,
+      "score": -21
+    },
+    {
+      "ply": 63,
+      "pieces": 24,
+      "head": 2,
+      "score": -139
+    },
+    {
+      "ply": 118,
+      "pieces": 17,
+      "head": 2,
+      "score": 528
+    },
+    {
+      "ply": 119,
+      "pieces": 16,
+      "head": 1,
+      "score": -486
+    },
+    {
+      "ply": 151,
+      "pieces": 9,
+      "head": 1,
+      "score": -1274
+    },
+    {
+      "ply": 152,
+      "pieces": 8,
+      "head": 0,
+      "score": 2245
+    }
+  ],
+  "exactCell": "[23, 767, 127] = -4 · payload index 2,359,295 · binary byte 2,359,327",
+  "inactiveFinalCell": "[0, 32255, 31] = -2 · payload index 1,032,191 · binary byte 4,177,951",
+  "fullGuidedFlight": true,
+  "unfoldedTour": true,
+  "boundaryLens": "BOUNDARY MICROSCOPE · 32.QXC6\n25 → 24 pieces\nOld H3\n+1.10\nNew H2\n+1.39\nRouting gap\n+0.29\n\nBoth heads see the same post-capture board, with scores shown from White’s side. This isolates the routing difference from the move and the turn change. The old head is outside its intended piece range; disagreement alone does not tell us which is right.",
+  "gameSwitch": true,
+  "phaseRibbon": true,
+  "htmlSha256": "c104a48d3b19ec209c2ca51bb860b59d130e89d3660b2c73e0fe3e5cf790e886",
+  "fullBucketPoints": 98304,
+  "onePiecePoints": 8192,
+  "incomingTerms": 328,
+  "idle": true,
+  "flight": true,
+  "requests": [],
+  "errors": [],
+  "mobileOverflow": false
+}

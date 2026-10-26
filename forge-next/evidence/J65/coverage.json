@@ -1,0 +1,315 @@
+{
+  "status": "complete",
+  "completed_shards": 4078,
+  "total_shards": 4078,
+  "groups": {
+    "train/all": {
+      "rows": 213899602,
+      "teacher_wdl_sum": [
+        40362776.86408505,
+        136668918.52328607,
+        36867906.97867314
+      ],
+      "draw_ge90": 52582885,
+      "draw_le10": 29836170,
+      "distinct_games": 2058958
+    },
+    "train/queenless_le16": {
+      "rows": 69144035,
+      "teacher_wdl_sum": [
+        10513771.517417863,
+        48660662.18903826,
+        9969601.388398616
+      ],
+      "draw_ge90": 39192210,
+      "draw_le10": 13101843,
+      "distinct_games": 1281780
+    },
+    "train/seven_or_fewer": {
+      "rows": 29375930,
+      "teacher_wdl_sum": [
+        5719682.0584750455,
+        18611137.436013613,
+        5045110.53192466
+      ],
+      "draw_ge90": 18271633,
+      "draw_le10": 10434053,
+      "distinct_games": 406178
+    },
+    "train/pawn_only": {
+      "rows": 1788927,
+      "teacher_wdl_sum": [
+        268432.7428765048,
+        1274658.9802907452,
+        245835.27884112272
+      ],
+      "draw_ge90": 1223053,
+      "draw_le10": 470915,
+      "distinct_games": 76802
+    },
+    "train/rook_only": {
+      "rows": 18131388,
+      "teacher_wdl_sum": [
+        1569188.1150841156,
+        15036034.190431837,
+        1526165.71073186
+      ],
+      "draw_ge90": 13369605,
+      "draw_le10": 1750820,
+      "distinct_games": 383801
+    },
+    "train/bishop_same": {
+      "rows": 1275951,
+      "teacher_wdl_sum": [
+        151993.413567526,
+        980426.7963178342,
+        143530.7917391127
+      ],
+      "draw_ge90": 762541,
+      "draw_le10": 136978,
+      "distinct_games": 34431
+    },
+    "train/bishop_opposite": {
+      "rows": 2740861,
+      "teacher_wdl_sum": [
+        144317.5335878874,
+        2461192.632925494,
+        135350.83496487973
+      ],
+      "draw_ge90": 2297158,
+      "draw_le10": 155657,
+      "distinct_games": 45724
+    },
+    "train/rook_bishop_same": {
+      "rows": 2646346,
+      "teacher_wdl_sum": [
+        377142.6080248426,
+        1916762.4430067197,
+        352440.9531188219
+      ],
+      "draw_ge90": 1274713,
+      "draw_le10": 265992,
+      "distinct_games": 122132
+    },
+    "train/rook_bishop_opposite": {
+      "rows": 3429951,
+      "teacher_wdl_sum": [
+        431349.1169205602,
+        2600034.1123600854,
+        398567.7754567957
+      ],
+      "draw_ge90": 1946135,
+      "draw_le10": 316237,
+      "distinct_games": 104307
+    },
+    "train/rook_pawn_vs_bishop": {
+      "rows": 47820,
+      "teacher_wdl_sum": [
+        21800.133452089438,
+        5891.707663627603,
+        20128.159034914188
+      ],
+      "draw_ge90": 5399,
+      "draw_le10": 41566,
+      "distinct_games": 3628
+    },
+    "train/rook_rookpawn_vs_bishop": {
+      "rows": 18263,
+      "teacher_wdl_sum": [
+        8379.007728419638,
+        2138.457310738315,
+        7745.535021587145
+      ],
+      "draw_ge90": 1997,
+      "draw_le10": 16073,
+      "distinct_games": 1289
+    },
+    "train/rook_bishop_vs_rook_pawnless": {
+      "rows": 253127,
+      "teacher_wdl_sum": [
+        1756.5348813527175,
+        250292.47830231927,
+        1077.986828202463
+      ],
+      "draw_ge90": 250068,
+      "draw_le10": 2171,
+      "distinct_games": 9057
+    },
+    "train/rook_bishop_vs_rook_with_pawns": {
+      "rows": 1508514,
+      "teacher_wdl_sum": [
+        350312.02359868964,
+        809077.2529778822,
+        349124.7264652476
+      ],
+      "draw_ge90": 652684,
+      "draw_le10": 557953,
+      "distinct_games": 169405
+    },
+    "train/long_quiet_queenless": {
+      "rows": 6079603,
+      "teacher_wdl_sum": [
+        476358.4614983766,
+        5160077.300867959,
+        443167.2401258927
+      ],
+      "draw_ge90": 4943622,
+      "draw_le10": 770334,
+      "distinct_games": 151464
+    },
+    "valid/all": {
+      "rows": 2106816,
+      "teacher_wdl_sum": [
+        396328.5296225286,
+        1348349.5950020957,
+        362137.87900884746
+      ],
+      "draw_ge90": 548333,
+      "draw_le10": 297534,
+      "distinct_games": 20944
+    },
+    "valid/queenless_le16": {
+      "rows": 720178,
+      "teacher_wdl_sum": [
+        107495.25771500313,
+        510758.8293040963,
+        101923.91394259546
+      ],
+      "draw_ge90": 411315,
+      "draw_le10": 132013,
+      "distinct_games": 13191
+    },
+    "valid/seven_or_fewer": {
+      "rows": 298778,
+      "teacher_wdl_sum": [
+        54815.09442793564,
+        195265.27818159512,
+        48697.627648607
+      ],
+      "draw_ge90": 191657,
+      "draw_le10": 99917,
+      "distinct_games": 4189
+    },
+    "valid/pawn_only": {
+      "rows": 18275,
+      "teacher_wdl_sum": [
+        2446.0265108174185,
+        13577.679511856153,
+        2251.2939955940046
+      ],
+      "draw_ge90": 13094,
+      "draw_le10": 4332,
+      "distinct_games": 781
+    },
+    "valid/rook_only": {
+      "rows": 189603,
+      "teacher_wdl_sum": [
+        16130.387858269412,
+        157710.4482335459,
+        15762.164075905188
+      ],
+      "draw_ge90": 140624,
+      "draw_le10": 18043,
+      "distinct_games": 3911
+    },
+    "valid/bishop_same": {
+      "rows": 14557,
+      "teacher_wdl_sum": [
+        1829.1542591376501,
+        10992.910829783228,
+        1734.9349292160139
+      ],
+      "draw_ge90": 8467,
+      "draw_le10": 1825,
+      "distinct_games": 382
+    },
+    "valid/bishop_opposite": {
+      "rows": 28739,
+      "teacher_wdl_sum": [
+        1512.3834338154725,
+        25818.3062113626,
+        1408.3103720035306
+      ],
+      "draw_ge90": 23949,
+      "draw_le10": 1464,
+      "distinct_games": 463
+    },
+    "valid/rook_bishop_same": {
+      "rows": 29709,
+      "teacher_wdl_sum": [
+        4242.634383224027,
+        21500.253609658503,
+        3966.1120510018736
+      ],
+      "draw_ge90": 14104,
+      "draw_le10": 2977,
+      "distinct_games": 1315
+    },
+    "valid/rook_bishop_opposite": {
+      "rows": 35987,
+      "teacher_wdl_sum": [
+        4662.330423682786,
+        27045.507559767462,
+        4279.1620670138
+      ],
+      "draw_ge90": 20546,
+      "draw_le10": 3673,
+      "distinct_games": 1095
+    },
+    "valid/rook_pawn_vs_bishop": {
+      "rows": 520,
+      "teacher_wdl_sum": [
+        222.47553413675996,
+        86.09770345509605,
+        211.42676395397666
+      ],
+      "draw_ge90": 82,
+      "draw_le10": 432,
+      "distinct_games": 46
+    },
+    "valid/rook_rookpawn_vs_bishop": {
+      "rows": 225,
+      "teacher_wdl_sum": [
+        83.07768700107772,
+        65.54827599733107,
+        76.37403785470087
+      ],
+      "draw_ge90": 63,
+      "draw_le10": 156,
+      "distinct_games": 18
+    },
+    "valid/rook_bishop_vs_rook_pawnless": {
+      "rows": 2473,
+      "teacher_wdl_sum": [
+        8.78102094653589,
+        2462.78333314677,
+        1.435646018287784
+      ],
+      "draw_ge90": 2465,
+      "draw_le10": 8,
+      "distinct_games": 103
+    },
+    "valid/rook_bishop_vs_rook_with_pawns": {
+      "rows": 16534,
+      "teacher_wdl_sum": [
+        3945.133415801352,
+        8684.431887436804,
+        3904.4347312171612
+      ],
+      "draw_ge90": 6866,
+      "draw_le10": 6028,
+      "distinct_games": 1772
+    },
+    "valid/long_quiet_queenless": {
+      "rows": 63032,
+      "teacher_wdl_sum": [
+        4485.990810300724,
+        54368.17130462978,
+        4177.837910278943
+      ],
+      "draw_ge90": 51768,
+      "draw_le10": 6946,
+      "distinct_games": 1604
+    }
+  }
+}
