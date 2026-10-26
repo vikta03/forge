@@ -68,6 +68,9 @@ and `deep32` through the architecture field. The entry checks corpus counts and
 refuses a changed resume configuration/cache path. The original trainer also
 checks full-pass coverage and checkpoint identity. This new portable entry was
 statically checked, not used to rerun the historical training for publication.
+The entry preserves a shard-receipt manifest; capacity-family loaders use it to
+authenticate compressed arrays on first consumption and reject changes during
+training. The earlier Specialists loader retains its historical behaviour.
 
 The configuration files preserve the recorded schedule. They do not grant a
 portable ETA or imply the full dataset is available. A clean machine cannot

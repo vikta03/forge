@@ -42,8 +42,8 @@
     },
     {
       "file": "TRAINING.md",
-      "bytes": 4360,
-      "sha256": "272ea78e152e98464630186f87806e87ce63b558479b0d8168b50c881232d6d1",
+      "bytes": 4593,
+      "sha256": "ca12355b04dbb4f302b050c16916b8d308225cd940b9e379a28067c850fafe92",
       "origin": "Prepared for this publication by Remmy Victor"
     },
     {
@@ -1539,8 +1539,8 @@
     },
     {
       "file": "tools/train_cached.py",
-      "bytes": 1818,
-      "sha256": "ea31153a80ba09416cbedaadf7cad9dc7dfacca75951d3517a2c64bbe5b42e2e",
+      "bytes": 2427,
+      "sha256": "07a42cec9d6bb7315a04f6f0b475815828af52393cb758fedc5ffc2af60b067f",
       "origin": "Prepared for this publication by Remmy Victor"
     },
     {

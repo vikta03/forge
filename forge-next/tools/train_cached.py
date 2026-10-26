@@ -1,6 +1,6 @@
 """Portable entry to the preserved trainer. Requires an external encoded corpus."""
 from pathlib import Path
-import argparse, json, os, sys
+import argparse, hashlib, json, os, re, sys
 
 def main():
     root=Path(__file__).resolve().parents[1]
@@ -22,6 +22,15 @@ def main():
     marker=run/'cache-source.txt';configuration=run/'configuration.json'
     if marker.exists() and marker.read_text().strip()!=str(cache):p.error('Resume cache changed')
     if configuration.exists() and json.loads(configuration.read_text())!=cfg:p.error('Resume configuration changed')
+    receipts={d.name:hashlib.sha256((d/'receipt.json').read_bytes()).hexdigest()
+              for d in sorted(cache.iterdir()) if d.is_dir()
+              and re.fullmatch(r'(?:train|valid)-[0-9]{5}',d.name)}
+    if not receipts:p.error('Cache contains no shard receipts')
+    manifest=run/'cache-manifest.json'
+    inventory={'cache':str(cache),'receipts':receipts}
+    if manifest.exists() and json.loads(manifest.read_text())!=inventory:p.error('Resume shard receipts changed')
+    manifest.write_text(json.dumps(inventory,indent=2)+'\n')
+    os.environ['FORGE_CACHE_MANIFEST']=str(manifest)
     marker.write_text(str(cache)+'\n');configuration.write_text(json.dumps(cfg,indent=2)+'\n')
     sys.path[:0]=[str(root/'training'/a.family),str(root/'training/reference')]
     from network import configure
